@@ -7,3 +7,4 @@ instance.cfg
 mmc-pack.json
 .minecraft/usernamecache.json
 .minecraft/options.txt
+natives/*
