@@ -96,7 +96,7 @@ minecraft:mossy_cobblestone, Moss Stone
 minecraft:obsidian, Obsidian
 minecraft:torch, Torch
 minecraft:fire, Fire
-minecraft:mob_spawner, Monster Spawner
+minecraft:mob_spawner:0, Monster Spawner
 minecraft:oak_stairs, Oak Wood Stairs
 minecraft:chest, Chest
 minecraft:diamond_ore, Diamond Ore
