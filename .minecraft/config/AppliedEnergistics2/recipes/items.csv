@@ -362,6 +362,17 @@ appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock:0, Certus Quartz Pillar Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Certus Quartz Pillar Slabs
+Avaritia:Double_Craft, Compressed Crafting Table
+Avaritia:Triple_Craft, Double Compressed Crafting Table
+Avaritia:Dire_Crafting, Dire Crafting Table
+Avaritia:Crystal_Matrix, Crystal Matrix
+Avaritia:Resource_Block:0, Cosmic Neutronium Block
+Avaritia:Resource_Block:1, Infinity Block
+Avaritia:Neutron_Collector, Neutron Collector
+Avaritia:Neutronium_Compressor, Neutronium Compressor
+avaritiaddons:CompressedChest, Compressed Chest
+avaritiaddons:InfinityChest, Infinity Chest
+avaritiaddons:ExtremeAutoCrafter, Dire Autocrafting Table
 neenergistics:tile.pattern_interface, Pattern Interface
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
@@ -813,6 +824,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluix Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Pillar Slabs
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Crafting Table
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting Table
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cosmic Neutronium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Infinity Block
 appliedenergistics2:item.ItemCrystalSeed:0, Certus Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:600, Nether Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:1200, Fluix Seed
@@ -1067,3 +1083,39 @@ appliedenergistics2:item.ItemMultiPart:220, ME Storage Bus
 appliedenergistics2:item.ItemMultiPart:400, ME Storage Monitor
 appliedenergistics2:item.ItemMultiPart:380, ME Terminal
 appliedenergistics2:item.ItemMultiPart:80, ME Toggle Bus
+Avaritia:Resource:0, Diamond Lattice
+Avaritia:Resource:1, Crystal Matrix Ingot
+Avaritia:Resource:2, Pile of Cosmic Neutrons
+Avaritia:Resource:3, Cosmic Neutronium Nugget
+Avaritia:Resource:4, Cosmic Neutronium Ingot
+Avaritia:Resource:5, Infinity Catalyst
+Avaritia:Resource:6, Infinity Ingot
+Avaritia:Resource:7, Record Fragment
+Avaritia:Resource:8, Star Fuel
+Avaritia:Resource:9, Neutronium Gear
+Avaritia:Singularity:0, Iron Singularity
+Avaritia:Singularity:1, Golden Singularity
+Avaritia:Singularity:2, Lapis Singularity
+Avaritia:Singularity:3, Redstone Singularity
+Avaritia:Singularity:4, Nether Quartz Singularity
+Avaritia:Singularity:5, Copper Singularity
+Avaritia:Singularity:6, Tin Singularity
+Avaritia:Singularity:7, Leaden Singularity
+Avaritia:Singularity:8, Silver Singularity
+Avaritia:Singularity:9, Nickel Singularity
+Avaritia:Singularity:10, Enderium Singularity
+Avaritia:Singularity:11, Clay Singularity
+Avaritia:Infinity_Pickaxe, World Breaker
+Avaritia:Infinity_Sword, Sword of the Cosmos
+Avaritia:Skull_Sword, Skullfire Sword
+Avaritia:Ultimate_Stew, Ultimate Stew
+Avaritia:Cosmic_Meatballs, Cosmic Meatballs
+Avaritia:Endest_Pearl, Endest Pearl
+Avaritia:Infinity_Helm, Infinity Helmet
+Avaritia:Infinity_Chest, Infinity Breastplate
+Avaritia:Infinity_Pants, Infinity Pants
+Avaritia:Infinity_Shoes, Infinity Boots
+Avaritia:Matter_Cluster, Matter Cluster
+Avaritia:Infinity_Bow, Longbow of the Heavens
+Avaritia:Infinity_Shovel, Planet Eater
+Avaritia:Infinity_Axe, Nature's Ruin
