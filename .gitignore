@@ -1,0 +1,9 @@
+
+*.jar
+.minecraft/logs/*
+.minecraft/icon.png
+.minecraft/saves/*
+instance.cfg
+mmc-pack.json
+.minecraft/usernamecache.json
+.minecraft/options.txt
