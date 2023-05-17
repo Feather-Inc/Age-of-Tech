@@ -407,6 +407,7 @@ AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:peripheral, Computer Controlled Seed Analyzer
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
@@ -432,7 +433,6 @@ AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:cropPotato, Potato
-AgriCraft:cropCarrot, Carrot
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -514,7 +514,7 @@ minecraft:redstone, Redstone
 minecraft:snowball, Snowball
 minecraft:boat, Boat
 minecraft:leather, Leather
-minecraft:milk_bucket, Milk
+minecraft:milk_bucket, Milk Bucket
 minecraft:brick, Brick
 minecraft:clay_ball, Clay
 minecraft:reeds, Sugar Canes
@@ -690,6 +690,7 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, Minecart with TNT
 minecraft:hopper_minecart, Minecart with Hopper
+AgriCraft:cropCarrot, Carrot
 AgriCraft:cropSugarcane, Sugarcane
 AgriCraft:cropDandelion, Dandelion
 AgriCraft:cropPoppy, Poppy
@@ -697,13 +698,13 @@ AgriCraft:cropOrchid, Orchid
 AgriCraft:cropAllium, Allium
 AgriCraft:cropTulipRed, Red Tulip
 AgriCraft:cropTulipOrange, Orange Tulip
-AgriCraft:cropTulipWhite, White Tulip
 minecraft:iron_horse_armor, Iron Horse Armor
 minecraft:golden_horse_armor, Gold Horse Armor
 minecraft:diamond_horse_armor, Diamond Horse Armor
 minecraft:lead, Lead
 minecraft:name_tag, Name Tag
 minecraft:command_block_minecart, Minecart with Command Block
+AgriCraft:cropTulipWhite, White Tulip
 AgriCraft:cropTulipPink, Pink Tulip
 AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
@@ -998,6 +999,647 @@ DraconicEvolution:chaosCrystal, Chaos Crystal
 DraconicEvolution:upgradeModifier, Upgrade Modifier
 DraconicEvolution:longRangeDislocator:1, Admin Dislocator
 DraconicEvolution:chaosShardAtmos, tile.draconicevolution:chaosShardAtmos.name
+MineFactoryReloaded:conveyor:16, Conveyor Belt
+MineFactoryReloaded:conveyor:0, Conveyor Belt (White)
+MineFactoryReloaded:conveyor:1, Conveyor Belt (Orange)
+MineFactoryReloaded:conveyor:2, Conveyor Belt (Magenta)
+MineFactoryReloaded:conveyor:3, Conveyor Belt (Light Blue)
+MineFactoryReloaded:conveyor:4, Conveyor Belt (Yellow)
+MineFactoryReloaded:conveyor:5, Conveyor Belt (Lime)
+MineFactoryReloaded:conveyor:6, Conveyor Belt (Pink)
+MineFactoryReloaded:conveyor:7, Conveyor Belt (Gray)
+MineFactoryReloaded:conveyor:8, Conveyor Belt (Light Gray)
+MineFactoryReloaded:conveyor:9, Conveyor Belt (Cyan)
+MineFactoryReloaded:conveyor:10, Conveyor Belt (Purple)
+MineFactoryReloaded:conveyor:11, Conveyor Belt (Blue)
+MineFactoryReloaded:conveyor:12, Conveyor Belt (Brown)
+MineFactoryReloaded:conveyor:13, Conveyor Belt (Green)
+MineFactoryReloaded:conveyor:14, Conveyor Belt (Red)
+MineFactoryReloaded:conveyor:15, Conveyor Belt (Black)
+MineFactoryReloaded:machineblock:0, Factory Machine Block
+MineFactoryReloaded:machineblock:1, Programmable RedNet Controller Housing
+MineFactoryReloaded:machine.0:0, Planter
+MineFactoryReloaded:machine.0:1, Fisher
+MineFactoryReloaded:machine.0:2, Harvester
+MineFactoryReloaded:machine.0:3, Rancher
+MineFactoryReloaded:machine.0:4, Fertilizer
+MineFactoryReloaded:machine.0:5, Veterinary Station
+MineFactoryReloaded:machine.0:6, Item Collector
+MineFactoryReloaded:machine.0:7, Block Breaker
+MineFactoryReloaded:machine.0:8, Weather Collector
+MineFactoryReloaded:machine.0:9, Sludge Boiler
+MineFactoryReloaded:machine.0:10, Sewer
+MineFactoryReloaded:machine.0:11, Composter
+MineFactoryReloaded:machine.0:12, Breeder
+MineFactoryReloaded:machine.0:13, Grinder
+MineFactoryReloaded:machine.0:14, Auto-Enchanter
+MineFactoryReloaded:machine.0:15, Chronotyper
+MineFactoryReloaded:machine.1:0, Ejector
+MineFactoryReloaded:machine.1:1, Item Router
+MineFactoryReloaded:machine.1:2, Liquid Router
+MineFactoryReloaded:machine.1:3, Deep Storage Unit
+MineFactoryReloaded:machine.1:4, LiquiCrafter
+MineFactoryReloaded:machine.1:5, Lava Fabricator
+MineFactoryReloaded:machine.1:6, Steam Boiler
+MineFactoryReloaded:machine.1:7, Auto-Jukebox
+MineFactoryReloaded:machine.1:8, Unifier
+MineFactoryReloaded:machine.1:9, Auto-Spawner
+MineFactoryReloaded:machine.1:10, BioReactor
+MineFactoryReloaded:machine.1:11, BioFuel Generator
+MineFactoryReloaded:machine.1:12, Auto-Disenchanter
+MineFactoryReloaded:machine.1:13, Slaughterhouse
+MineFactoryReloaded:machine.1:14, Meat Packer
+MineFactoryReloaded:machine.1:15, Enchantment Router
+MineFactoryReloaded:machine.2:0, Laser Drill
+MineFactoryReloaded:machine.2:1, Laser Drill Precharger
+MineFactoryReloaded:machine.2:2, Auto-Anvil
+MineFactoryReloaded:machine.2:3, Block Smasher
+MineFactoryReloaded:machine.2:4, RedNote Block
+MineFactoryReloaded:machine.2:5, Auto-Brewer
+MineFactoryReloaded:machine.2:6, Fruit Picker
+MineFactoryReloaded:machine.2:7, Block Placer
+MineFactoryReloaded:machine.2:8, Mob Counter
+MineFactoryReloaded:machine.2:9, Steam Turbine
+MineFactoryReloaded:machine.2:10, Chunk Loader
+MineFactoryReloaded:machine.2:11, Fountain
+MineFactoryReloaded:machine.2:12, Mob Router
+MineFactoryReloaded:tank, Plastic Tank
+MineFactoryReloaded:cable.plastic, Plastic Pipe
+MineFactoryReloaded:cable.redstone:0, RedNet Cable
+MineFactoryReloaded:cable.redstone:1, RedNet Cable
+MineFactoryReloaded:cable.redstone:2, RedNet Energy Cable
+MineFactoryReloaded:cable.redstone:3, RedNet Energy Cable
+MineFactoryReloaded:rednet.logic, Programmable RedNet Controller
+MineFactoryReloaded:rednet.panel:0, RedNet Historian
+MineFactoryReloaded:rail.cargo.pickup, Cargo Pickup Rail
+MineFactoryReloaded:rail.cargo.dropoff, Cargo Dropoff Rail
+MineFactoryReloaded:rail.passenger.pickup, Passenger Pickup Rail
+MineFactoryReloaded:rail.passenger.dropoff, Passenger Dropoff Rail
+MineFactoryReloaded:rubberwood.sapling:0, Rubber Sapling
+MineFactoryReloaded:rubberwood.sapling:1, Sacred Rubber Sapling
+MineFactoryReloaded:rubberwood.sapling:2, Mega Rubber Sapling
+MineFactoryReloaded:rubberwood.sapling:3, Sacred Rubber Sapling
+MineFactoryReloaded:rubberwood.log, Rubber Wood
+MineFactoryReloaded:rubberwood.leaves:0, Rubber Leaves
+MineFactoryReloaded:rubberwood.leaves:1, Dry Rubber Leaves
+MineFactoryReloaded:stainedglass.block:0, Stained Glass (White)
+MineFactoryReloaded:stainedglass.block:1, Stained Glass (Orange)
+MineFactoryReloaded:stainedglass.block:2, Stained Glass (Magenta)
+MineFactoryReloaded:stainedglass.block:3, Stained Glass (Light Blue)
+MineFactoryReloaded:stainedglass.block:4, Stained Glass (Yellow)
+MineFactoryReloaded:stainedglass.block:5, Stained Glass (Lime)
+MineFactoryReloaded:stainedglass.block:6, Stained Glass (Pink)
+MineFactoryReloaded:stainedglass.block:7, Stained Glass (Gray)
+MineFactoryReloaded:stainedglass.block:8, Stained Glass (Light Gray)
+MineFactoryReloaded:stainedglass.block:9, Stained Glass (Cyan)
+MineFactoryReloaded:stainedglass.block:10, Stained Glass (Purple)
+MineFactoryReloaded:stainedglass.block:11, Stained Glass (Blue)
+MineFactoryReloaded:stainedglass.block:12, Stained Glass (Brown)
+MineFactoryReloaded:stainedglass.block:13, Stained Glass (Green)
+MineFactoryReloaded:stainedglass.block:14, Stained Glass (Red)
+MineFactoryReloaded:stainedglass.block:15, Stained Glass (Black)
+MineFactoryReloaded:stainedglass.pane:0, Stained Glass Pane (White)
+MineFactoryReloaded:stainedglass.pane:1, Stained Glass Pane (Orange)
+MineFactoryReloaded:stainedglass.pane:2, Stained Glass Pane (Magenta)
+MineFactoryReloaded:stainedglass.pane:3, Stained Glass Pane (Light Blue)
+MineFactoryReloaded:stainedglass.pane:4, Stained Glass Pane (Yellow)
+MineFactoryReloaded:stainedglass.pane:5, Stained Glass Pane (Lime)
+MineFactoryReloaded:stainedglass.pane:6, Stained Glass Pane (Pink)
+MineFactoryReloaded:stainedglass.pane:7, Stained Glass Pane (Gray)
+MineFactoryReloaded:stainedglass.pane:8, Stained Glass Pane (Light Gray)
+MineFactoryReloaded:stainedglass.pane:9, Stained Glass Pane (Cyan)
+MineFactoryReloaded:stainedglass.pane:10, Stained Glass Pane (Purple)
+MineFactoryReloaded:stainedglass.pane:11, Stained Glass Pane (Blue)
+MineFactoryReloaded:stainedglass.pane:12, Stained Glass Pane (Brown)
+MineFactoryReloaded:stainedglass.pane:13, Stained Glass Pane (Green)
+MineFactoryReloaded:stainedglass.pane:14, Stained Glass Pane (Red)
+MineFactoryReloaded:stainedglass.pane:15, Stained Glass Pane (Black)
+MineFactoryReloaded:road:0, Road
+MineFactoryReloaded:road:1, Road Light
+MineFactoryReloaded:road:4, Road Light (Inverted)
+MineFactoryReloaded:plastic, Block of Plastic
+MineFactoryReloaded:brick:0, Ice Bricks
+MineFactoryReloaded:brick:1, Glowstone Bricks
+MineFactoryReloaded:brick:2, Lapis Bricks
+MineFactoryReloaded:brick:3, Obsidian Bricks
+MineFactoryReloaded:brick:4, Paved Stone Bricks
+MineFactoryReloaded:brick:5, Snow Bricks
+MineFactoryReloaded:brick:6, Large Ice Bricks
+MineFactoryReloaded:brick:7, Large Glowstone Bricks
+MineFactoryReloaded:brick:8, Large Lapis Bricks
+MineFactoryReloaded:brick:9, Large Obsidian Bricks
+MineFactoryReloaded:brick:10, Large Paved Stone Bricks
+MineFactoryReloaded:brick:11, Large Snow Bricks
+MineFactoryReloaded:brick:12, Raw Meat Block
+MineFactoryReloaded:brick:13, Cooked Meat Block
+MineFactoryReloaded:brick:14, Large Bricks
+MineFactoryReloaded:brick:15, Sugar Charcoal Block
+MineFactoryReloaded:stone:0, Smooth Blackstone
+MineFactoryReloaded:stone:1, Smooth Whitestone
+MineFactoryReloaded:stone:2, Cobble Blackstone
+MineFactoryReloaded:stone:3, Cobble Whitestone
+MineFactoryReloaded:stone:4, Large Blackstone Bricks
+MineFactoryReloaded:stone:5, Large Whitestone Bricks
+MineFactoryReloaded:stone:6, Small Blackstone Bricks
+MineFactoryReloaded:stone:7, Small Whitestone Bricks
+MineFactoryReloaded:stone:8, Blackstone Gravel
+MineFactoryReloaded:stone:9, Whitestone Gravel
+MineFactoryReloaded:stone:10, Paved Blackstone
+MineFactoryReloaded:stone:11, Paved Whitestone
+MineFactoryReloaded:pinkslime.block, Pink Slime Block
+MineFactoryReloaded:vinescaffold, Vine Scaffolding
+MineFactoryReloaded:farmland, Fertile Soil
+MineFactoryReloaded:detcord, DetCord
+MineFactoryReloaded:milk.still, Milk
+MineFactoryReloaded:sludge.still, Sludge
+MineFactoryReloaded:sewage.still, Sewage
+MineFactoryReloaded:mobessence.still, Essence
+MineFactoryReloaded:biofuel.still, BioFuel
+MineFactoryReloaded:meat.still, Meat
+MineFactoryReloaded:pinkslime.still, Pink Slime
+MineFactoryReloaded:chocolatemilk.still, Chocolate Milk
+MineFactoryReloaded:mushroomsoup.still, Mushroom Soup
+MineFactoryReloaded:steam.still, Steam
+EnderIO:blockStirlingGenerator, Stirling Generator
+EnderIO:blockCombustionGenerator, Combustion Generator
+EnderIO:blockZombieGenerator, Zombie Generator
+EnderIO:blockFrankenzombieGenerator, Frank'N'Zombie Generator
+EnderIO:blockEnderGenerator, Ender Generator
+EnderIO:blockSolarPanel:0, Photovoltaic Cell
+EnderIO:blockSolarPanel:1, Advanced Photovoltaic Cell
+EnderIO:blockSolarPanel:2, Vibrant Photovoltaic Cell
+EnderIO:blockSagMill, SAG Mill
+EnderIO:blockAlloySmelter, Alloy Smelter
+EnderIO:blockCapBank:0, Creative Capacitor Bank
+EnderIO:blockCapBank:1, Basic Capacitor Bank
+EnderIO:blockCapBank:1, Basic Capacitor Bank
+EnderIO:blockCapBank:2, Capacitor Bank
+EnderIO:blockCapBank:2, Capacitor Bank
+EnderIO:blockCapBank:3, Vibrant Capacitor Bank
+EnderIO:blockCapBank:3, Vibrant Capacitor Bank
+EnderIO:blockPainter, Painting Machine
+EnderIO:blockPaintedFence:0, Painted Fence
+EnderIO:blockPaintedFenceGate:0, Painted Gate
+EnderIO:blockPaintedWall:0, Painted Wall
+EnderIO:blockPaintedStair:0, Painted Stairs
+EnderIO:blockPaintedSlab:0, Painted Slab
+EnderIO:blockPaintedDoubleSlab:0, Painted Slab
+EnderIO:blockCrafter, Crafter
+EnderIO:blockPaintedGlowstone:0, Painted Glowstone
+EnderIO:blockPaintedCarpet:0, Painted Carpet
+EnderIO:blockVat, The Vat
+EnderIO:blockPowerMonitor, Power Monitor
+EnderIO:blockFarmStation, Farming Station
+EnderIO:blockWirelessCharger, Wireless Charger
+EnderIO:blockHyperCube, Dimensional Transceiver (Deprecated)
+EnderIO:blockTank:0, Fluid Tank
+EnderIO:blockTank:1, Pressurized Fluid Tank
+EnderIO:blockReservoir, Reservoir
+EnderIO:blockVacuumChest, Vacuum Chest
+EnderIO:blockTransceiver, Dimensional Transceiver
+EnderIO:blockBuffer:0, Item Buffer
+EnderIO:blockBuffer:1, Power Buffer
+EnderIO:blockBuffer:2, Omni Buffer
+EnderIO:blockBuffer:3, Creative Buffer
+EnderIO:blockInventoryPanel, Inventory Panel
+EnderIO:blockEnderIo, Ender IO
+EnderIO:blockTravelAnchor, Travel Anchor
+EnderIO:blockTelePad, Telepad Block
+EnderIO:blockSliceAndSplice, Slice'N'Splice
+EnderIO:blockSoulBinder, Soul Binder
+EnderIO:blockPoweredSpawner, Powered Spawner
+EnderIO:blockKillerJoe, Killer Joe
+EnderIO:blockAttractor, Attractor Obelisk
+EnderIO:blockSpawnGuard, Aversion Obelisk
+EnderIO:blockExperienceObelisk, Experience Obelisk
+EnderIO:blockWeatherObelisk, Weather Obelisk
+EnderIO:blockInhibitorObelisk, tile.blockInhibitorObelisk.name
+EnderIO:blockEnchanter, Enchanter
+EnderIO:blockDarkSteelPressurePlate:0, Dark Pressure Plate
+EnderIO:blockDarkSteelPressurePlate:1, Dark Pressure Plate
+EnderIO:blockDarkSteelAnvil:0, Dark Steel Anvil
+EnderIO:blockDarkSteelAnvil:1, Slightly Damaged Dark Steel Anvil
+EnderIO:blockDarkSteelAnvil:2, Very Damaged Dark Steel Anvil
+EnderIO:blockDarkSteelLadder, Dark Steel Ladder
+EnderIO:blockElectricLight:0, Powered Light
+EnderIO:blockElectricLight:1, Powered Light (Inverted)
+EnderIO:blockElectricLight:2, Light
+EnderIO:blockElectricLight:3, Light (Inverted)
+EnderIO:blockElectricLight:4, Wireless Powered Light
+EnderIO:blockElectricLight:5, Wireless Powered Light (Inverted)
+EnderIO:blockLightNode, tile.blockLightNode.name
+EnderIO:blockReinforcedObsidian, Reinforced Obsidian
+EnderIO:blockFusedQuartz:0, Fused Quartz
+EnderIO:blockFusedQuartz:1, Quite Clear Glass
+EnderIO:blockFusedQuartz:2, Enlightened Fused Quartz
+EnderIO:blockFusedQuartz:3, Enlightened Clear Glass
+EnderIO:blockFusedQuartz:4, Dark Fused Quartz
+EnderIO:blockFusedQuartz:5, Dark Clear Glass
+EnderIO:blockEnderRail, Ender Rail
+EnderIO:blockConduitBundle, Conduit Connector
+EnderIO:blockConduitFacade, tile.blockConduitFacade.name
+EnderIO:blockEndermanSkull:0, Enderman Head
+EnderIO:blockEndermanSkull:2, Tormented Enderman Head
+EnderIO:blockNutrient_distillation, Nutrient Distillation
+EnderIO:blockHootch, Hootch
+EnderIO:blockRocket_fuel, Rocket Fuel
+EnderIO:blockFire_water, Fire Water
+EnderIO:blockLiquid_sunshine, Liquid Sunshine
+EnderIO:blockCloud_seed, Cloud Seed
+EnderIO:blockCloud_seed_concentrated, Concentrated Cloud Seed
+EnderIO:blockEnder_distillation, Dew of the Void
+EnderIO:blockVapor_of_levity, Vapor of Levity
+EnderIO:blockIngotStorage:0, Electrical Steel Block
+EnderIO:blockIngotStorage:1, Energetic Alloy Block
+EnderIO:blockIngotStorage:2, Vibrant Alloy Block
+EnderIO:blockIngotStorage:3, Redstone Alloy Block
+EnderIO:blockIngotStorage:4, Conductive Iron Block
+EnderIO:blockIngotStorage:5, Pulsating Iron Block
+EnderIO:blockIngotStorage:6, Dark Steel Block
+EnderIO:blockIngotStorage:7, Soularium Block
+EnderIO:blockIngotStorage:8, End Steel Block
+EnderIO:blockIngotStorageEndergy:0, Clay Compound Block
+EnderIO:blockIngotStorageEndergy:1, Crystalline Alloy Block
+EnderIO:blockIngotStorageEndergy:2, Melodic Alloy Block
+EnderIO:blockIngotStorageEndergy:3, Stellar Alloy Block
+EnderIO:blockIngotStorageEndergy:4, Crystalline Pink Slime Block
+EnderIO:blockIngotStorageEndergy:5, Energetic Silver Block
+EnderIO:blockIngotStorageEndergy:6, Vivid Alloy Block
+EnderIO:blockDarkIronBars, Dark Iron Bars
+EnderIO:blockSoulariumBars, Soularium Bars
+EnderIO:blockEndSteelBars, End Steel Bars
+ExtraUtilities:chestMini, Mini-Chest
+ExtraUtilities:chestFull, Slightly Larger Chest
+ExtraUtilities:enderCollector, Ender Collector
+ExtraUtilities:endConstructor:0, QED (Quantum Enrichment Device)
+ExtraUtilities:endConstructor:2, Ender-Flux Crystal
+ExtraUtilities:endMarker, Ender-Marker
+ExtraUtilities:curtains, Blackout Curtains
+ExtraUtilities:angelBlock, Angel Block
+ExtraUtilities:budoff:0, Block Update Detector
+ExtraUtilities:budoff:3, Block Update Detector (Advanced)
+ExtraUtilities:chandelier, Chandelier
+ExtraUtilities:decorativeBlock1:0, Edged Stone Bricks
+ExtraUtilities:decorativeBlock1:1, Ender-infused Obsidian
+ExtraUtilities:decorativeBlock1:2, Burnt Quartz
+ExtraUtilities:decorativeBlock1:3, Frosted Stone
+ExtraUtilities:decorativeBlock1:4, Border Stone
+ExtraUtilities:decorativeBlock1:5, Unstable Ingot Block
+ExtraUtilities:decorativeBlock1:6, Gravel Bricks
+ExtraUtilities:decorativeBlock1:7, Border Stone (Alternate)
+ExtraUtilities:decorativeBlock1:8, Magical Wood
+ExtraUtilities:decorativeBlock1:9, Sandy Glass
+ExtraUtilities:decorativeBlock1:10, Gravel Road
+ExtraUtilities:decorativeBlock1:11, Ender Core
+ExtraUtilities:decorativeBlock1:12, Diamond-Etched Computational Matrix
+ExtraUtilities:decorativeBlock1:13, Ender-Sand Alloy
+ExtraUtilities:decorativeBlock1:14, Carved 'Eminence' Stone
+ExtraUtilities:decorativeBlock2:0, Thickened Glass
+ExtraUtilities:decorativeBlock2:1, Edged Glass
+ExtraUtilities:decorativeBlock2:2, Glass Bricks
+ExtraUtilities:decorativeBlock2:3, Carved Glass
+ExtraUtilities:decorativeBlock2:4, Golden Edged Glass
+ExtraUtilities:decorativeBlock2:5, Obsidian Glass
+ExtraUtilities:decorativeBlock2:6, Swirling Glass
+ExtraUtilities:decorativeBlock2:7, Glowstone Glass
+ExtraUtilities:decorativeBlock2:8, Heart Glass
+ExtraUtilities:decorativeBlock2:9, Square Glass
+ExtraUtilities:decorativeBlock2:10, Dark Glass
+ExtraUtilities:decorativeBlock2:11, Reinforced Dark Glass
+ExtraUtilities:pureLove, tile.extrautils:pureLove.name
+ExtraUtilities:block_bedrockium, Block of Bedrockium
+ExtraUtilities:datablock, tile.extrautils:datablock.name
+ExtraUtilities:colorStoneBrick:0, Colored Stone Bricks (White Frequency)
+ExtraUtilities:colorStoneBrick:1, Colored Stone Bricks (Orange Frequency)
+ExtraUtilities:colorStoneBrick:2, Colored Stone Bricks (Magenta Frequency)
+ExtraUtilities:colorStoneBrick:3, Colored Stone Bricks (Light Blue Frequency)
+ExtraUtilities:colorStoneBrick:4, Colored Stone Bricks (Yellow Frequency)
+ExtraUtilities:colorStoneBrick:5, Colored Stone Bricks (Lime Frequency)
+ExtraUtilities:colorStoneBrick:6, Colored Stone Bricks (Pink Frequency)
+ExtraUtilities:colorStoneBrick:7, Colored Stone Bricks (Gray Frequency)
+ExtraUtilities:colorStoneBrick:8, Colored Stone Bricks (Light Gray Frequency)
+ExtraUtilities:colorStoneBrick:9, Colored Stone Bricks (Cyan Frequency)
+ExtraUtilities:colorStoneBrick:10, Colored Stone Bricks (Purple Frequency)
+ExtraUtilities:colorStoneBrick:11, Colored Stone Bricks (Blue Frequency)
+ExtraUtilities:colorStoneBrick:12, Colored Stone Bricks (Brown Frequency)
+ExtraUtilities:colorStoneBrick:13, Colored Stone Bricks (Green Frequency)
+ExtraUtilities:colorStoneBrick:14, Colored Stone Bricks (Red Frequency)
+ExtraUtilities:colorStoneBrick:15, Colored Stone Bricks (Black Frequency)
+ExtraUtilities:colorWoodPlanks:0, Colored Oak Wood Planks (White Frequency)
+ExtraUtilities:colorWoodPlanks:1, Colored Oak Wood Planks (Orange Frequency)
+ExtraUtilities:colorWoodPlanks:2, Colored Oak Wood Planks (Magenta Frequency)
+ExtraUtilities:colorWoodPlanks:3, Colored Oak Wood Planks (Light Blue Frequency)
+ExtraUtilities:colorWoodPlanks:4, Colored Oak Wood Planks (Yellow Frequency)
+ExtraUtilities:colorWoodPlanks:5, Colored Oak Wood Planks (Lime Frequency)
+ExtraUtilities:colorWoodPlanks:6, Colored Oak Wood Planks (Pink Frequency)
+ExtraUtilities:colorWoodPlanks:7, Colored Oak Wood Planks (Gray Frequency)
+ExtraUtilities:colorWoodPlanks:8, Colored Oak Wood Planks (Light Gray Frequency)
+ExtraUtilities:colorWoodPlanks:9, Colored Oak Wood Planks (Cyan Frequency)
+ExtraUtilities:colorWoodPlanks:10, Colored Oak Wood Planks (Purple Frequency)
+ExtraUtilities:colorWoodPlanks:11, Colored Oak Wood Planks (Blue Frequency)
+ExtraUtilities:colorWoodPlanks:12, Colored Oak Wood Planks (Brown Frequency)
+ExtraUtilities:colorWoodPlanks:13, Colored Oak Wood Planks (Green Frequency)
+ExtraUtilities:colorWoodPlanks:14, Colored Oak Wood Planks (Red Frequency)
+ExtraUtilities:colorWoodPlanks:15, Colored Oak Wood Planks (Black Frequency)
+ExtraUtilities:color_lightgem:0, Colored Glowstone (White Frequency)
+ExtraUtilities:color_lightgem:1, Colored Glowstone (Orange Frequency)
+ExtraUtilities:color_lightgem:2, Colored Glowstone (Magenta Frequency)
+ExtraUtilities:color_lightgem:3, Colored Glowstone (Light Blue Frequency)
+ExtraUtilities:color_lightgem:4, Colored Glowstone (Yellow Frequency)
+ExtraUtilities:color_lightgem:5, Colored Glowstone (Lime Frequency)
+ExtraUtilities:color_lightgem:6, Colored Glowstone (Pink Frequency)
+ExtraUtilities:color_lightgem:7, Colored Glowstone (Gray Frequency)
+ExtraUtilities:color_lightgem:8, Colored Glowstone (Light Gray Frequency)
+ExtraUtilities:color_lightgem:9, Colored Glowstone (Cyan Frequency)
+ExtraUtilities:color_lightgem:10, Colored Glowstone (Purple Frequency)
+ExtraUtilities:color_lightgem:11, Colored Glowstone (Blue Frequency)
+ExtraUtilities:color_lightgem:12, Colored Glowstone (Brown Frequency)
+ExtraUtilities:color_lightgem:13, Colored Glowstone (Green Frequency)
+ExtraUtilities:color_lightgem:14, Colored Glowstone (Red Frequency)
+ExtraUtilities:color_lightgem:15, Colored Glowstone (Black Frequency)
+ExtraUtilities:color_stone:0, Colored Stone (White Frequency)
+ExtraUtilities:color_stone:1, Colored Stone (Orange Frequency)
+ExtraUtilities:color_stone:2, Colored Stone (Magenta Frequency)
+ExtraUtilities:color_stone:3, Colored Stone (Light Blue Frequency)
+ExtraUtilities:color_stone:4, Colored Stone (Yellow Frequency)
+ExtraUtilities:color_stone:5, Colored Stone (Lime Frequency)
+ExtraUtilities:color_stone:6, Colored Stone (Pink Frequency)
+ExtraUtilities:color_stone:7, Colored Stone (Gray Frequency)
+ExtraUtilities:color_stone:8, Colored Stone (Light Gray Frequency)
+ExtraUtilities:color_stone:9, Colored Stone (Cyan Frequency)
+ExtraUtilities:color_stone:10, Colored Stone (Purple Frequency)
+ExtraUtilities:color_stone:11, Colored Stone (Blue Frequency)
+ExtraUtilities:color_stone:12, Colored Stone (Brown Frequency)
+ExtraUtilities:color_stone:13, Colored Stone (Green Frequency)
+ExtraUtilities:color_stone:14, Colored Stone (Red Frequency)
+ExtraUtilities:color_stone:15, Colored Stone (Black Frequency)
+ExtraUtilities:color_quartzBlock:0, Colored Block of Quartz (White Frequency)
+ExtraUtilities:color_quartzBlock:1, Colored Block of Quartz (Orange Frequency)
+ExtraUtilities:color_quartzBlock:2, Colored Block of Quartz (Magenta Frequency)
+ExtraUtilities:color_quartzBlock:3, Colored Block of Quartz (Light Blue Frequency)
+ExtraUtilities:color_quartzBlock:4, Colored Block of Quartz (Yellow Frequency)
+ExtraUtilities:color_quartzBlock:5, Colored Block of Quartz (Lime Frequency)
+ExtraUtilities:color_quartzBlock:6, Colored Block of Quartz (Pink Frequency)
+ExtraUtilities:color_quartzBlock:7, Colored Block of Quartz (Gray Frequency)
+ExtraUtilities:color_quartzBlock:8, Colored Block of Quartz (Light Gray Frequency)
+ExtraUtilities:color_quartzBlock:9, Colored Block of Quartz (Cyan Frequency)
+ExtraUtilities:color_quartzBlock:10, Colored Block of Quartz (Purple Frequency)
+ExtraUtilities:color_quartzBlock:11, Colored Block of Quartz (Blue Frequency)
+ExtraUtilities:color_quartzBlock:12, Colored Block of Quartz (Brown Frequency)
+ExtraUtilities:color_quartzBlock:13, Colored Block of Quartz (Green Frequency)
+ExtraUtilities:color_quartzBlock:14, Colored Block of Quartz (Red Frequency)
+ExtraUtilities:color_quartzBlock:15, Colored Block of Quartz (Black Frequency)
+ExtraUtilities:color_hellsand:0, Colored Soul Sand (White Frequency)
+ExtraUtilities:color_hellsand:1, Colored Soul Sand (Orange Frequency)
+ExtraUtilities:color_hellsand:2, Colored Soul Sand (Magenta Frequency)
+ExtraUtilities:color_hellsand:3, Colored Soul Sand (Light Blue Frequency)
+ExtraUtilities:color_hellsand:4, Colored Soul Sand (Yellow Frequency)
+ExtraUtilities:color_hellsand:5, Colored Soul Sand (Lime Frequency)
+ExtraUtilities:color_hellsand:6, Colored Soul Sand (Pink Frequency)
+ExtraUtilities:color_hellsand:7, Colored Soul Sand (Gray Frequency)
+ExtraUtilities:color_hellsand:8, Colored Soul Sand (Light Gray Frequency)
+ExtraUtilities:color_hellsand:9, Colored Soul Sand (Cyan Frequency)
+ExtraUtilities:color_hellsand:10, Colored Soul Sand (Purple Frequency)
+ExtraUtilities:color_hellsand:11, Colored Soul Sand (Blue Frequency)
+ExtraUtilities:color_hellsand:12, Colored Soul Sand (Brown Frequency)
+ExtraUtilities:color_hellsand:13, Colored Soul Sand (Green Frequency)
+ExtraUtilities:color_hellsand:14, Colored Soul Sand (Red Frequency)
+ExtraUtilities:color_hellsand:15, Colored Soul Sand (Black Frequency)
+ExtraUtilities:color_redstoneLight:0, Colored Redstone Lamp (White Frequency)
+ExtraUtilities:color_redstoneLight:1, Colored Redstone Lamp (Orange Frequency)
+ExtraUtilities:color_redstoneLight:2, Colored Redstone Lamp (Magenta Frequency)
+ExtraUtilities:color_redstoneLight:3, Colored Redstone Lamp (Light Blue Frequency)
+ExtraUtilities:color_redstoneLight:4, Colored Redstone Lamp (Yellow Frequency)
+ExtraUtilities:color_redstoneLight:5, Colored Redstone Lamp (Lime Frequency)
+ExtraUtilities:color_redstoneLight:6, Colored Redstone Lamp (Pink Frequency)
+ExtraUtilities:color_redstoneLight:7, Colored Redstone Lamp (Gray Frequency)
+ExtraUtilities:color_redstoneLight:8, Colored Redstone Lamp (Light Gray Frequency)
+ExtraUtilities:color_redstoneLight:9, Colored Redstone Lamp (Cyan Frequency)
+ExtraUtilities:color_redstoneLight:10, Colored Redstone Lamp (Purple Frequency)
+ExtraUtilities:color_redstoneLight:11, Colored Redstone Lamp (Blue Frequency)
+ExtraUtilities:color_redstoneLight:12, Colored Redstone Lamp (Brown Frequency)
+ExtraUtilities:color_redstoneLight:13, Colored Redstone Lamp (Green Frequency)
+ExtraUtilities:color_redstoneLight:14, Colored Redstone Lamp (Red Frequency)
+ExtraUtilities:color_redstoneLight:15, Colored Redstone Lamp (Black Frequency)
+ExtraUtilities:color_brick:0, Colored Bricks (White Frequency)
+ExtraUtilities:color_brick:1, Colored Bricks (Orange Frequency)
+ExtraUtilities:color_brick:2, Colored Bricks (Magenta Frequency)
+ExtraUtilities:color_brick:3, Colored Bricks (Light Blue Frequency)
+ExtraUtilities:color_brick:4, Colored Bricks (Yellow Frequency)
+ExtraUtilities:color_brick:5, Colored Bricks (Lime Frequency)
+ExtraUtilities:color_brick:6, Colored Bricks (Pink Frequency)
+ExtraUtilities:color_brick:7, Colored Bricks (Gray Frequency)
+ExtraUtilities:color_brick:8, Colored Bricks (Light Gray Frequency)
+ExtraUtilities:color_brick:9, Colored Bricks (Cyan Frequency)
+ExtraUtilities:color_brick:10, Colored Bricks (Purple Frequency)
+ExtraUtilities:color_brick:11, Colored Bricks (Blue Frequency)
+ExtraUtilities:color_brick:12, Colored Bricks (Brown Frequency)
+ExtraUtilities:color_brick:13, Colored Bricks (Green Frequency)
+ExtraUtilities:color_brick:14, Colored Bricks (Red Frequency)
+ExtraUtilities:color_brick:15, Colored Bricks (Black Frequency)
+ExtraUtilities:color_stonebrick:0, Colored Cobblestone (White Frequency)
+ExtraUtilities:color_stonebrick:1, Colored Cobblestone (Orange Frequency)
+ExtraUtilities:color_stonebrick:2, Colored Cobblestone (Magenta Frequency)
+ExtraUtilities:color_stonebrick:3, Colored Cobblestone (Light Blue Frequency)
+ExtraUtilities:color_stonebrick:4, Colored Cobblestone (Yellow Frequency)
+ExtraUtilities:color_stonebrick:5, Colored Cobblestone (Lime Frequency)
+ExtraUtilities:color_stonebrick:6, Colored Cobblestone (Pink Frequency)
+ExtraUtilities:color_stonebrick:7, Colored Cobblestone (Gray Frequency)
+ExtraUtilities:color_stonebrick:8, Colored Cobblestone (Light Gray Frequency)
+ExtraUtilities:color_stonebrick:9, Colored Cobblestone (Cyan Frequency)
+ExtraUtilities:color_stonebrick:10, Colored Cobblestone (Purple Frequency)
+ExtraUtilities:color_stonebrick:11, Colored Cobblestone (Blue Frequency)
+ExtraUtilities:color_stonebrick:12, Colored Cobblestone (Brown Frequency)
+ExtraUtilities:color_stonebrick:13, Colored Cobblestone (Green Frequency)
+ExtraUtilities:color_stonebrick:14, Colored Cobblestone (Red Frequency)
+ExtraUtilities:color_stonebrick:15, Colored Cobblestone (Black Frequency)
+ExtraUtilities:color_blockLapis:0, Colored Lapis Lazuli Block (White Frequency)
+ExtraUtilities:color_blockLapis:1, Colored Lapis Lazuli Block (Orange Frequency)
+ExtraUtilities:color_blockLapis:2, Colored Lapis Lazuli Block (Magenta Frequency)
+ExtraUtilities:color_blockLapis:3, Colored Lapis Lazuli Block (Light Blue Frequency)
+ExtraUtilities:color_blockLapis:4, Colored Lapis Lazuli Block (Yellow Frequency)
+ExtraUtilities:color_blockLapis:5, Colored Lapis Lazuli Block (Lime Frequency)
+ExtraUtilities:color_blockLapis:6, Colored Lapis Lazuli Block (Pink Frequency)
+ExtraUtilities:color_blockLapis:7, Colored Lapis Lazuli Block (Gray Frequency)
+ExtraUtilities:color_blockLapis:8, Colored Lapis Lazuli Block (Light Gray Frequency)
+ExtraUtilities:color_blockLapis:9, Colored Lapis Lazuli Block (Cyan Frequency)
+ExtraUtilities:color_blockLapis:10, Colored Lapis Lazuli Block (Purple Frequency)
+ExtraUtilities:color_blockLapis:11, Colored Lapis Lazuli Block (Blue Frequency)
+ExtraUtilities:color_blockLapis:12, Colored Lapis Lazuli Block (Brown Frequency)
+ExtraUtilities:color_blockLapis:13, Colored Lapis Lazuli Block (Green Frequency)
+ExtraUtilities:color_blockLapis:14, Colored Lapis Lazuli Block (Red Frequency)
+ExtraUtilities:color_blockLapis:15, Colored Lapis Lazuli Block (Black Frequency)
+ExtraUtilities:color_obsidian:0, Colored Obsidian (White Frequency)
+ExtraUtilities:color_obsidian:1, Colored Obsidian (Orange Frequency)
+ExtraUtilities:color_obsidian:2, Colored Obsidian (Magenta Frequency)
+ExtraUtilities:color_obsidian:3, Colored Obsidian (Light Blue Frequency)
+ExtraUtilities:color_obsidian:4, Colored Obsidian (Yellow Frequency)
+ExtraUtilities:color_obsidian:5, Colored Obsidian (Lime Frequency)
+ExtraUtilities:color_obsidian:6, Colored Obsidian (Pink Frequency)
+ExtraUtilities:color_obsidian:7, Colored Obsidian (Gray Frequency)
+ExtraUtilities:color_obsidian:8, Colored Obsidian (Light Gray Frequency)
+ExtraUtilities:color_obsidian:9, Colored Obsidian (Cyan Frequency)
+ExtraUtilities:color_obsidian:10, Colored Obsidian (Purple Frequency)
+ExtraUtilities:color_obsidian:11, Colored Obsidian (Blue Frequency)
+ExtraUtilities:color_obsidian:12, Colored Obsidian (Brown Frequency)
+ExtraUtilities:color_obsidian:13, Colored Obsidian (Green Frequency)
+ExtraUtilities:color_obsidian:14, Colored Obsidian (Red Frequency)
+ExtraUtilities:color_obsidian:15, Colored Obsidian (Black Frequency)
+ExtraUtilities:color_blockRedstone:0, Colored Block of Redstone (White Frequency)
+ExtraUtilities:color_blockRedstone:1, Colored Block of Redstone (Orange Frequency)
+ExtraUtilities:color_blockRedstone:2, Colored Block of Redstone (Magenta Frequency)
+ExtraUtilities:color_blockRedstone:3, Colored Block of Redstone (Light Blue Frequency)
+ExtraUtilities:color_blockRedstone:4, Colored Block of Redstone (Yellow Frequency)
+ExtraUtilities:color_blockRedstone:5, Colored Block of Redstone (Lime Frequency)
+ExtraUtilities:color_blockRedstone:6, Colored Block of Redstone (Pink Frequency)
+ExtraUtilities:color_blockRedstone:7, Colored Block of Redstone (Gray Frequency)
+ExtraUtilities:color_blockRedstone:8, Colored Block of Redstone (Light Gray Frequency)
+ExtraUtilities:color_blockRedstone:9, Colored Block of Redstone (Cyan Frequency)
+ExtraUtilities:color_blockRedstone:10, Colored Block of Redstone (Purple Frequency)
+ExtraUtilities:color_blockRedstone:11, Colored Block of Redstone (Blue Frequency)
+ExtraUtilities:color_blockRedstone:12, Colored Block of Redstone (Brown Frequency)
+ExtraUtilities:color_blockRedstone:13, Colored Block of Redstone (Green Frequency)
+ExtraUtilities:color_blockRedstone:14, Colored Block of Redstone (Red Frequency)
+ExtraUtilities:color_blockRedstone:15, Colored Block of Redstone (Black Frequency)
+ExtraUtilities:color_blockCoal:0, Colored Block of Coal (White Frequency)
+ExtraUtilities:color_blockCoal:1, Colored Block of Coal (Orange Frequency)
+ExtraUtilities:color_blockCoal:2, Colored Block of Coal (Magenta Frequency)
+ExtraUtilities:color_blockCoal:3, Colored Block of Coal (Light Blue Frequency)
+ExtraUtilities:color_blockCoal:4, Colored Block of Coal (Yellow Frequency)
+ExtraUtilities:color_blockCoal:5, Colored Block of Coal (Lime Frequency)
+ExtraUtilities:color_blockCoal:6, Colored Block of Coal (Pink Frequency)
+ExtraUtilities:color_blockCoal:7, Colored Block of Coal (Gray Frequency)
+ExtraUtilities:color_blockCoal:8, Colored Block of Coal (Light Gray Frequency)
+ExtraUtilities:color_blockCoal:9, Colored Block of Coal (Cyan Frequency)
+ExtraUtilities:color_blockCoal:10, Colored Block of Coal (Purple Frequency)
+ExtraUtilities:color_blockCoal:11, Colored Block of Coal (Blue Frequency)
+ExtraUtilities:color_blockCoal:12, Colored Block of Coal (Brown Frequency)
+ExtraUtilities:color_blockCoal:13, Colored Block of Coal (Green Frequency)
+ExtraUtilities:color_blockCoal:14, Colored Block of Coal (Red Frequency)
+ExtraUtilities:color_blockCoal:15, Colored Block of Coal (Black Frequency)
+ExtraUtilities:cobblestone_compressed:0, Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:1, Double Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:2, Triple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:3, Quadruple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:4, Quintuple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:5, Sextuple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:6, Septuple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:7, Octuple Compressed Cobblestone
+ExtraUtilities:cobblestone_compressed:8, Compressed Dirt
+ExtraUtilities:cobblestone_compressed:9, Double Compressed Dirt
+ExtraUtilities:cobblestone_compressed:10, Triple Compressed Dirt
+ExtraUtilities:cobblestone_compressed:11, Quadruple Compressed Dirt
+ExtraUtilities:cobblestone_compressed:12, Compressed Gravel
+ExtraUtilities:cobblestone_compressed:13, Double Compressed Gravel
+ExtraUtilities:cobblestone_compressed:14, Compressed Sand
+ExtraUtilities:cobblestone_compressed:15, Double Compressed Sand
+ExtraUtilities:conveyor, Conveyor Belt
+ExtraUtilities:filing:0, Filing Cabinet
+ExtraUtilities:filing:1, Filing Cabinet (Advanced)
+ExtraUtilities:greenscreen:0, Lapis Caelestis Albus (White)
+ExtraUtilities:greenscreen:1, Lapis Caelestis Aurantiacus (Orange)
+ExtraUtilities:greenscreen:2, Lapis Caelestis Purpura Amethystinus (Magenta)
+ExtraUtilities:greenscreen:3, Lapis Caelestis Caesicius (Light Blue)
+ExtraUtilities:greenscreen:4, Lapis Caelestis Flavus (Yellow)
+ExtraUtilities:greenscreen:5, Lapis Caelestis Viridis (Green)
+ExtraUtilities:greenscreen:6, Lapis Caelestis Roseus (Pink)
+ExtraUtilities:greenscreen:7, Lapis Caelestis Cinereus (Gray)
+ExtraUtilities:greenscreen:8, Lapis Caelestis Lux Cinereus (Light Gray)
+ExtraUtilities:greenscreen:9, Lapis Caelestis Callainus (Cyan)
+ExtraUtilities:greenscreen:10, Lapis Caelestis Purpura (Purple)
+ExtraUtilities:greenscreen:11, Lapis Caelestis Caeruleus (Blue)
+ExtraUtilities:greenscreen:12, Lapis Caelestis Fuscus (Brown)
+ExtraUtilities:greenscreen:13, Lapis Caelestis Paphiae Myrti (Dark Green)
+ExtraUtilities:greenscreen:14, Lapis Caelestis Rufus (Red)
+ExtraUtilities:greenscreen:15, Lapis Caelestis Nox (Black)
+ExtraUtilities:peaceful_table_top, Peaceful Table
+ExtraUtilities:trading_post, Trading Post
+ExtraUtilities:sound_muffler:0, Sound Muffler
+ExtraUtilities:sound_muffler:1, Rain Muffler
+ExtraUtilities:extractor_base:0, Transfer Node (Items)
+ExtraUtilities:extractor_base:6, Transfer Node (Liquids)
+ExtraUtilities:extractor_base:12, Transfer Node (Energy)
+ExtraUtilities:extractor_base:13, Transfer Node (Hyper Energy)
+ExtraUtilities:extractor_base_remote:0, Retrieval Node (Items)
+ExtraUtilities:extractor_base_remote:6, Retrieval Node (Liquids)
+ExtraUtilities:pipes:0, Transfer Pipe
+ExtraUtilities:pipes:8, Sorting Pipe
+ExtraUtilities:pipes:9, Filter Pipe
+ExtraUtilities:pipes:10, Rationing Pipe
+ExtraUtilities:pipes:11, Energy Pipe
+ExtraUtilities:pipes:12, Crossover Pipe
+ExtraUtilities:pipes:13, Mod Sorting Pipe
+ExtraUtilities:pipes:14, Energy Extraction Pipe
+ExtraUtilities:pipes.1:0, Hyper-Rationing Pipe
+ExtraUtilities:cursedearthside:0, Cursed Earth
+ExtraUtilities:trashcan:0, Trash Can
+ExtraUtilities:trashcan:1, Trash Can (Fluids)
+ExtraUtilities:trashcan:2, Trash Can (Energy)
+ExtraUtilities:spike_base, Iron Spike
+ExtraUtilities:spike_base_diamond, Diamond Spike
+ExtraUtilities:spike_base_gold, Golden Spike
+ExtraUtilities:spike_base_wood, Wooden Spike
+ExtraUtilities:enderThermicPump, Ender-Thermic Pump
+ExtraUtilities:enderQuarry, Ender Quarry
+ExtraUtilities:enderQuarryUpgrade:0, Ender Quarry Upgrade Base
+ExtraUtilities:enderQuarryUpgrade:1, Ender Quarry World Hole Upgrade
+ExtraUtilities:enderQuarryUpgrade:2, Ender Quarry Silk Touch Upgrade
+ExtraUtilities:enderQuarryUpgrade:3, Ender Quarry Fortune I Upgrade
+ExtraUtilities:enderQuarryUpgrade:4, Ender Quarry Fortune II Upgrade
+ExtraUtilities:enderQuarryUpgrade:5, Ender Quarry Fortune III Upgrade
+ExtraUtilities:enderQuarryUpgrade:6, Ender Quarry Speed I Upgrade
+ExtraUtilities:enderQuarryUpgrade:7, Ender Quarry Speed II Upgrade
+ExtraUtilities:enderQuarryUpgrade:8, Ender Quarry Speed III Upgrade
+ExtraUtilities:enderQuarryUpgrade:9, Ender Quarry Pump Upgrade
+ExtraUtilities:plant/ender_lilly, Ender-Lily Seeds
+ExtraUtilities:timer, Redstone Clock
+ExtraUtilities:magnumTorch:0, Magnum Torch
+ExtraUtilities:drum:0, Drum
+ExtraUtilities:drum:1, Bedrockium Drum
+ExtraUtilities:generator:0, Survivalist Generator
+ExtraUtilities:generator:1, Furnace Generator
+ExtraUtilities:generator:2, Lava Generator
+ExtraUtilities:generator:3, Ender Generator
+ExtraUtilities:generator:4, Heated Redstone Generator
+ExtraUtilities:generator:5, Culinary Generator
+ExtraUtilities:generator:6, Potions Generator
+ExtraUtilities:generator:7, Solar Generator
+ExtraUtilities:generator:8, TNT Generator
+ExtraUtilities:generator:9, Pink Generator
+ExtraUtilities:generator:10, High-temperature Furnace Generator
+ExtraUtilities:generator:11, Nether Star Generator
+ExtraUtilities:generator.8:0, Survivalist Generator
+ExtraUtilities:generator.8:1, Furnace Generator
+ExtraUtilities:generator.8:2, Lava Generator
+ExtraUtilities:generator.8:3, Ender Generator
+ExtraUtilities:generator.8:4, Heated Redstone Generator
+ExtraUtilities:generator.8:5, Culinary Generator
+ExtraUtilities:generator.8:6, Potions Generator
+ExtraUtilities:generator.8:7, Solar Generator
+ExtraUtilities:generator.8:8, TNT Generator
+ExtraUtilities:generator.8:9, Pink Generator
+ExtraUtilities:generator.8:10, High-temperature Furnace Generator
+ExtraUtilities:generator.8:11, Nether Star Generator
+ExtraUtilities:generator.64:0, Survivalist Generator
+ExtraUtilities:generator.64:1, Furnace Generator
+ExtraUtilities:generator.64:2, Lava Generator
+ExtraUtilities:generator.64:3, Ender Generator
+ExtraUtilities:generator.64:4, Heated Redstone Generator
+ExtraUtilities:generator.64:5, Culinary Generator
+ExtraUtilities:generator.64:6, Potions Generator
+ExtraUtilities:generator.64:7, Solar Generator
+ExtraUtilities:generator.64:8, TNT Generator
+ExtraUtilities:generator.64:9, Pink Generator
+ExtraUtilities:generator.64:10, High-temperature Furnace Generator
+ExtraUtilities:generator.64:11, Nether Star Generator
+ExtraUtilities:dark_portal:0, Portal to The Deep Dark
+ExtraUtilities:dark_portal:2, Portal to The Last Millenium
+ExtraUtilities:etherealglass:0, Ethereal Glass
+ExtraUtilities:etherealglass:1, Ineffable Glass
+ExtraUtilities:etherealglass:2, Dark Ethereal Glass
+ExtraUtilities:etherealglass:3, Ethereal Glass (Inverted)
+ExtraUtilities:etherealglass:4, Ineffable Glass (Inverted)
+ExtraUtilities:etherealglass:5, Dark Ethereal Glass (Inverted)
 Mekanism:BasicBlock:0, Osmium Block
 Mekanism:BasicBlock:1, Bronze Block
 Mekanism:BasicBlock:2, Refined Obsidian
@@ -1160,7 +1802,296 @@ MekanismGenerators:Reactor:3, Reactor Port
 MekanismGenerators:Reactor:4, Reactor Logic Adapter
 MekanismGenerators:ReactorGlass:0, Reactor Glass
 MekanismGenerators:ReactorGlass:1, Laser Focus Matrix
+TwilightForest:tile.TFLog:0, Twilight Oak Wood
+TwilightForest:tile.TFLog:1, Canopy Tree Wood
+TwilightForest:tile.TFLog:2, Mangrove Wood
+TwilightForest:tile.TFLog:3, Darkwood Wood
+TwilightForest:tile.TFRoots:0, Roots
+TwilightForest:tile.TFRoots:1, Liveroots
+TwilightForest:tile.TFLeaves:0, Twilight Oak Leaves
+TwilightForest:tile.TFLeaves:1, Canopy Tree Leaves
+TwilightForest:tile.TFLeaves:2, Mangrove Leaves
+TwilightForest:tile.TFLeaves:3, Rainbow Oak Leaves
+TwilightForest:tile.TFFirefly, Firefly
+TwilightForest:tile.TFCicada, Cicada
+TwilightForest:tile.TFPortal, Twilight Forest Portal
+TwilightForest:tile.TFMazestone:0, Mazestone
+TwilightForest:tile.TFMazestone:1, Mazestone Brick
+TwilightForest:tile.TFMazestone:2, Chiseled Mazestone
+TwilightForest:tile.TFMazestone:3, Decorative Mazestone Brick
+TwilightForest:tile.TFMazestone:4, Cracked Mazestone Brick
+TwilightForest:tile.TFMazestone:5, Mossy Mazestone Brick
+TwilightForest:tile.TFMazestone:6, Mazestone Mosaic
+TwilightForest:tile.TFMazestone:7, Mazestone Border
+TwilightForest:tile.TFHedge:0, Hedge
+TwilightForest:tile.TFBossSpawner:0, Naga Spawner
+TwilightForest:tile.TFBossSpawner:1, Lich Spawner
+TwilightForest:tile.TFBossSpawner:2, Hydra Spawner
+TwilightForest:tile.TFBossSpawner:3, Ur-ghast Spawner
+TwilightForest:tile.TFBossSpawner:4, Knight Phantoms Spawner
+TwilightForest:tile.TFBossSpawner:5, tile.TFBossSpawner.5.name
+TwilightForest:tile.TFFireflyJar, Firefly Jar
+TwilightForest:tile.TFPlant:3, Moss Patch
+TwilightForest:tile.TFPlant:4, Mayapple
+TwilightForest:tile.TFPlant:8, Fiddlehead
+TwilightForest:tile.TFPlant:9, Mushgloom
+TwilightForest:tile.TFPlant:10, Forest Grass
+TwilightForest:tile.TFPlant:11, Dried Bush
+TwilightForest:tile.TFPlant:13, Torchberry Plant
+TwilightForest:tile.TFPlant:14, Root Strands
+TwilightForest:tile.TFUncraftingTable, Uncrafting Table
+TwilightForest:tile.TFFireJet:0, Smoking block
+TwilightForest:tile.TFFireJet:8, Fire Jet
+TwilightForest:tile.TFFireJet:1, Encased Smoker
+TwilightForest:tile.TFFireJet:11, Encased Fire Jet
+TwilightForest:tile.TFNagastone:1, Nagastone Head
+TwilightForest:tile.TFNagastone:13, Nagastone
+TwilightForest:tile.TFSapling:0, Sickly Twilight Oak Sapling
+TwilightForest:tile.TFSapling:1, Canopy Tree Sapling
+TwilightForest:tile.TFSapling:2, Twilight Mangrove Sapling
+TwilightForest:tile.TFSapling:3, Darkwood Sapling
+TwilightForest:tile.TFSapling:4, Robust Twilight Oak Sapling
+TwilightForest:tile.TFSapling:5, Tree of Time Sapling
+TwilightForest:tile.TFSapling:6, Tree of Transformation Sapling
+TwilightForest:tile.TFSapling:7, Miner's Tree Sapling
+TwilightForest:tile.TFSapling:8, Sorting Tree Sapling
+TwilightForest:tile.TFSapling:9, Rainbow Oak Sapling
+TwilightForest:tile.TFMoonworm, Moonworm
+TwilightForest:tile.TFMagicLog:0, Timewood
+TwilightForest:tile.TFMagicLog:1, Transwood
+TwilightForest:tile.TFMagicLog:2, Minewood
+TwilightForest:tile.TFMagicLog:3, Sortingwood
+TwilightForest:tile.TFMagicLeaves:0, Timewood Leaves
+TwilightForest:tile.TFMagicLeaves:1, Leaves of Transformation
+TwilightForest:tile.TFMagicLeaves:2, Miner's Leaves
+TwilightForest:tile.TFMagicLeaves:3, Sorting Leaves
+TwilightForest:tile.TFMagicLogSpecial:0, Timewood Clock
+TwilightForest:tile.TFMagicLogSpecial:1, Heart of Transformation
+TwilightForest:tile.TFMagicLogSpecial:2, Minewood Core
+TwilightForest:tile.TFMagicLogSpecial:3, Sortingwood Engine
+TwilightForest:tile.TFTowerStone:0, Towerwood Planks
+TwilightForest:tile.TFTowerStone:1, Encased Towerwood
+TwilightForest:tile.TFTowerStone:2, Cracked Towerwood
+TwilightForest:tile.TFTowerStone:3, Mossy Towerwood
+TwilightForest:tile.TFTowerStone:4, Infested Towerwood
+TwilightForest:tile.TFTowerDevice:0, Reappearing Block
+TwilightForest:tile.TFTowerDevice:2, Vanishing Block
+TwilightForest:tile.TFTowerDevice:4, Locked Vanishing Block
+TwilightForest:tile.TFTowerDevice:5, Unlocked Vanishing Block
+TwilightForest:tile.TFTowerDevice:6, Carminite Builder
+TwilightForest:tile.TFTowerDevice:9, Anti-builder
+TwilightForest:tile.TFTowerDevice:10, Ghast Trap
+TwilightForest:tile.TFTowerDevice:12, Carminite Reactor
+TwilightForest:tile.TFTowerTranslucent:0, Reappearing Block
+TwilightForest:tile.TFTowerTranslucent:1, Active Reappearing Block
+TwilightForest:tile.TFTowerTranslucent:2, Built Carminite Block
+TwilightForest:tile.TFTowerTranslucent:3, Active Built Carminite Block
+TwilightForest:tile.TFTowerTranslucent:4, Anti-built Block
+TwilightForest:tile.TFTowerTranslucent:5, Carminite Reactor Debris
+TwilightForest:tile.TFTowerTranslucent:6, False Gold
+TwilightForest:tile.TFTowerTranslucent:7, False Diamond
+TwilightForest:tile.TFTrophy:0, Hydra Trophy
+TwilightForest:tile.TFShield:0, Stronghold Shield
+TwilightForest:tile.TFTrophyPedestal:0, Trophy Pedestal
+TwilightForest:tile.TFTrophyPedestal:15, Latent Trophy Pedestal
+TwilightForest:tile.TFAuroraBrick, Aurora Block
+TwilightForest:tile.TFUnderBrick:0, Underbrick
+TwilightForest:tile.TFUnderBrick:1, Mossy Underbrick
+TwilightForest:tile.TFUnderBrick:2, Cracked Underbrick
+TwilightForest:tile.TFThorns:0, Thorns
+TwilightForest:tile.TFThorns:1, Green Thorns
+TwilightForest:tile.TFBurntThorns, Burnt Thorns
+TwilightForest:tile.TFThornRose, Thorn Rose
+TwilightForest:tile.TFLeaves3:0, Thorn Leaves
+TwilightForest:tile.TFLeaves3:1, Beanstalk Leaves
+TwilightForest:tile.TFDeadrock:0, Weathered Deadrock
+TwilightForest:tile.TFDeadrock:1, Cracked Deadrock
+TwilightForest:tile.TFDeadrock:2, Deadrock
+TwilightForest:tile.DarkLeaves, Darkwood Leaves
+TwilightForest:tile.AuroraPillar, Aurora Pillar
+TwilightForest:tile.AuroraSlab:0, Aurora Slab
+TwilightForest:tile.AuroraDoubleSlab:0, Aurora Slab
+TwilightForest:tile.TrollSteinn, Trollsteinn
+TwilightForest:tile.WispyCloud, Wispy Cloud
+TwilightForest:tile.FluffyCloud, Fluffy Cloud
+TwilightForest:tile.GiantCobble, Giant Cobblestone
+TwilightForest:tile.GiantLog, Giant Log
+TwilightForest:tile.GiantLeaves, Giant Leaves
+TwilightForest:tile.GiantObsidian, Giant Obsidian
+TwilightForest:tile.UberousSoil, Uberous Soil
+TwilightForest:tile.HugeStalk, Huge Stalk
+TwilightForest:tile.HugeGloomBlock, Huge Mushgloom
+TwilightForest:tile.TrollVidr, Trollvidr
+TwilightForest:tile.UnripeTrollBer, Unripe Trollber
+TwilightForest:tile.TrollBer, Trollber
+TwilightForest:tile.KnightmetalBlock, Block of Knightmetal
+TwilightForest:tile.HugeLilyPad, Huge Lily Pad
+TwilightForest:tile.HugeWaterLily, Huge Water Lily
+TwilightForest:tile.Slider:0, Slide Trap
+TwilightForest:tile.Slider:1, Slide Trap 1
+TwilightForest:tile.Slider:2, Slide Trap 2
+TwilightForest:tile.Slider:3, Slide Trap 3
+TwilightForest:tile.CastleBrick:0, Castle Brick
+TwilightForest:tile.CastleBrick:1, Worn Castle Brick
+TwilightForest:tile.CastleBrick:2, Cracked Castle Brick
+TwilightForest:tile.CastleBrick:3, Castle Roof Tile
+TwilightForest:tile.CastleMagic:0, Blue Castle Rune Brick
+TwilightForest:tile.CastleMagic:1, Yellow Castle Rune Brick
+TwilightForest:tile.CastleMagic:2, Pink Castle Rune Brick
+TwilightForest:tile.CastleMagic:3, Violet Castle Rune Brick
+TwilightForest:tile.ForceField:0, Violet Force Field
+TwilightForest:tile.ForceField:1, Pink Force Field
+TwilightForest:tile.ForceField:2, Orange Force Field
+TwilightForest:tile.ForceField:3, Green Force Field
+TwilightForest:tile.ForceField:4, Blue Force Field
+TwilightForest:tile.CinderFurnaceIdle, Cinder Furnace [NYI]
+TwilightForest:tile.CinderFurnaceLit, Cinder Furnace [NYI]
+TwilightForest:tile.CinderLog:0, Cinder Log [NYI]
+TwilightForest:tile.CastleDoor:0, Blue Castle Door
+TwilightForest:tile.CastleDoorVanished:0, Blue Castle Door
+TwilightForest:tile.TFPlank:0, Twilight Oak Planks
+TwilightForest:tile.TFPlank:1, Canopy Planks
+TwilightForest:tile.TFPlank:2, Mangrove Planks
+TwilightForest:tile.TFPlank:3, Darkwood Planks
+TwilightForest:tile.TFPlank:4, Timewood Planks
+TwilightForest:tile.TFPlank:5, Transwood Planks
+TwilightForest:tile.TFPlank:6, Minewood Planks
+TwilightForest:tile.TFPlank:7, Sortingwood Planks
 neenergistics:tile.pattern_interface, Pattern Interface
+OpenBlocks:ladder, Jaded Ladder
+OpenBlocks:guide, Building Guide
+OpenBlocks:builder_guide, Enhanced Building Guide
+OpenBlocks:elevator:0, Elevator
+OpenBlocks:elevator:1, Elevator
+OpenBlocks:elevator:2, Elevator
+OpenBlocks:elevator:3, Elevator
+OpenBlocks:elevator:4, Elevator
+OpenBlocks:elevator:5, Elevator
+OpenBlocks:elevator:6, Elevator
+OpenBlocks:elevator:7, Elevator
+OpenBlocks:elevator:8, Elevator
+OpenBlocks:elevator:9, Elevator
+OpenBlocks:elevator:10, Elevator
+OpenBlocks:elevator:11, Elevator
+OpenBlocks:elevator:12, Elevator
+OpenBlocks:elevator:13, Elevator
+OpenBlocks:elevator:14, Elevator
+OpenBlocks:elevator:15, Elevator
+OpenBlocks:elevator_rotating:0, Rotating Elevator
+OpenBlocks:elevator_rotating:1, Rotating Elevator
+OpenBlocks:elevator_rotating:2, Rotating Elevator
+OpenBlocks:elevator_rotating:3, Rotating Elevator
+OpenBlocks:elevator_rotating:4, Rotating Elevator
+OpenBlocks:elevator_rotating:5, Rotating Elevator
+OpenBlocks:elevator_rotating:6, Rotating Elevator
+OpenBlocks:elevator_rotating:7, Rotating Elevator
+OpenBlocks:elevator_rotating:8, Rotating Elevator
+OpenBlocks:elevator_rotating:9, Rotating Elevator
+OpenBlocks:elevator_rotating:10, Rotating Elevator
+OpenBlocks:elevator_rotating:11, Rotating Elevator
+OpenBlocks:elevator_rotating:12, Rotating Elevator
+OpenBlocks:elevator_rotating:13, Rotating Elevator
+OpenBlocks:elevator_rotating:14, Rotating Elevator
+OpenBlocks:elevator_rotating:15, Rotating Elevator
+OpenBlocks:heal, Healer
+OpenBlocks:target, Target
+OpenBlocks:grave, Grave
+OpenBlocks:flag, Flag
+OpenBlocks:tank, Tank
+OpenBlocks:trophy, Trophy
+OpenBlocks:beartrap, Bear Trap
+OpenBlocks:sprinkler, Sprinkler
+OpenBlocks:cannon, Item Cannon
+OpenBlocks:vacuumhopper, Vacuum Hopper
+OpenBlocks:sponge, Sponge
+OpenBlocks:bigbutton, Big Button
+OpenBlocks:imaginary:0, Magic Pencil
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:imaginary:1, Magic Crayon
+OpenBlocks:fan, Fan
+OpenBlocks:xpbottler, XP Bottler
+OpenBlocks:village_highlighter, Village Highlighter
+OpenBlocks:path, Path
+OpenBlocks:autoanvil, Auto Anvil
+OpenBlocks:autoenchantmenttable, Auto Enchantment Table
+OpenBlocks:xpdrain, XP Drain
+OpenBlocks:blockbreaker, Block Breaker
+OpenBlocks:blockPlacer, Block Placer
+OpenBlocks:itemDropper, Item Dropper
+OpenBlocks:ropeladder, Rope Ladder
+OpenBlocks:donationStation, Donation Station
+OpenBlocks:paintmixer, Paint Mixer
+OpenBlocks:canvas, Canvas
+OpenBlocks:paintcan, Paint Can
+OpenBlocks:canvasglass, Glass Canvas
+OpenBlocks:projector, Height Map Projector
+OpenBlocks:drawingtable, Drawing Table
+OpenBlocks:sky:0, Sky Block
+OpenBlocks:sky:1, Sky Block
+OpenBlocks:xpshower, XP Shower
+OpenBlocks:goldenegg, Golden Egg
+OpenBlocks:scaffolding, Scaffolding
+OpenComputers:accessPoint:0, §cAccess Point§7
+OpenComputers:adapter:0, Adapter
+OpenComputers:assembler:0, Electronics Assembler
+OpenComputers:cable:0, Cable
+OpenComputers:capacitor:0, Capacitor
+OpenComputers:case1:0, Computer Case (Tier 1)
+OpenComputers:case3:0, Computer Case (Tier 3)
+OpenComputers:case2:0, Computer Case (Tier 2)
+OpenComputers:charger:0, Charger
+OpenComputers:disassembler:0, Disassembler
+OpenComputers:diskDrive:0, Disk Drive
+OpenComputers:geolyzer:0, Geolyzer
+OpenComputers:hologram1:0, Hologram Projector (Tier 1)
+OpenComputers:hologram2:0, Hologram Projector (Tier 2)
+OpenComputers:keyboard:0, Keyboard
+OpenComputers:motionSensor:0, Motion Sensor
+OpenComputers:powerConverter:0, Power Converter
+OpenComputers:powerDistributor:0, Power Distributor
+OpenComputers:raid:0, Raid
+OpenComputers:redstone:0, Redstone I/O
+OpenComputers:relay:0, Relay
+OpenComputers:screen1:0, Screen (Tier 1)
+OpenComputers:screen3:0, Screen (Tier 3)
+OpenComputers:screen2:0, Screen (Tier 2)
+OpenComputers:rack:0, Rack
+OpenComputers:switch:0, §cSwitch§7
+OpenComputers:caseCreative:0, Computer Case (Creative)
+OpenComputers:microcontroller:0, Microcontroller
+OpenComputers:robotAfterimage:0, Robot
+OpenComputers:robot:0, Robot.name
+OpenComputers:print:0, 3D Print
+OpenComputers:printer:0, 3D Printer
+OpenComputers:chameliumBlock:0, Block of Chamelium
+OpenComputers:waypoint:0, Waypoint
+OpenComputers:endstone:0, End Stone
+OpenComputers:netSplitter:0, Net Splitter
+OpenComputers:transposer:0, Transposer
+OpenComputers:carpetedCapacitor:0, Carpeted Capacitor
+thaumicenergistics:thaumicenergistics.block.essentia.provider, Essentia Provider
+thaumicenergistics:thaumicenergistics.block.infusion.provider, Infusion Provider
+thaumicenergistics:thaumicenergistics.block.gear.box, Iron Gear Box
+thaumicenergistics:thaumicenergistics.block.golem.gear.box, Thaumium Gear Box
+thaumicenergistics:thaumicenergistics.block.essentia.cell.workbench, Essentia Cell Workbench
+thaumicenergistics:thaumicenergistics.block.arcane.assembler, Arcane Assembler
+thaumicenergistics:thaumicenergistics.block.knowledge.inscriber, Knowledge Inscriber
+thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber, Essentia Vibration Chamber
+thaumicenergistics:thaumicenergistics.block.distillation.encoder, Distillation Pattern Encoder
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -1370,6 +2301,21 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyph of Arcane Potential
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyph of Rigid Stability
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crusted Taint
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Flesh
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Amber Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Amber Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Warded Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Obsidian Tile
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Thaumium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tallow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Arcane Stone Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ancient Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ancient Rock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crusted Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
@@ -1383,6 +2329,279 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Energy Pylon
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Awakened Draconium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Infused Obsidian
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Admin Dislocator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Machine Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rubber Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rubber Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass (White)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Plastic
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ice Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smooth Blackstone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Reinforced Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blockConduitFacade.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Electrical Steel Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Clay Compound Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Angel Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block Update Detector
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Edged Stone Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ender-infused Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Burnt Quartz
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Frosted Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Border Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Unstable Ingot Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gravel Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Border Stone (Alternate)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Magical Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandy Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gravel Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ender Core
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Diamond-Etched Computational Matrix
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ender-Sand Alloy
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Carved 'Eminence' Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.extrautils:pureLove.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Bedrockium
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone Bricks (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Oak Wood Planks (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Glowstone (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Stone (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Quartz (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Soul Sand (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Redstone Lamp (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Bricks (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Cobblestone (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Lapis Lazuli Block (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Obsidian (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Redstone (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (White Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Orange Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Magenta Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Light Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Yellow Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Lime Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Pink Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Light Gray Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Cyan Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Purple Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Blue Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Brown Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Green Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Red Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Colored Block of Coal (Black Frequency)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Triple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quadruple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quintuple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sextuple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Septuple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Octuple Compressed Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Dirt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Dirt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Triple Compressed Dirt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quadruple Compressed Dirt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Gravel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Gravel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Sand
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Sand
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Conveyor Belt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Albus (White)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Aurantiacus (Orange)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Purpura Amethystinus (Magenta)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Caesicius (Light Blue)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Flavus (Yellow)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Viridis (Green)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Roseus (Pink)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Cinereus (Gray)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Lux Cinereus (Light Gray)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Callainus (Cyan)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Purpura (Purple)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Caeruleus (Blue)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Fuscus (Brown)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Paphiae Myrti (Dark Green)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Rufus (Red)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lapis Caelestis Nox (Black)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Redstone Clock
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Osmium Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tin Ore
@@ -1467,6 +2686,82 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Plastic Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Plastic Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Plastic Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Salt Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Twilight Oak Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Canopy Tree Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mangrove Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Darkwood Wood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Roots
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Liveroots
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mazestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mazestone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Mazestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Decorative Mazestone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Mazestone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Mazestone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mazestone Mosaic
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mazestone Border
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hedge
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Uncrafting Table
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nagastone Head
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nagastone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Timewood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Transwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Minewood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sortingwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Timewood Clock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Heart of Transformation
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Minewood Core
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sortingwood Engine
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Towerwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Encased Towerwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Towerwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Towerwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Infested Towerwood
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Reappearing Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Vanishing Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Locked Vanishing Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Unlocked Vanishing Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Carminite Builder
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Carminite Reactor
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stronghold Shield
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Aurora Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Underbrick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Underbrick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Underbrick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Weathered Deadrock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Deadrock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Deadrock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Darkwood Leaves
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Aurora Pillar
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Aurora Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Trollsteinn
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluffy Cloud
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Giant Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Giant Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Giant Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Huge Stalk
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Huge Mushgloom
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Castle Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Worn Castle Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Castle Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Castle Roof Tile
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Castle Rune Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Castle Rune Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pink Castle Rune Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Violet Castle Rune Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cinder Log [NYI]
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Castle Door
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Twilight Oak Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Canopy Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mangrove Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Darkwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Timewood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Transwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Minewood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sortingwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Elevator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Chamelium
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemCrystalSeed:0, Certus Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:600, Nether Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:1200, Fluix Seed
@@ -1544,7 +2839,6 @@ appliedenergistics2:item.ItemMultiMaterial:1, Charged Certus Quartz Crystal
 appliedenergistics2:item.ItemMultiMaterial:2, Certus Quartz Dust
 appliedenergistics2:item.ItemMultiMaterial:61, ME Advanced Storage Housing
 appliedenergistics2:item.ItemMultiMaterial:39, ME Storage Housing
-appliedenergistics2:item.ItemMultiMaterial:46, Ender Dust
 appliedenergistics2:item.ItemMultiMaterial:24, Engineering Processor
 appliedenergistics2:item.ItemMultiMaterial:14, Inscriber Engineering Press
 appliedenergistics2:item.ItemMultiMaterial:17, Printed Engineering Circuit
@@ -1565,7 +2859,6 @@ appliedenergistics2:item.ItemMultiMaterial:10, Pure Certus Quartz Crystal
 appliedenergistics2:item.ItemMultiMaterial:12, Pure Fluix Crystal
 appliedenergistics2:item.ItemMultiMaterial:11, Pure Nether Quartz Crystal
 appliedenergistics2:item.ItemMultiMaterial:48, Quantum Entangled Singularity
-appliedenergistics2:item.ItemMultiMaterial:5, Silicon
 appliedenergistics2:item.ItemMultiMaterial:19, Inscriber Silicon Press
 appliedenergistics2:item.ItemMultiMaterial:20, Printed Silicon
 appliedenergistics2:item.ItemMultiMaterial:47, Singularity
@@ -1711,6 +3004,7 @@ appliedenergistics2:item.ItemMultiPart:462, P2P Tunnel - Item
 appliedenergistics2:item.ItemMultiPart:467, P2P Tunnel - Light
 appliedenergistics2:item.ItemMultiPart:463, P2P Tunnel - Fluid
 appliedenergistics2:item.ItemMultiPart:460, P2P Tunnel - ME
+appliedenergistics2:item.ItemMultiPart:468, P2P Tunnel - OpenComputers
 appliedenergistics2:item.ItemMultiPart:466, P2P Tunnel - RF
 appliedenergistics2:item.ItemMultiPart:461, P2P Tunnel - Redstone
 appliedenergistics2:item.ItemMultiPart:340, ME Pattern Terminal
@@ -2321,6 +3615,330 @@ DraconicEvolution:chaosFragment:2, Large Chaos Fragment
 DraconicEvolution:magnet:0, Item Dislocator
 DraconicEvolution:magnet:1, Awakened Item Dislocator
 DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
+MineFactoryReloaded:hammer, Precision Sledgehammer
+MineFactoryReloaded:plastic.boots, Plastic Boots
+MineFactoryReloaded:rubber.raw, Raw Rubber
+MineFactoryReloaded:rubber.bar, Rubber Bar
+MineFactoryReloaded:plastic.raw, Raw Plastic
+MineFactoryReloaded:plastic.sheet, Plastic Sheets
+MineFactoryReloaded:plastic.helm, Plastic Helmet
+MineFactoryReloaded:plastic.chest, Plastic Breastplate
+MineFactoryReloaded:plastic.legs, Plastic Leggings
+MineFactoryReloaded:glass.helm, Sunglasses
+MineFactoryReloaded:upgrade.radius:0, Upgrade (Lapis)
+MineFactoryReloaded:upgrade.radius:1, Upgrade (Tin)
+MineFactoryReloaded:upgrade.radius:2, Upgrade (Iron)
+MineFactoryReloaded:upgrade.radius:3, Upgrade (Copper)
+MineFactoryReloaded:upgrade.radius:4, Upgrade (Bronze)
+MineFactoryReloaded:upgrade.radius:5, Upgrade (Silver)
+MineFactoryReloaded:upgrade.radius:6, Upgrade (Gold)
+MineFactoryReloaded:upgrade.radius:7, Upgrade (Quartz)
+MineFactoryReloaded:upgrade.radius:8, Upgrade (Diamond)
+MineFactoryReloaded:upgrade.radius:9, Upgrade (Platinum)
+MineFactoryReloaded:upgrade.radius:10, Upgrade (Emerald)
+MineFactoryReloaded:upgrade.radius:11, Upgrade (Cobble)
+MineFactoryReloaded:rednet.meter:0, RedNet Meter
+MineFactoryReloaded:rednet.meter:1, RedNet Multimeter
+MineFactoryReloaded:rednet.meter:2, Debugger
+MineFactoryReloaded:rednet.memorycard, PRC Memory Card
+MineFactoryReloaded:upgrade.logic:0, PRC LX-100 Logic Expansion Card
+MineFactoryReloaded:upgrade.logic:1, PRC LX-300 Logic Expansion Card
+MineFactoryReloaded:upgrade.logic:2, PRC LX-500 Logic Expansion Card
+MineFactoryReloaded:meat.ingot.raw, Raw Meat Ingot
+MineFactoryReloaded:meat.ingot.cooked, Cooked Meat Ingot
+MineFactoryReloaded:meat.nugget.raw, Raw "Meat" Nugget
+MineFactoryReloaded:meat.nugget.cooked, Cooked "Meat" Nugget
+MineFactoryReloaded:pinkslime:0, Pink Slimeball
+MineFactoryReloaded:pinkslime:1, Pink Slime Crystal
+MineFactoryReloaded:syringe.empty, Empty Syringe
+MineFactoryReloaded:syringe.health, Health Syringe
+MineFactoryReloaded:syringe.growth, Growth Syringe
+MineFactoryReloaded:syringe.zombie, Zombie Syringe
+MineFactoryReloaded:syringe.slime, Slime Embiggening Syringe
+MineFactoryReloaded:syringe.cure, De-Zombification Syringe
+MineFactoryReloaded:safarinet.launcher, Safari Net Launcher
+MineFactoryReloaded:safarinet.reusable, Safari Net (Reusable)
+MineFactoryReloaded:safarinet.singleuse, Safari Net (Single-Use)
+MineFactoryReloaded:safarinet.jailer, Jailer's Safari Net
+MineFactoryReloaded:safarinet.jailer.fancy, Golden Jailer's Safari Net
+MineFactoryReloaded:portaspawner, PortaSpawner
+MineFactoryReloaded:xpextractor, XP Extractor
+MineFactoryReloaded:straw, Straw
+MineFactoryReloaded:milkbottle, Milk Bottle
+MineFactoryReloaded:plastic.cup:0, Plastic Cup
+MineFactoryReloaded:plastic.bag, Plastic Bag
+MineFactoryReloaded:sugarcharcoal, Sugar Charcoal
+MineFactoryReloaded:fertilizer, Industrial Fertilizer
+MineFactoryReloaded:ceramicdye:0, Ceramic Dye (White)
+MineFactoryReloaded:ceramicdye:1, Ceramic Dye (Orange)
+MineFactoryReloaded:ceramicdye:2, Ceramic Dye (Magenta)
+MineFactoryReloaded:ceramicdye:3, Ceramic Dye (Light Blue)
+MineFactoryReloaded:ceramicdye:4, Ceramic Dye (Yellow)
+MineFactoryReloaded:ceramicdye:5, Ceramic Dye (Lime)
+MineFactoryReloaded:ceramicdye:6, Ceramic Dye (Pink)
+MineFactoryReloaded:ceramicdye:7, Ceramic Dye (Gray)
+MineFactoryReloaded:ceramicdye:8, Ceramic Dye (Light Gray)
+MineFactoryReloaded:ceramicdye:9, Ceramic Dye (Cyan)
+MineFactoryReloaded:ceramicdye:10, Ceramic Dye (Purple)
+MineFactoryReloaded:ceramicdye:11, Ceramic Dye (Blue)
+MineFactoryReloaded:ceramicdye:12, Ceramic Dye (Brown)
+MineFactoryReloaded:ceramicdye:13, Ceramic Dye (Green)
+MineFactoryReloaded:ceramicdye:14, Ceramic Dye (Red)
+MineFactoryReloaded:ceramicdye:15, Ceramic Dye (Black)
+MineFactoryReloaded:laserfocus:0, Laser Focus (White)
+MineFactoryReloaded:laserfocus:1, Laser Focus (Orange)
+MineFactoryReloaded:laserfocus:2, Laser Focus (Magenta)
+MineFactoryReloaded:laserfocus:3, Laser Focus (Light Blue)
+MineFactoryReloaded:laserfocus:4, Laser Focus (Yellow)
+MineFactoryReloaded:laserfocus:5, Laser Focus (Lime)
+MineFactoryReloaded:laserfocus:6, Laser Focus (Pink)
+MineFactoryReloaded:laserfocus:7, Laser Focus (Gray)
+MineFactoryReloaded:laserfocus:8, Laser Focus (Light Gray)
+MineFactoryReloaded:laserfocus:9, Laser Focus (Cyan)
+MineFactoryReloaded:laserfocus:10, Laser Focus (Purple)
+MineFactoryReloaded:laserfocus:11, Laser Focus (Blue)
+MineFactoryReloaded:laserfocus:12, Laser Focus (Brown)
+MineFactoryReloaded:laserfocus:13, Laser Focus (Green)
+MineFactoryReloaded:laserfocus:14, Laser Focus (Red)
+MineFactoryReloaded:laserfocus:15, Laser Focus (Black)
+MineFactoryReloaded:record.blank, Blank Record
+MineFactoryReloaded:spyglass, Spyglass
+MineFactoryReloaded:ruler, Ruler
+MineFactoryReloaded:fishingrod, Fishing Rod
+MineFactoryReloaded:potatolauncher, Potato Cannon
+MineFactoryReloaded:needlegun, Needlegun
+MineFactoryReloaded:needlegun.ammo.empty, Needlegun Magazine
+MineFactoryReloaded:needlegun.ammo.standard, Needlegun Ammo (Needles)
+MineFactoryReloaded:needlegun.ammo.pierce, Needlegun Ammo (Shrapnel)
+MineFactoryReloaded:needlegun.ammo.lava, Needlegun Ammo (Lava)
+MineFactoryReloaded:needlegun.ammo.sludge, Needlegun Ammo (Sludge)
+MineFactoryReloaded:needlegun.ammo.sewage, Needlegun Ammo (Sewage)
+MineFactoryReloaded:needlegun.ammo.fire, Needlegun Ammo (Fire)
+MineFactoryReloaded:needlegun.ammo.anvil, Needlegun Ammo (Anvil)
+MineFactoryReloaded:rocketlauncher, SPAMR Launcher
+MineFactoryReloaded:rocket:0, Tracking Self-Propelled Anti Material Rocket
+MineFactoryReloaded:rocket:1, Self-Propelled Anti Material Rocket
+MineFactoryReloaded:bucket.sewage, Sewage Bucket
+MineFactoryReloaded:bucket.sludge, Sludge Bucket
+MineFactoryReloaded:bucket.essence, Essence Bucket
+MineFactoryReloaded:bucket.biofuel, BioFuel Bucket
+MineFactoryReloaded:bucket.meat, Meat Bucket
+MineFactoryReloaded:bucket.pinkslime, Pink Slime Bucket
+MineFactoryReloaded:bucket.chocolatemilk, Chocolate Milk Bucket
+MineFactoryReloaded:bucket.mushroomsoup, Mushroom Soup Bucket
+EnderIO:itemCoordSelector, Coordinate Selector
+EnderIO:itemFusedQuartzFrame, Fused Quartz Frame
+EnderIO:itemConduitFacade:0, Conduit Facade
+EnderIO:itemConduitFacade:1, Hardened Conduit Facade
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemBrokenSpawner:0, Broken Spawner
+EnderIO:itemFrankenSkull:0, Zombie Electrode
+EnderIO:itemFrankenSkull:1, Z-Logic Controller
+EnderIO:itemFrankenSkull:2, Frank'N'Zombie
+EnderIO:itemFrankenSkull:3, Ender Resonator
+EnderIO:itemFrankenSkull:4, Sentient Ender
+EnderIO:itemFrankenSkull:5, Skeletal Contractor
+EnderIO:itemFrankenSkull:6, Guardian Diode
+EnderIO:itemRedstoneConduit:0, Redstone Conduit
+EnderIO:itemRedstoneConduit:1, Conduit Switch
+EnderIO:itemRedstoneConduit:2, Insulated Redstone Conduit
+EnderIO:itemPowerConduit:0, Energy Conduit
+EnderIO:itemPowerConduit:1, Enhanced Energy Conduit
+EnderIO:itemPowerConduit:2, Ender Energy Conduit
+EnderIO:itemPowerConduitEndergy:0, Clay Compound Energy Conduit
+EnderIO:itemPowerConduitEndergy:1, Iron Energy Conduit
+EnderIO:itemPowerConduitEndergy:2, Aluminum Energy Conduit
+EnderIO:itemPowerConduitEndergy:3, Gold Energy Conduit
+EnderIO:itemPowerConduitEndergy:4, Copper Energy Conduit
+EnderIO:itemPowerConduitEndergy:5, Silver Energy Conduit
+EnderIO:itemPowerConduitEndergy:6, Electrum Energy Conduit
+EnderIO:itemPowerConduitEndergy:7, Energetic Silver Energy Conduit
+EnderIO:itemPowerConduitEndergy:8, Crystalline Energy Conduit
+EnderIO:itemPowerConduitEndergy:9, Crystalline Pink Slime Energy Conduit
+EnderIO:itemPowerConduitEndergy:10, Melodic Energy Conduit
+EnderIO:itemPowerConduitEndergy:11, Stellar Energy Conduit
+EnderIO:itemLiquidConduit:0, Fluid Conduit
+EnderIO:itemLiquidConduit:1, Pressurized Fluid Conduit
+EnderIO:itemLiquidConduit:2, Ender Fluid Conduit
+EnderIO:itemLiquidConduit:3, Crystalline Ender Fluid Conduit
+EnderIO:itemLiquidConduit:4, Crystalline Pink Slime Ender Fluid Conduit
+EnderIO:itemLiquidConduit:5, Melodic Ender Fluid Conduit
+EnderIO:itemLiquidConduit:6, Stellar Ender Fluid Conduit
+EnderIO:itemItemConduit:0, Item Conduit
+EnderIO:itemGasConduit:0, Gas Conduit
+EnderIO:itemMEConduit:0, ME Conduit
+EnderIO:itemMEConduit:1, Dense ME Conduit
+EnderIO:itemMEConduit:2, Ultra Dense ME Conduit
+EnderIO:itemOCConduit:0, Network Conduit (OC)
+EnderIO:itemBasicFilterUpgrade:0, Basic Item Filter
+EnderIO:itemBasicFilterUpgrade:1, Advanced Item Filter
+EnderIO:itemBigFilterUpgrade:0, Big Item Filter
+EnderIO:itemBigFilterUpgrade:1, Big Advanced Item Filter
+EnderIO:itemExistingItemFilter:0, Existing Item Filter
+EnderIO:itemModItemFilter, Mod Item Filter
+EnderIO:itemPowerItemFilter:0, Chargeable Item Filter
+EnderIO:itemExtractSpeedUpgrade:0, Item Conduit Speed Upgrade
+EnderIO:itemExtractSpeedUpgrade:1, Item Conduit Speed Downgrade
+EnderIO:itemFunctionUpgrade:0, Remote Awareness Upgrade
+EnderIO:itemBasicCapacitor:0, Basic Capacitor
+EnderIO:itemBasicCapacitor:1, Double-Layer Capacitor
+EnderIO:itemBasicCapacitor:2, Octadic Capacitor
+EnderIO:itemBasicCapacitor:3, Crystalline Capacitor
+EnderIO:itemBasicCapacitor:4, Melodic Capacitor
+EnderIO:itemBasicCapacitor:5, Stellar Capacitor
+EnderIO:itemBasicCapacitor:6, Totemic Capacitor
+EnderIO:itemBasicCapacitor:6, Totemic Capacitor
+EnderIO:itemBasicCapacitor:7, Silver Capacitor
+EnderIO:itemBasicCapacitor:8, Endergetic Capacitor
+EnderIO:itemBasicCapacitor:9, Endergised Capacitor
+EnderIO:itemMachinePart:0, Machine Chassis
+EnderIO:itemMachinePart:1, Basic Gear
+EnderIO:itemMachinePart:2, Soul Machine Chassis
+EnderIO:itemMachinePart:3, End Steel Chassis
+EnderIO:itemMaterial:0, Silicon
+EnderIO:itemMaterial:1, Conduit Binder
+EnderIO:itemMaterial:2, Binder Composite
+EnderIO:itemMaterial:3, Pulsating Iron Nugget
+EnderIO:itemMaterial:4, Vibrant Alloy Nugget
+EnderIO:itemMaterial:5, Pulsating Crystal
+EnderIO:itemMaterial:6, Vibrant Crystal
+EnderIO:itemMaterial:7, Dark Steel Ball
+EnderIO:itemMaterial:8, Ender Crystal
+EnderIO:itemMaterial:9, Enticing Crystal
+EnderIO:itemMaterial:10, Weather Crystal
+EnderIO:itemMaterial:11, End Steel Nugget
+EnderIO:itemMaterial:12, Dark Steel Rod
+EnderIO:itemMaterial:13, Precient Crystal
+EnderIO:itemMaterial:14, Grains of Piezallity
+EnderIO:itemMaterial:15, Grains of Vibrancy
+EnderIO:itemMaterial:16, Grains of the End
+EnderIO:itemMaterial:17, Grains of Prescience
+EnderIO:itemAlloy:0, Electrical Steel
+EnderIO:itemAlloy:1, Energetic Alloy
+EnderIO:itemAlloy:2, Vibrant Alloy
+EnderIO:itemAlloy:3, Redstone Alloy
+EnderIO:itemAlloy:4, Conductive Iron
+EnderIO:itemAlloy:5, Pulsating Iron
+EnderIO:itemAlloy:6, Dark Steel
+EnderIO:itemAlloy:7, Soularium
+EnderIO:itemAlloy:8, End Steel
+EnderIO:itemGrindingBall:0, Electrical Steel Ball
+EnderIO:itemGrindingBall:1, Energetic Alloy Ball
+EnderIO:itemGrindingBall:2, Vibrant Alloy Ball
+EnderIO:itemGrindingBall:3, Redstone Alloy Ball
+EnderIO:itemGrindingBall:4, Conductive Iron Ball
+EnderIO:itemGrindingBall:5, Pulsating Iron Ball
+EnderIO:itemGrindingBall:6, Dark Steel Ball
+EnderIO:itemGrindingBall:7, Soularium Ball
+EnderIO:itemGrindingBall:8, End Steel Ball
+EnderIO:itemAlloyEndergy:0, Clay Compound
+EnderIO:itemAlloyEndergy:1, Crystalline Alloy
+EnderIO:itemAlloyEndergy:2, Melodic Alloy
+EnderIO:itemAlloyEndergy:3, Stellar Alloy
+EnderIO:itemAlloyEndergy:4, Crystalline Pink Slime
+EnderIO:itemAlloyEndergy:5, Energetic Silver
+EnderIO:itemAlloyEndergy:6, Vivid Alloy
+EnderIO:itemGrindingBallEndergy:0, Clay Compound Grinding Ball
+EnderIO:itemGrindingBallEndergy:1, Crystalline Alloy Grinding Ball
+EnderIO:itemGrindingBallEndergy:2, Melodic Alloy Grinding Ball
+EnderIO:itemGrindingBallEndergy:3, Stellar Alloy Grinding Ball
+EnderIO:itemGrindingBallEndergy:4, Crystalline Pink Slime Grinding Ball
+EnderIO:itemGrindingBallEndergy:5, Energetic Silver Grinding Ball
+EnderIO:itemGrindingBallEndergy:6, Vivid Alloy Grinding Ball
+EnderIO:itemPowderIngot:0, Coal Powder
+EnderIO:itemPowderIngot:1, Iron Powder
+EnderIO:itemPowderIngot:2, Gold Powder
+EnderIO:itemPowderIngot:7, Obsidian Powder
+EnderIO:itemPowderIngot:8, Flour
+EnderIO:bucketNutrient_distillation, Nutrient Distillation Bucket
+EnderIO:bucketHootch, Hootch Bucket
+EnderIO:bucketRocket_fuel, Rocket Fuel Bucket
+EnderIO:bucketFire_water, Fire Water Bucket
+EnderIO:bucketLiquid_sunshine, Liquid Sunshine Bucket
+EnderIO:bucketCloud_seed, Cloud Seed Bucket
+EnderIO:bucketCloud_seed_concentrated, Concentrated Cloud Seed Bucket
+EnderIO:bucketEnder_distillation, Dew of the Void Bucket
+EnderIO:bucketVapor_of_levity, Vapor of Levity Bucket
+EnderIO:itemYetaWrench, Yeta Wrench
+EnderIO:itemEnderface, Enderface
+EnderIO:itemTravelStaff:0, Staff of Traveling
+EnderIO:itemTravelStaff:16, Staff of Traveling
+EnderIO:itemTeleportStaff:0, Staff of Teleportation
+EnderIO:itemConduitProbe:0, Conduit Probe
+EnderIO:itemXpTransfer:0, Experience Rod
+EnderIO:itemSoulVessel, Soul Vial
+EnderIO:itemEnderFood:0, "Enderios"
+EnderIO:itemGliderWing:0, Glider Wing
+EnderIO:itemGliderWing:1, Glider Wings
+EnderIO:item.darkSteel_helmet, Dark Helm
+EnderIO:item.darkSteel_chestplate, Dark Plate
+EnderIO:item.darkSteel_leggings, Dark Leggings
+EnderIO:item.darkSteel_boots, Dark Boots
+EnderIO:item.darkSteel_sword, The Ender
+EnderIO:item.darkSteel_pickaxe, Dark Pick
+EnderIO:item.darkSteel_axe, Dark Axe
+EnderIO:item.darkSteel_shears, Dark Shears
+EnderIO:item.endSteel_helmet, End Steel Helm
+EnderIO:item.endSteel_chestplate, End Steel Plate
+EnderIO:item.endSteel_leggings, End Steel Leggings
+EnderIO:item.endSteel_boots, End Steel Boots
+EnderIO:item.endSteel_sword, The Ender MKII
+EnderIO:item.endSteel_pickaxe, End Steel Pick
+EnderIO:item.endSteel_axe, End Steel Axe
+EnderIO:item.stellar_helmet, Stellar Helm
+EnderIO:item.stellar_chestplate, Stellar Plate
+EnderIO:item.stellar_leggings, Stellar Leggings
+EnderIO:item.stellar_boots, Stellar Boots
+EnderIO:item.stellar_sword, The Ender MKIV
+EnderIO:item.stellar_pickaxe, Stellar Pick
+EnderIO:item.stellar_axe, Stellar Axe
+EnderIO:itemMagnet:0, Electromagnet
+EnderIO:itemMagnet:16, Electromagnet
+ExtraUtilities:glove, Glove
+ExtraUtilities:heatingElement, Heating Coil
+ExtraUtilities:mini-soul:0, Soul fragment
+ExtraUtilities:mini-soul:3, Soul fragment
+ExtraUtilities:angelRing:0, Angel Ring
+ExtraUtilities:angelRing:1, Angel Ring
+ExtraUtilities:angelRing:2, Angel Ring
+ExtraUtilities:angelRing:3, Angel Ring
+ExtraUtilities:angelRing:4, Angel Ring
+ExtraUtilities:paintbrush:0, Paintbrush
+ExtraUtilities:nodeUpgrade:0, Speed Upgrade
+ExtraUtilities:nodeUpgrade:1, Item Filter
+ExtraUtilities:nodeUpgrade:2, World Interaction Upgrade
+ExtraUtilities:nodeUpgrade:3, Stack Upgrade
+ExtraUtilities:nodeUpgrade:4, Creative Upgrade
+ExtraUtilities:nodeUpgrade:5, Ender Transmitter
+ExtraUtilities:nodeUpgrade:6, Ender Receiver
+ExtraUtilities:nodeUpgrade:7, Depth-First Search Upgrade
+ExtraUtilities:nodeUpgrade:8, Breadth-First Search Upgrade
+ExtraUtilities:nodeUpgrade:9, Pseudo Round Robin Upgrade
+ExtraUtilities:nodeUpgrade:10, Advanced Item Filter
+ExtraUtilities:lawSword, Kikoku
+ExtraUtilities:golden_lasso:0, Golden Lasso
+ExtraUtilities:divisionSigil, Division Sigil
+ExtraUtilities:unstableingot:0, Unstable Ingot
+ExtraUtilities:unstableingot:1, Semi-stable Nugget
+ExtraUtilities:unstableingot:2, Mobius "Unstable/Stable" Ingot
+ExtraUtilities:builderswand, Builder's Wand
+ExtraUtilities:shears, Precision Shears
+ExtraUtilities:creativebuilderswand, Super Builder's Wand
+ExtraUtilities:ethericsword, Etheric Sword
+ExtraUtilities:erosionShovel, Erosion Shovel
+ExtraUtilities:destructionpickaxe, Destruction Pickaxe
+ExtraUtilities:defoliageAxe, Healing Axe
+ExtraUtilities:temporalHoe, Reversing Hoe
+ExtraUtilities:sonar_goggles, Sonar Goggles
+ExtraUtilities:watering_can, Watering Can
+ExtraUtilities:scanner, Portable Scanner
+ExtraUtilities:golden_bag, Golden Bag of Holding
+ExtraUtilities:bedrockiumIngot, Bedrockium Ingot
 Mekanism:PartTransmitter:0, Basic Universal Cable
 Mekanism:PartTransmitter:1, Advanced Universal Cable
 Mekanism:PartTransmitter:2, Elite Universal Cable
@@ -2548,11 +4166,337 @@ MekanismTools:SteelHelmet, Steel Helmet
 MekanismTools:SteelChestplate, Steel Chestplate
 MekanismTools:SteelLeggings, Steel Leggings
 MekanismTools:SteelBoots, Steel Boots
+TwilightForest:item.nagaScale, Naga Scale
+TwilightForest:item.plateNaga, Naga Scale Tunic
+TwilightForest:item.legsNaga, Naga Scale Leggings
+TwilightForest:item.scepterTwilight, Scepter of Twilight
+TwilightForest:item.scepterLifeDrain, Scepter of Life Draining
+TwilightForest:item.scepterZombie, Zombie Scepter
+TwilightForest:item.oreMeter, Ore Meter [WIP]
+TwilightForest:item.magicMap:0, Magic Map #0
+TwilightForest:item.mazeMap:0, Maze Map #0
+TwilightForest:item.oreMap:0, Maze/Ore Map #0
+TwilightForest:item.tfFeather, Raven's Feather
+TwilightForest:item.magicMapFocus, Magic Map Focus
+TwilightForest:item.mazeMapFocus, Maze Map Focus
+TwilightForest:item.liveRoot, Liveroot
+TwilightForest:item.ironwoodRaw, Raw Ironwood Materials
+TwilightForest:item.ironwoodIngot, Ironwood Ingot
+TwilightForest:item.ironwoodHelm, Ironwood Helm
+TwilightForest:item.ironwoodPlate, Ironwood Plate
+TwilightForest:item.ironwoodLegs, Ironwood Legs
+TwilightForest:item.ironwoodBoots, Ironwood Boots
+TwilightForest:item.ironwoodSword, Ironwood Sword
+TwilightForest:item.ironwoodShovel, Ironwood Shovel
+TwilightForest:item.ironwoodPick, Ironwood Pick
+TwilightForest:item.ironwoodAxe, Ironwood Axe
+TwilightForest:item.ironwoodHoe, Ironwood Hoe
+TwilightForest:item.torchberries, Torchberries
+TwilightForest:item.venisonRaw, Raw Venison
+TwilightForest:item.venisonCooked, Venison Steak
+TwilightForest:item.hydraChop, Hydra Chop
+TwilightForest:item.fieryBlood, Fiery Blood
+TwilightForest:item.trophy:0, Hydra Trophy
+TwilightForest:item.trophy:1, Naga Trophy
+TwilightForest:item.trophy:2, Lich Trophy
+TwilightForest:item.trophy:3, Ur-ghast Trophy
+TwilightForest:item.trophy:4, Snow Queen Trophy
+TwilightForest:item.fieryIngot, Fiery Ingot
+TwilightForest:item.fieryHelm, Fiery Helm
+TwilightForest:item.fieryPlate, Fiery Plate
+TwilightForest:item.fieryLegs, Fiery Legs
+TwilightForest:item.fieryBoots, Fiery Boots
+TwilightForest:item.fierySword, Fiery Sword
+TwilightForest:item.fieryPick, Fiery Pick
+TwilightForest:item.steeleafIngot, Steeleaf
+TwilightForest:item.steeleafHelm, Steeleaf Helm
+TwilightForest:item.steeleafPlate, Steeleaf Plate
+TwilightForest:item.steeleafLegs, Steeleaf Legs
+TwilightForest:item.steeleafBoots, Steeleaf Boots
+TwilightForest:item.steeleafSword, Steeleaf Sword
+TwilightForest:item.steeleafShovel, Steeleaf Shovel
+TwilightForest:item.steeleafPick, Steeleaf Pick
+TwilightForest:item.steeleafAxe, Steeleaf Axe
+TwilightForest:item.steeleafHoe, Steeleaf Hoe
+TwilightForest:item.minotaurAxe, Minotaur Axe
+TwilightForest:item.mazebreakerPick, Mazebreaker
+TwilightForest:item.transformPowder, Transformation Powder
+TwilightForest:item.meefRaw, Raw Meef
+TwilightForest:item.meefSteak, Meef Steak
+TwilightForest:item.meefStroganoff, Meef Stroganoff
+TwilightForest:item.mazeWafer, Maze Wafer
+TwilightForest:item.emptyMagicMap, Blank Magic Map
+TwilightForest:item.emptyMazeMap, Blank Maze Map
+TwilightForest:item.emptyOreMap, Blank Maze/Ore Map
+TwilightForest:item.oreMagnet, Ore Magnet
+TwilightForest:item.crumbleHorn, Crumble Horn
+TwilightForest:item.peacockFan, Peacock Feather Fan
+TwilightForest:item.moonwormQueen, Moonworm Queen
+TwilightForest:item.charmOfLife1, Charm of Life I
+TwilightForest:item.charmOfLife2, Charm of Life II
+TwilightForest:item.charmOfKeeping1, Charm of Keeping I
+TwilightForest:item.charmOfKeeping2, Charm of Keeping II
+TwilightForest:item.charmOfKeeping3, Charm of Keeping III
+TwilightForest:item.towerKey, Tower Key
+TwilightForest:item.borerEssence, Borer Essence
+TwilightForest:item.carminite, Carminite
+TwilightForest:item.experiment115, Experiment 115
+TwilightForest:item.armorShards, Armor Shard
+TwilightForest:item.knightMetal, Knightmetal Ingot
+TwilightForest:item.shardCluster, Armor Shard Cluster
+TwilightForest:item.knightlyHelm, Knightly Helm
+TwilightForest:item.knightlyPlate, Knightly Plate
+TwilightForest:item.knightlyLegs, Knightly Greaves
+TwilightForest:item.knightlyBoots, Knightly Boots
+TwilightForest:item.knightlySword, Knightly Sword
+TwilightForest:item.knightlyPick, Knightly Pick
+TwilightForest:item.knightlyAxe, Knightly Axe
+TwilightForest:item.phantomHelm, Phantom Helm
+TwilightForest:item.phantomPlate, Phantom Plate
+TwilightForest:item.lampOfCinders, Lamp of Cinders
+TwilightForest:item.fieryTears, Fiery Tears
+TwilightForest:item.alphaFur, Alpha Yeti Fur
+TwilightForest:item.yetiHelm, Yeti Horned Helm
+TwilightForest:item.yetiPlate, Yeti Jacket
+TwilightForest:item.yetiLegs, Yeti Leggings
+TwilightForest:item.yetiBoots, Yeti Boots
+TwilightForest:item.iceBomb, Ice Bomb
+TwilightForest:item.arcticFur, Arctic Fur
+TwilightForest:item.arcticHelm, Arctic Hood
+TwilightForest:item.arcticPlate, Arctic Jacket
+TwilightForest:item.arcticLegs, Arctic Leggings
+TwilightForest:item.arcticBoots, Arctic Boots
+TwilightForest:item.magicBeans, Magic Beans
+TwilightForest:item.giantPick, Giant's Pickaxe
+TwilightForest:item.giantSword, Giant's Sword
+TwilightForest:item.tripleBow, Tri-bow
+TwilightForest:item.seekerBow, Seeker Bow
+TwilightForest:item.iceBow, Ice Bow
+TwilightForest:item.enderBow, Ender Bow
+TwilightForest:item.iceSword, Ice Sword
+TwilightForest:item.glassSword, Glass Sword
+TwilightForest:item.knightmetalRing, Knightmetal Loop
+TwilightForest:item.chainBlock, Block and Chain
+TwilightForest:item.cubeTalisman, Talisman of the Cube
+TwilightForest:item.cubeOfAnnihilation, Cube of Annihilation
+TwilightForest:item.null:0, Cloth Of The Adherent
+TwilightForest:item.null:1, Fragment Of The Harbinger
 ae2wct:infinityBoosterCard, Infinity Booster Card
 ae2wct:infinityBoosterIcon, item.null.name
 ae2wct:wirelessCraftingTerminal, Wireless Crafting Terminal
 ae2wct:magnetCard, Magnet Card
 ae2wct:boosterBG, item.boosterBG.name
+OpenBlocks:hangglider, Hang Glider
+OpenBlocks:generic:0, Glider Wing
+OpenBlocks:generic:1, Beam
+OpenBlocks:generic:2, Crane Engine
+OpenBlocks:generic:3, Crane Magnet
+OpenBlocks:generic:5, Line
+OpenBlocks:generic:6, Map Controller Module
+OpenBlocks:generic:7, Map Memory Module
+OpenBlocks:generic:9, Assistant's base
+OpenBlocks:generic:10, Unprepared Stencil
+OpenBlocks:generic:11, Sketching Pencil
+OpenBlocks:luggage, Luggage
+OpenBlocks:sonicglasses, Sonic Glasses
+OpenBlocks:pencilGlasses:0, Pencil Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:crayonGlasses:0, Crayon Glasses
+OpenBlocks:technicolorGlasses:0, Amazing Technicolor Glasses
+OpenBlocks:seriousGlasses:0, Badass Glasses
+OpenBlocks:craneControl, Crane Control
+OpenBlocks:craneBackpack, Crane Backpack
+OpenBlocks:slimalyzer, Slimalyzer
+OpenBlocks:filledbucket:0, XP Bucket
+OpenBlocks:sleepingBag, Sleeping Bag
+OpenBlocks:paintBrush, Paint Brush
+OpenBlocks:stencil:0, Stencil
+OpenBlocks:stencil:1, Stencil
+OpenBlocks:stencil:2, Stencil
+OpenBlocks:stencil:3, Stencil
+OpenBlocks:stencil:4, Stencil
+OpenBlocks:stencil:5, Stencil
+OpenBlocks:stencil:6, Stencil
+OpenBlocks:stencil:7, Stencil
+OpenBlocks:stencil:8, Stencil
+OpenBlocks:stencil:9, Stencil
+OpenBlocks:stencil:10, Stencil
+OpenBlocks:stencil:11, Stencil
+OpenBlocks:stencil:12, Stencil
+OpenBlocks:stencil:13, Stencil
+OpenBlocks:stencil:14, Stencil
+OpenBlocks:squeegee:0, Squeegee
+OpenBlocks:emptyMap, Empty Map
+OpenBlocks:cartographer:0, Cartographer
+OpenBlocks:tastyClay, Tasty Clay
+OpenBlocks:goldenEye, Golden eye
+OpenBlocks:genericUnstackable:0, Pointer
+OpenBlocks:cursor, Cursor
+OpenBlocks:infoBook, World Domination with OpenBlocks
+OpenBlocks:devnull, /dev/null
+OpenBlocks:spongeonastick, Sponge
+OpenBlocks:pedometer, Pedometer
+OpenBlocks:epicEraser, Epic Eraser
+OpenBlocks:wrench, Big Metal Bar
+OpenComputers:item:27, Arithmetic Logic Unit (ALU)
+OpenComputers:item:101, Accelerated Processing Unit (APU) (Tier 2)
+OpenComputers:item:102, Accelerated Processing Unit (APU) (Tier 3)
+OpenComputers:item:103, Accelerated Processing Unit (APU) (Tier 3)
+OpenComputers:item:18, Grog
+OpenComputers:item:0, Analyzer
+OpenComputers:item:21, Arrow Keys
+OpenComputers:item:20, Button Group
+OpenComputers:item:29, Central Processing Unit (CPU) (Tier 1)
+OpenComputers:item:42, Central Processing Unit (CPU) (Tier 2)
+OpenComputers:item:43, Central Processing Unit (CPU) (Tier 3)
+OpenComputers:item:33, Card Base
+OpenComputers:item:96, Chamelium
+OpenComputers:item:31, Circuit Board
+OpenComputers:item:70, Component Bus (Tier 1)
+OpenComputers:item:71, Component Bus (Tier 2)
+OpenComputers:item:72, Component Bus (Tier 3)
+OpenComputers:item:114, Component Bus (Creative)
+OpenComputers:item:28, Control Unit (CU)
+OpenComputers:item:17, Cutting Wire
+OpenComputers:item:104, Data Card (Tier 1)
+OpenComputers:item:105, Data Card (Tier 2)
+OpenComputers:item:106, Data Card (Tier 3)
+OpenComputers:item:73, Debug Card
+OpenComputers:item:81, Network Debugger
+OpenComputers:item:111, Diamond Chip
+OpenComputers:item:19, Disk Platter
+OpenComputers:item:109, Disk Drive
+OpenComputers:item:83, Drone Case (Tier 1)
+OpenComputers:item:87, Drone Case (Tier 2)
+OpenComputers:item:91, Drone Case (Tier 3)
+OpenComputers:item:4, Floppy Disk
+OpenComputers:item:8, Graphics Card (Tier 1)
+OpenComputers:item:9, Graphics Card (Tier 2)
+OpenComputers:item:10, Graphics Card (Tier 3)
+OpenComputers:item:5, Hard Disk Drive (Tier 1) (1MB)
+OpenComputers:item:6, Hard Disk Drive (Tier 2) (2MB)
+OpenComputers:item:7, Hard Disk Drive (Tier 3) (4MB)
+OpenComputers:item:95, Ink Cartridge
+OpenComputers:item:94, Ink Cartridge (Empty)
+OpenComputers:item:44, Internet Card
+OpenComputers:item:48, Interweb
+OpenComputers:item:51, Linked Card
+OpenComputers:item:98, OpenComputers Manual
+OpenComputers:item:1, Memory (Tier 1)
+OpenComputers:item:50, Memory (Tier 1.5)
+OpenComputers:item:2, Memory (Tier 2)
+OpenComputers:item:3, Memory (Tier 2.5)
+OpenComputers:item:38, Memory (Tier 3)
+OpenComputers:item:39, Memory (Tier 3.5)
+OpenComputers:item:24, Microchip (Tier 1)
+OpenComputers:item:25, Microchip (Tier 2)
+OpenComputers:item:26, Microchip (Tier 3)
+OpenComputers:item:82, Microcontroller Case (Tier 1)
+OpenComputers:item:86, Microcontroller Case (Tier 2)
+OpenComputers:item:90, Microcontroller Case (Tier 3)
+OpenComputers:item:107, Nanomachines
+OpenComputers:item:11, Network Card
+OpenComputers:item:22, Numeric Keypad
+OpenComputers:item:32, Printed Circuit Board (PCB)
+OpenComputers:item:30, Raw Circuit Board
+OpenComputers:item:66, Redstone Card (Tier 1)
+OpenComputers:item:45, Server (Tier 1)
+OpenComputers:item:46, Server (Tier 2)
+OpenComputers:item:40, Server (Tier 3)
+OpenComputers:item:69, Server (Tier 4)
+OpenComputers:item:74, Tablet Case (Tier 1)
+OpenComputers:item:92, Tablet Case (Tier 2)
+OpenComputers:item:93, Tablet Case (Tier 3)
+OpenComputers:item:41, Remote Terminal
+OpenComputers:item:108, Terminal Server
+OpenComputers:item:97, Texture Picker
+OpenComputers:item:117, TPS card
+OpenComputers:item:23, Transistor
+OpenComputers:item:49, Angel Upgrade
+OpenComputers:item:63, Battery Upgrade (Tier 1)
+OpenComputers:item:64, Battery Upgrade (Tier 2)
+OpenComputers:item:65, Battery Upgrade (Tier 3)
+OpenComputers:item:62, Chunkloader Upgrade
+OpenComputers:item:115, Configurator Upgrade
+OpenComputers:item:57, Card Container (Tier 1)
+OpenComputers:item:58, Card Container (Tier 2)
+OpenComputers:item:59, Card Container (Tier 3)
+OpenComputers:item:54, Upgrade Container (Tier 1)
+OpenComputers:item:55, Upgrade Container (Tier 2)
+OpenComputers:item:56, Upgrade Container (Tier 3)
+OpenComputers:item:14, Crafting Upgrade
+OpenComputers:item:78, Database Upgrade (Tier 1)
+OpenComputers:item:79, Database Upgrade (Tier 2)
+OpenComputers:item:80, Database Upgrade (Tier 3)
+OpenComputers:item:52, Experience Upgrade
+OpenComputers:item:15, Generator Upgrade
+OpenComputers:item:99, Hover Upgrade (Tier 1)
+OpenComputers:item:100, Hover Upgrade (Tier 2)
+OpenComputers:item:53, Inventory Upgrade
+OpenComputers:item:61, Inventory Controller Upgrade
+OpenComputers:item:85, Leash Upgrade
+OpenComputers:item:112, MFU
+OpenComputers:item:36, Navigation Upgrade
+OpenComputers:item:75, Piston Upgrade
+OpenComputers:item:116, RITEG Upgrade
+OpenComputers:item:35, Sign I/O Upgrade
+OpenComputers:item:34, Solar Generator Upgrade
+OpenComputers:item:76, Tank Upgrade
+OpenComputers:item:77, Tank Controller Upgrade
+OpenComputers:item:67, Tractor Beam Upgrade
+OpenComputers:item:110, Trading Upgrade
+OpenComputers:item:113, Wireless Network Card (Tier 1)
+OpenComputers:item:13, Wireless Network Card (Tier 2)
+OpenComputers:item:84, Crecopter
+OpenComputers:item:0, Microcontroller
+OpenComputers:item:0, Creatix
+OpenComputers:item:68, Tablet
+OpenComputers:item:0, Hover Boots
+OpenComputers:item:0, EEPROM (Lua BIOS)
+OpenComputers:eeprom, EEPROM
+OpenComputers:wrench, Scrench
+OpenComputers:hoverBoots, Hover Boots
+thaumicenergistics:part.base:0, Essentia Import Bus
+thaumicenergistics:part.base:1, Essentia Level Emitter
+thaumicenergistics:part.base:2, Essentia Storage Bus
+thaumicenergistics:part.base:3, Essentia Export Bus
+thaumicenergistics:part.base:4, Essentia Terminal
+thaumicenergistics:part.base:5, Arcane Crafting Terminal
+thaumicenergistics:part.base:6, Vis Relay Interface
+thaumicenergistics:part.base:7, Essentia Storage Monitor
+thaumicenergistics:part.base:8, Essentia Conversion Monitor
+thaumicenergistics:storage.essentia:0, 1k ME Essentia Storage Cell
+thaumicenergistics:storage.essentia:1, 4k ME Essentia Storage Cell
+thaumicenergistics:storage.essentia:2, 16k ME Essentia Storage Cell
+thaumicenergistics:storage.essentia:3, 64k ME Essentia Storage Cell
+thaumicenergistics:storage.essentia:4, Thaumometric Essentia Cell
+thaumicenergistics:storage.component:0, 1k ME Essentia Storage Component
+thaumicenergistics:storage.component:1, 4k ME Essentia Storage Component
+thaumicenergistics:storage.component:2, 16k ME Essentia Storage Component
+thaumicenergistics:storage.component:3, 64k ME Essentia Storage Component
+thaumicenergistics:storage.casing, ME Essentia Storage Housing
+thaumicenergistics:material:0, Diffusion Core
+thaumicenergistics:material:1, Coalescence Core
+thaumicenergistics:material:2, Iron Gear
+thaumicenergistics:wireless.essentia.terminal, Wireless Essentia Terminal
+thaumicenergistics:knowledge.core, Knowledge Core
+thaumicenergistics:focus.aewrench, Wand Focus: AE Wrench
+thaumicenergistics:golem.wifi.backpack, Wireless Golem Backpack
+thaumicenergistics:cell.microscope, Cell Microscope
 ForgeMicroblock:sawStone, Stone Saw
 ForgeMicroblock:sawIron, Iron Saw
 ForgeMicroblock:sawDiamond, Diamond Saw

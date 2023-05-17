@@ -58,6 +58,24 @@ classDiagram
   `DraconicEvolution` <-- `NotEnoughItems`
   `DraconicEvolution` <-- `BrandonsCore`
 
+  class `EnderIO`["Ender IO"] {
+    id: EnderIO
+    version: 2.4.16
+    authors: CrazyPants, tterrag
+  }
+  `EnderIO` <-- `endercore`
+  `EnderIO` <-- `MineFactoryReloaded`
+  `EnderIO` <-- `Thaumcraft`
+  `EnderIO` <-- `appliedenergistics2`
+
+  class `ExtraUtilities`["Extra Utilities"] {
+    id: ExtraUtilities
+    version: 1.2.12
+    authors: RWTema
+  }
+  `ExtraUtilities` <-- `ForgeMultipart`
+  `ExtraUtilities` <-- `Baubles`
+
   class `ForgeMicroblock`["Forge Microblocks"] {
     id: ForgeMicroblock
     version: 1.2.0.345
@@ -99,6 +117,135 @@ classDiagram
   }
   `MekanismTools` <-- `Mekanism`
 
+  class `MineFactoryReloaded`["MineFactory Reloaded"] {
+    id: MineFactoryReloaded
+    version: 2.8.1
+    authors: PowerCrystals, TehKrush, AtomicStryker, Feanorith, skyboy026
+  }
+  `MineFactoryReloaded` <-- `CoFHCore`
+
+  class `MineFactoryReloaded|CompatAppliedEnergistics`["MFR Compat: Applied Energistics"] {
+    id: MineFactoryReloaded|CompatAppliedEnergistics
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatAppliedEnergistics` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatAppliedEnergistics` <-- `appliedenergistics2`
+
+  class `MineFactoryReloaded|CompatAtum`["MFR Compat: Atum"] {
+    id: MineFactoryReloaded|CompatAtum
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatAtum` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatBackTools`["MFR Compat: BackTools"] {
+    id: MineFactoryReloaded|CompatBackTools
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatBackTools` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatBuildCraft`["MFR Compat: BuildCraft"] {
+    id: MineFactoryReloaded|CompatBuildCraft
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatBuildCraft` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatChococraft`["MFR Compat: Chococraft"] {
+    id: MineFactoryReloaded|CompatChococraft
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatChococraft` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatExtraBiomes`["MFR Compat: ExtraBiomes"] {
+    id: MineFactoryReloaded|CompatExtraBiomes
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatExtraBiomes` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatForestry`["MFR Compat: Forestry"] {
+    id: MineFactoryReloaded|CompatForestry
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatForestry` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatForgeMicroblock`["MFR Compat: ForgeMicroblock"] {
+    id: MineFactoryReloaded|CompatForgeMicroblock
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatForgeMicroblock` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatIC2`["MFR Compat: IC2"] {
+    id: MineFactoryReloaded|CompatIC2
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatIC2` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatProjRed`["MFR Compat ProjectRed"] {
+    id: MineFactoryReloaded|CompatProjRed
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatProjRed` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatRailcraft`["MFR Compat: Railcraft"] {
+    id: MineFactoryReloaded|CompatRailcraft
+    version: 2.8.1
+    authors: skyboy
+  }
+  `MineFactoryReloaded|CompatRailcraft` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatSufficientBiomes`["MFR Compat: Sufficient Biomes"] {
+    id: MineFactoryReloaded|CompatSufficientBiomes
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatSufficientBiomes` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatTConstruct`["MFR Compat: Tinkers' Construct"] {
+    id: MineFactoryReloaded|CompatTConstruct
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatTConstruct` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatThaumcraft`["MFR Compat: Thaumcraft"] {
+    id: MineFactoryReloaded|CompatThaumcraft
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatThaumcraft` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatThaumcraft` <-- `Thaumcraft`
+
+  class `MineFactoryReloaded|CompatThermalExpansion`["MFR Compat: Thermal Expansion"] {
+    id: MineFactoryReloaded|CompatThermalExpansion
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatThermalExpansion` <-- `MineFactoryReloaded`
+
+  class `MineFactoryReloaded|CompatTwilightForest`["MFR Compat: TwilightForest"] {
+    id: MineFactoryReloaded|CompatTwilightForest
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatTwilightForest` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatTwilightForest` <-- `TwilightForest`
+
+  class `MineFactoryReloaded|CompatVanilla`["MFR Compat: Vanilla"] {
+    id: MineFactoryReloaded|CompatVanilla
+    version: 2.8.1
+    authors: PowerCrystals
+  }
+  `MineFactoryReloaded|CompatVanilla` <-- `MineFactoryReloaded`
+
   class `NotEnoughItems`["NotEnoughItems"] {
     id: NotEnoughItems
     version: 2.3.53-GTNH
@@ -106,12 +253,59 @@ classDiagram
   }
   `NotEnoughItems` <-- `CodeChickenCore`
 
+  class `OpenBlocks`["OpenBlocks"] {
+    id: OpenBlocks
+    version: 1.7.0-GTNH
+    authors: Mikee, NeverCast, boq, Lyqyd
+  }
+  `OpenBlocks` <-- `OpenMods`
+
+  class `OpenComputers`["OpenComputers"] {
+    id: OpenComputers
+    version: 1.9.5-GTNH
+    authors: Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
+  }
+  `OpenComputers` <-- `ForgeMultipart`
+  `OpenComputers` <-- `MineFactoryReloaded`
+  `OpenComputers` <-- `Thaumcraft`
+
+  class `OpenComputers|Core`["OpenComputers (Core)"] {
+    id: OpenComputers|Core
+    version: @VERSION@
+    authors: Sangar
+  }
+
+  class `OpenMods`["OpenMods"] {
+    id: OpenMods
+    version: 0.10.6
+    authors: 
+  }
+  `OpenMods` <-- `OpenModsCore`
+
+  class `OpenModsCore`["OpenModsCore"] {
+    id: OpenModsCore
+    version: 0.10.6
+    authors: Mikee, NeverCast, boq
+  }
+
+  class `ThE-core`["Thaumic Energistics Core"] {
+    id: ThE-core
+    version: 1.0.0.1
+    authors: Nividica
+  }
+
   class `Thaumcraft`["Thaumcraft"] {
     id: Thaumcraft
     version: 4.2.3.5
     authors: 
   }
   `Thaumcraft` <-- `Baubles`
+
+  class `TwilightForest`["The Twilight Forest"] {
+    id: TwilightForest
+    version: 2.4.3
+    authors: 
+  }
 
   class `ae2fc`["AE2 Fluid Crafting"] {
     id: ae2fc
@@ -149,6 +343,85 @@ classDiagram
   `avaritiaddons` <-- `Avaritia`
   `avaritiaddons` <-- `wanionlib`
 
+  class `endercore`["EnderCore"] {
+    id: endercore
+    version: 0.2.13
+    authors: tterrag, CrazyPants
+  }
+  `endercore` <-- `gtnhlib`
+
+  class `gasstation`["UniMixins: GasStation"] {
+    id: gasstation
+    version: 0.5.1+uni.0.1.7.1
+    authors: FalsePattern
+  }
+
+  class `gtnhlib`["GTNH Lib"] {
+    id: gtnhlib
+    version: 0.0.13
+    authors: mitchej123
+  }
+
+  class `gtnhmixins`["UniMixins: GTNHMixins"] {
+    id: gtnhmixins
+    version: 2.1.9+uni.0.1.7.1
+    authors: mitchej123
+  }
+
+  class `hodgepodge`["Hodgepodge"] {
+    id: hodgepodge
+    version: 2.2.13
+    authors: mitchej123, GTNewHorizons Team
+  }
+  `hodgepodge` <-- `gtnhmixins`
+
+  class `magicalcrops`["Magical Crops: Core"] {
+    id: magicalcrops
+    version: 4.0.0_PUBLIC_BETA_4b
+    authors: Mark719
+  }
+  `magicalcrops` <-- `appliedenergistics2`
+  `magicalcrops` <-- `Mekanism`
+
+  class `magicalcropsarmour`["Magical Crops: Armoury"] {
+    id: magicalcropsarmour
+    version: 4.0.0_PUBLIC_BETA_4
+    authors: 
+  }
+  `magicalcropsarmour` <-- `magicalcrops`
+
+  class `magicalcropsdeco`["Magical Crops: Decorative"] {
+    id: magicalcropsdeco
+    version: 4.0.0_PUBLIC_BETA_4a
+    authors: 
+  }
+  `magicalcropsdeco` <-- `magicalcrops`
+
+  class `mfrmagiccropscompat`["MinefactoryReloaded & MagicalCrops extra compatibility"] {
+    id: mfrmagiccropscompat
+    version: 1.2
+    authors: Portablejim
+  }
+  `mfrmagiccropscompat` <-- `magicalcrops`
+
+  class `mixinbooterlegacy`["UniMixins: MixinBooterLegacy"] {
+    id: mixinbooterlegacy
+    version: 1.2.1+uni.0.1.7.1
+    authors: Rongmario, tox1cozZ
+  }
+
+  class `mixinextras`["UniMixins: MixinExtras"] {
+    id: mixinextras
+    version: 0.1.1+uni.0.1.7.1
+    authors: LlamaLad7
+  }
+
+  class `mixingasm`["UniMixins: Mixingasm"] {
+    id: mixingasm
+    version: 0.2.2+uni.0.1.7.1
+    authors: makamys
+  }
+
   class `mod-diagram`["Mod Diagram"] {
     id: mod-diagram
     version: v1.0
@@ -164,6 +437,39 @@ classDiagram
   `neenergistics` <-- `appliedenergistics2`
   `neenergistics` <-- `ae2wct`
   `neenergistics` <-- `ae2fc`
+
+  class `spongemixins`["UniMixins: SpongeMixins"] {
+    id: spongemixins
+    version: 2.0.1+gtnh.uni.0.1.7.1
+    authors: Time_Conqueror, mitchej123
+  }
+
+  class `thaumicenergistics`["Thaumic Energistics"] {
+    id: thaumicenergistics
+    version: 1.4.2-GTNH
+    authors: Nividica
+  }
+  `thaumicenergistics` <-- `ThE-core`
+  `thaumicenergistics` <-- `appliedenergistics2`
+  `thaumicenergistics` <-- `Thaumcraft`
+
+  class `unimixins`["UniMixins"] {
+    id: unimixins
+    version: 0.1.7.1
+    authors: makamys
+  }
+
+  class `unimixins-compat`["UniMixins: Compatibility"] {
+    id: unimixins-compat
+    version: 0.1.7.1
+    authors: makamys
+  }
+
+  class `unimixins-mixin`["UniMixins: Mixin (UniMix)"] {
+    id: unimixins-mixin
+    version: 0.1.7.1+unimix.0.12.1-mixin.0.8.5
+    authors: makamys
+  }
 
   class `wanionlib`["WanionLib"] {
     id: wanionlib

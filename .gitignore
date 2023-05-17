@@ -10,3 +10,4 @@ mmc-pack.json
 natives/*
 .minecraft/*.png
 .minecraft/crash-reports/*
+*.so
