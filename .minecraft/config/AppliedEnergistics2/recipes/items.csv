@@ -1074,6 +1074,7 @@ appliedenergistics2:item.ItemMultiPart:462, P2P Tunnel - Item
 appliedenergistics2:item.ItemMultiPart:467, P2P Tunnel - Light
 appliedenergistics2:item.ItemMultiPart:463, P2P Tunnel - Fluid
 appliedenergistics2:item.ItemMultiPart:460, P2P Tunnel - ME
+appliedenergistics2:item.ItemMultiPart:466, P2P Tunnel - RF
 appliedenergistics2:item.ItemMultiPart:461, P2P Tunnel - Redstone
 appliedenergistics2:item.ItemMultiPart:340, ME Pattern Terminal
 appliedenergistics2:item.ItemMultiPart:500, ME Processing Pattern Terminal
@@ -1119,3 +1120,9 @@ Avaritia:Matter_Cluster, Matter Cluster
 Avaritia:Infinity_Bow, Longbow of the Heavens
 Avaritia:Infinity_Shovel, Planet Eater
 Avaritia:Infinity_Axe, Nature's Ruin
+Baubles:Ring:0, Miner's Ring
+ae2wct:infinityBoosterCard, Infinity Booster Card
+ae2wct:infinityBoosterIcon, item.null.name
+ae2wct:wirelessCraftingTerminal, Wireless Crafting Terminal
+ae2wct:magnetCard, Magnet Card
+ae2wct:boosterBG, item.boosterBG.name
