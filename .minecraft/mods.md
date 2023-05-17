@@ -6,6 +6,12 @@ classDiagram
     authors: 
   }
 
+  class `AWWayofTime`["Blood Magic: Alchemical Wizardry"] {
+    id: AWWayofTime
+    version: 1.7.10-1.3.3-17
+    authors: WayofTime
+  }
+
   class `AgriCraft`["AgriCraft"] {
     id: AgriCraft
     version: 1.5.0
@@ -17,6 +23,8 @@ classDiagram
     version: 1.41
     authors: SpitefulFox, TTFTCUTS
   }
+  `Avaritia` <-- `Thaumcraft`
+  `Avaritia` <-- `AWWayofTime`
 
   class `Baubles`["Baubles"] {
     id: Baubles
@@ -50,12 +58,60 @@ classDiagram
   `DraconicEvolution` <-- `NotEnoughItems`
   `DraconicEvolution` <-- `BrandonsCore`
 
+  class `ForgeMicroblock`["Forge Microblocks"] {
+    id: ForgeMicroblock
+    version: 1.2.0.345
+    authors: 
+  }
+  `ForgeMicroblock` <-- `ForgeMultipart`
+
+  class `ForgeMultipart`["Forge Multipart"] {
+    id: ForgeMultipart
+    version: 1.2.0.345
+    authors: 
+  }
+
+  class `McMultipart`["Minecraft Multipart Plugin"] {
+    id: McMultipart
+    version: 1.2.0.345
+    authors: 
+  }
+
+  class `Mekanism`["Mekanism Community Edition"] {
+    id: Mekanism
+    version: 9.10.28
+    authors: 
+  }
+  `Mekanism` <-- `ForgeMultipart`
+  `Mekanism` <-- `CoFHCore`
+
+  class `MekanismGenerators`["MekanismGenerators Community Edition"] {
+    id: MekanismGenerators
+    version: 9.10.28
+    authors: aidancbrady
+  }
+  `MekanismGenerators` <-- `Mekanism`
+
+  class `MekanismTools`["MekanismTools Community Edition"] {
+    id: MekanismTools
+    version: 9.10.28
+    authors: aidancbrady
+  }
+  `MekanismTools` <-- `Mekanism`
+
   class `NotEnoughItems`["NotEnoughItems"] {
     id: NotEnoughItems
     version: 2.3.53-GTNH
     authors: ChickenBones, mitchej123
   }
   `NotEnoughItems` <-- `CodeChickenCore`
+
+  class `Thaumcraft`["Thaumcraft"] {
+    id: Thaumcraft
+    version: 4.2.3.5
+    authors: 
+  }
+  `Thaumcraft` <-- `Baubles`
 
   class `ae2fc`["AE2 Fluid Crafting"] {
     id: ae2fc

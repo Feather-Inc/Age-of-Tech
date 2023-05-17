@@ -372,6 +372,10 @@ AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
@@ -384,6 +388,10 @@ AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
@@ -397,6 +405,10 @@ AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
@@ -409,6 +421,10 @@ AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
@@ -693,6 +709,236 @@ AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
 AgriCraft:cropShroomBrown, Brown Mushroom
+AWWayofTime:Altar, Blood Altar
+AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
+AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
+AWWayofTime:AlchemicalWizardrybloodRune:2, Rune of Dislocation
+AWWayofTime:AlchemicalWizardrybloodRune:3, Rune of the Orb
+AWWayofTime:AlchemicalWizardrybloodRune:4, Rune of Superior Capacity
+AWWayofTime:AlchemicalWizardrybloodRune:5, Rune of Acceleration
+AWWayofTime:lifeEssence, Life Essence
+AWWayofTime:speedRune, Speed Rune
+AWWayofTime:efficiencyRune, Efficiency Rune
+AWWayofTime:runeOfSacrifice, Rune of Sacrifice
+AWWayofTime:runeOfSelfSacrifice, Rune of Self-Sacrifice
+AWWayofTime:ritualStone, Ritual Stone
+AWWayofTime:masterStone, Master Ritual Stone
+AWWayofTime:bloodSocket, Filled Socket
+AWWayofTime:imperfectRitualStone, Imperfect Ritual Stone
+AWWayofTime:armourForge, Soul Armour Forge
+AWWayofTime:emptySocket, Empty Socket
+AWWayofTime:bloodStoneBrick, Bloodstone Brick
+AWWayofTime:largeBloodStoneBrick, Large Bloodstone Brick
+AWWayofTime:blockWritingTable, Alchemic Chemistry Set
+AWWayofTime:blockHomHeart, Spell Table
+AWWayofTime:blockPedestal, Arcane Pedestal
+AWWayofTime:blockPlinth, Arcane Plinth
+AWWayofTime:blockTeleposer, Teleposer
+AWWayofTime:spectralBlock, Spectral Block
+AWWayofTime:bloodLight, Blood Light
+AWWayofTime:blockConduit, Spell Conduit
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:0, Particle Generator
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1, Self Augmentator
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2, Melee Aggregator
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3, Tool Forger
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:0, Unstable Spell Empowerer
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:1, Standard Spell Empowerer
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:2, Reinforced Spell Empowerer
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3, Imbued Spell Empowerer
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:4, Demonic Spell Empowerer
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:5, Unstable Spell Dampener
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:6, Standard Spell Dampener
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:7, Reinforced Spell Dampener
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:8, Imbued Spell Dampener
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:9, Demonic Spell Dampener
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:10, Unstable Spell Augmentor
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:11, Standard Spell Augmentor
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:12, Reinforced Spell Augmentor
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:13, Imbued Spell Augmentor
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:14, Demonic Spell Augmentor
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:0, Default Spell Modifier
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1, Offensive Spell Modifier
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2, Defensive Spell Modifier
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3, Environmental Spell Modifier
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:0, Crucible of Fire
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1, Ice Maker
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2, Wind Generator
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3, Earth Former
+AWWayofTime:spectralContainer, Spectral Container
+AWWayofTime:demonPortalMain, Demon Portal
+AWWayofTime:blockSchemSaver, Schematic Saver
+AWWayofTime:blockReagentConduit, Alchemy Relay
+AWWayofTime:blockAlchemicCalcinator, Alchemic Calcinator
+AWWayofTime:blockCrystalBelljar:0, Crystal Belljar
+AWWayofTime:blockDemonChest, Demon's Chest
+AWWayofTime:blockCrystal:0, Crystal Cluster
+AWWayofTime:blockCrystal:1, Crystal Cluster Brick
+AWWayofTime:blockMimic, Mimic Block
+AWWayofTime:blockEnchantmentGlyph:0, Glyph of the Adept Enchanter
+AWWayofTime:blockEnchantmentGlyph:1, Glyph of Arcane Potential
+AWWayofTime:blockStabilityGlyph:0, Glyph of Rigid Stability
+AWWayofTime:blockCrucible, Incense Crucible
+Thaumcraft:blockFluxGoo:0, Flux Goo
+Thaumcraft:blockFluxGas:0, Flux Gas
+Thaumcraft:blockFluidPure, Purifying Fluid
+Thaumcraft:blockFluidDeath, Liquid Death
+Thaumcraft:blockCustomOre:0, Cinnabar Ore
+Thaumcraft:blockCustomOre:1, Air Infused Stone
+Thaumcraft:blockCustomOre:2, Fire Infused Stone
+Thaumcraft:blockCustomOre:3, Water Infused Stone
+Thaumcraft:blockCustomOre:4, Earth Infused Stone
+Thaumcraft:blockCustomOre:5, Order Infused Stone
+Thaumcraft:blockCustomOre:6, Entropy Infused Stone
+Thaumcraft:blockCustomOre:7, Amber Bearing Stone
+Thaumcraft:blockMagicalLog:0, Greatwood Log
+Thaumcraft:blockMagicalLog:1, Silverwood Log
+Thaumcraft:blockMagicalLeaves:0, Greatwood Leaves
+Thaumcraft:blockMagicalLeaves:1, Silverwood Leaves
+Thaumcraft:blockCustomPlant:0, Greatwood Sapling
+Thaumcraft:blockCustomPlant:1, Silverwood Sapling
+Thaumcraft:blockCustomPlant:2, Shimmerleaf
+Thaumcraft:blockCustomPlant:3, Cinderpearl
+Thaumcraft:blockCustomPlant:4, Ethereal Bloom
+Thaumcraft:blockCustomPlant:5, Vishroom
+Thaumcraft:blockTaint:0, Crusted Taint
+Thaumcraft:blockTaint:1, Tainted Soil
+Thaumcraft:blockTaint:2, Block of Flesh
+Thaumcraft:blockTaintFibres:0, Fibrous Taint
+Thaumcraft:blockTaintFibres:1, Tainted Grass
+Thaumcraft:blockTaintFibres:2, Tainted Plant
+Thaumcraft:blockTaintFibres:3, Spore Stalk
+Thaumcraft:blockCosmeticOpaque:0, Amber Block
+Thaumcraft:blockCosmeticOpaque:1, Amber Bricks
+Thaumcraft:blockCosmeticOpaque:2, Warded Glass
+Thaumcraft:blockCosmeticSolid:0, Obsidian Totem
+Thaumcraft:blockCosmeticSolid:1, Obsidian Tile
+Thaumcraft:blockCosmeticSolid:2, Paving Stone of Travel
+Thaumcraft:blockCosmeticSolid:3, Paving Stone of Warding
+Thaumcraft:blockCosmeticSolid:4, Thaumium Block
+Thaumcraft:blockCosmeticSolid:5, Tallow Block
+Thaumcraft:blockCosmeticSolid:6, Arcane Stone Block
+Thaumcraft:blockCosmeticSolid:7, Arcane Stone Bricks
+Thaumcraft:blockCosmeticSolid:8, Charged Obsidian Totem
+Thaumcraft:blockCosmeticSolid:9, Golem Fetter
+Thaumcraft:blockCosmeticSolid:11, Ancient Stone
+Thaumcraft:blockCosmeticSolid:12, Ancient Rock
+Thaumcraft:blockCosmeticSolid:14, Crusted Stone
+Thaumcraft:blockCosmeticSolid:15, Ancient Stone Pedestal
+Thaumcraft:blockCrystal:0, Air Crystal Cluster
+Thaumcraft:blockCrystal:1, Fire Crystal Cluster
+Thaumcraft:blockCrystal:2, Water Crystal Cluster
+Thaumcraft:blockCrystal:3, Earth Crystal Cluster
+Thaumcraft:blockCrystal:4, Order Crystal Cluster
+Thaumcraft:blockCrystal:5, Entropy Crystal Cluster
+Thaumcraft:blockCrystal:6, Mixed Crystal Cluster
+Thaumcraft:blockTube:0, Essentia Tube
+Thaumcraft:blockTube:1, Essentia Valve
+Thaumcraft:blockTube:2, Alchemical Centrifuge
+Thaumcraft:blockTube:3, Filtered Essentia Tube
+Thaumcraft:blockTube:4, Essentia Buffer
+Thaumcraft:blockTube:5, Restricted Essentia Tube
+Thaumcraft:blockTube:6, Directional Essentia Tube
+Thaumcraft:blockTube:7, Essentia Crystallizer
+Thaumcraft:blockMetalDevice:0, Crucible
+Thaumcraft:blockMetalDevice:1, Arcane Alembic
+Thaumcraft:blockMetalDevice:5, Item Grate
+Thaumcraft:blockMetalDevice:7, Arcane Lamp
+Thaumcraft:blockMetalDevice:8, Lamp of Growth
+Thaumcraft:blockMetalDevice:13, Lamp of Fertility
+Thaumcraft:blockMetalDevice:9, Alchemical Construct
+Thaumcraft:blockMetalDevice:3, Advanced Alchemical Construct
+Thaumcraft:blockMetalDevice:12, Mnemonic Matrix
+Thaumcraft:blockMetalDevice:14, Vis Relay
+Thaumcraft:blockMetalDevice:2, Vis Charge Relay
+Thaumcraft:blockWoodenDevice:0, Arcane Bellows
+Thaumcraft:blockWoodenDevice:1, Arcane Ear
+Thaumcraft:blockWoodenDevice:2, Arcane Pressure Plate
+Thaumcraft:blockWoodenDevice:4, Arcane Bore Base
+Thaumcraft:blockWoodenDevice:5, Arcane Bore
+Thaumcraft:blockWoodenDevice:6, Greatwood Planks
+Thaumcraft:blockWoodenDevice:7, Silverwood Planks
+Thaumcraft:blockWoodenDevice:8, Crimson Cult Banner
+Thaumcraft:blockWoodenDevice:8, White Banner
+Thaumcraft:blockWoodenDevice:8, Orange Banner
+Thaumcraft:blockWoodenDevice:8, Magenta Banner
+Thaumcraft:blockWoodenDevice:8, Light Blue Banner
+Thaumcraft:blockWoodenDevice:8, Yellow Banner
+Thaumcraft:blockWoodenDevice:8, Lime Banner
+Thaumcraft:blockWoodenDevice:8, Pink Banner
+Thaumcraft:blockWoodenDevice:8, Gray Banner
+Thaumcraft:blockWoodenDevice:8, Light Gray Banner
+Thaumcraft:blockWoodenDevice:8, Cyan Banner
+Thaumcraft:blockWoodenDevice:8, Purple Banner
+Thaumcraft:blockWoodenDevice:8, Blue Banner
+Thaumcraft:blockWoodenDevice:8, Brown Banner
+Thaumcraft:blockWoodenDevice:8, Green Banner
+Thaumcraft:blockWoodenDevice:8, Red Banner
+Thaumcraft:blockWoodenDevice:8, Black Banner
+Thaumcraft:blockStoneDevice:0, Alchemical Furnace
+Thaumcraft:blockStoneDevice:1, Arcane Pedestal
+Thaumcraft:blockStoneDevice:2, Runic Matrix
+Thaumcraft:blockStoneDevice:5, Wand Recharge Pedestal
+Thaumcraft:blockStoneDevice:8, Compound Recharge Focus
+Thaumcraft:blockStoneDevice:9, Node Stabilizer
+Thaumcraft:blockStoneDevice:10, Advanced Node Stabilizer
+Thaumcraft:blockStoneDevice:11, Node Transducer
+Thaumcraft:blockStoneDevice:12, Arcane Spa
+Thaumcraft:blockStoneDevice:13, Focal Manipulator
+Thaumcraft:blockStoneDevice:14, Flux Scrubber
+Thaumcraft:blockMirror:0, Magic Mirror
+Thaumcraft:blockMirror:6, Essentia Mirror
+Thaumcraft:blockTable:0, Table
+Thaumcraft:blockTable:14, Deconstruction Table
+Thaumcraft:blockTable:15, Arcane Worktable
+Thaumcraft:blockChestHungry, Hungry Chest
+Thaumcraft:blockArcaneDoor, Arcane Door
+Thaumcraft:blockLifter, Arcane Levitator
+Thaumcraft:blockMagicBox, tile.blockMagicBox.name
+Thaumcraft:blockAlchemyFurnace, Advanced Alchemical Furnace
+Thaumcraft:blockJar:0, Warded Jar
+Thaumcraft:blockJar:1, Brain in a Jar
+Thaumcraft:blockJar:3, Void Jar
+Thaumcraft:blockCandle:0, White Tallow Candle
+Thaumcraft:blockCandle:1, Orange Tallow Candle
+Thaumcraft:blockCandle:2, Magenta Tallow Candle
+Thaumcraft:blockCandle:3, Light Blue Tallow Candle
+Thaumcraft:blockCandle:4, Yellow Tallow Candle
+Thaumcraft:blockCandle:5, Lime Tallow Candle
+Thaumcraft:blockCandle:6, Pink Tallow Candle
+Thaumcraft:blockCandle:7, Gray Tallow Candle
+Thaumcraft:blockCandle:8, Light Gray Tallow Candle
+Thaumcraft:blockCandle:9, Cyan Tallow Candle
+Thaumcraft:blockCandle:10, Purple Tallow Candle
+Thaumcraft:blockCandle:11, Blue Tallow Candle
+Thaumcraft:blockCandle:12, Brown Tallow Candle
+Thaumcraft:blockCandle:13, Green Tallow Candle
+Thaumcraft:blockCandle:14, Red Tallow Candle
+Thaumcraft:blockCandle:15, Black Tallow Candle
+Thaumcraft:blockEldritch:4, Glowing Crusted Stone
+Thaumcraft:blockAiry:0, Aura Node
+Thaumcraft:blockManaPod, tile.blockManaPod.name
+Thaumcraft:blockArcaneFurnace, Infernal Furnace
+Thaumcraft:blockWarded, tile.blockWarded.name
+Thaumcraft:blockHole, Empty Space
+Thaumcraft:blockPortalEldritch, Eldritch Portal
+Thaumcraft:blockEssentiaReservoir:0, Essentia Reservoir
+Thaumcraft:blockEldritchNothing, tile.blockPortalNothing.name
+Thaumcraft:blockStairsArcaneStone, Arcane Stone Stairs
+Thaumcraft:blockStairsGreatwood, Greatwood Stairs
+Thaumcraft:blockStairsSilverwood, Silverwood Stairs
+Thaumcraft:blockStairsEldritch, Ancient Stone Stairs
+Thaumcraft:blockCosmeticSlabWood:0, Greatwood Slab
+Thaumcraft:blockCosmeticSlabWood:1, Silverwood Slab
+Thaumcraft:blockCosmeticSlabStone:0, Arcane Stone Slab
+Thaumcraft:blockCosmeticSlabStone:1, Ancient Stone Slab
+Thaumcraft:blockCosmeticDoubleSlabWood, tile.blockCosmeticDoubleSlabWood.name
+Thaumcraft:blockCosmeticDoubleSlabStone, tile.blockCosmeticDoubleSlabStone.name
+Thaumcraft:blockLootUrn:0, Old Urn
+Thaumcraft:blockLootUrn:1, Old Urn
+Thaumcraft:blockLootUrn:2, Old Urn
+Thaumcraft:blockLootCrate:0, Abandoned Crate
+Thaumcraft:blockLootCrate:1, Abandoned Crate
+Thaumcraft:blockLootCrate:2, Abandoned Crate
 Avaritia:Double_Craft, Compressed Crafting Table
 Avaritia:Triple_Craft, Double Compressed Crafting Table
 Avaritia:Dire_Crafting, Dire Crafting Table
@@ -752,6 +998,168 @@ DraconicEvolution:chaosCrystal, Chaos Crystal
 DraconicEvolution:upgradeModifier, Upgrade Modifier
 DraconicEvolution:longRangeDislocator:1, Admin Dislocator
 DraconicEvolution:chaosShardAtmos, tile.draconicevolution:chaosShardAtmos.name
+Mekanism:BasicBlock:0, Osmium Block
+Mekanism:BasicBlock:1, Bronze Block
+Mekanism:BasicBlock:2, Refined Obsidian
+Mekanism:BasicBlock:3, Charcoal Block
+Mekanism:BasicBlock:4, Refined Glowstone
+Mekanism:BasicBlock:5, Steel Block
+Mekanism:BasicBlock:6, Basic Bin
+Mekanism:BasicBlock:6, Advanced Bin
+Mekanism:BasicBlock:6, Elite Bin
+Mekanism:BasicBlock:6, Ultimate Bin
+Mekanism:BasicBlock:7, Teleporter Frame
+Mekanism:BasicBlock:8, Steel Casing
+Mekanism:BasicBlock:9, Dynamic Tank
+Mekanism:BasicBlock:10, Structural Glass
+Mekanism:BasicBlock:11, Dynamic Valve
+Mekanism:BasicBlock:12, Copper Block
+Mekanism:BasicBlock:13, Tin Block
+Mekanism:BasicBlock:14, Thermal Evaporation Controller
+Mekanism:BasicBlock:15, Thermal Evaporation Valve
+Mekanism:BasicBlock2:0, Thermal Evaporation Block
+Mekanism:BasicBlock2:1, Induction Casing
+Mekanism:BasicBlock2:2, Induction Port
+Mekanism:BasicBlock2:3, Basic Induction Cell
+Mekanism:BasicBlock2:3, Advanced Induction Cell
+Mekanism:BasicBlock2:3, Elite Induction Cell
+Mekanism:BasicBlock2:3, Ultimate Induction Cell
+Mekanism:BasicBlock2:4, Basic Induction Provider
+Mekanism:BasicBlock2:4, Advanced Induction Provider
+Mekanism:BasicBlock2:4, Elite Induction Provider
+Mekanism:BasicBlock2:4, Ultimate Induction Provider
+Mekanism:BasicBlock2:5, Superheating Element
+Mekanism:BasicBlock2:6, Pressure Disperser
+Mekanism:BasicBlock2:7, Boiler Casing
+Mekanism:BasicBlock2:8, Boiler Valve
+Mekanism:BasicBlock2:9, Security Desk
+Mekanism:OreBlock:0, Osmium Ore
+Mekanism:OreBlock:1, Copper Ore
+Mekanism:OreBlock:2, Tin Ore
+Mekanism:EnergyCube, tile.EnergyCube.name
+Mekanism:ObsidianTNT, Obsidian TNT
+Mekanism:BoundingBlock, Bounding Block
+Mekanism:GasTank:0, Basic Gas Tank
+Mekanism:GasTank:0, Advanced Gas Tank
+Mekanism:GasTank:0, Elite Gas Tank
+Mekanism:GasTank:0, Ultimate Gas Tank
+Mekanism:CardboardBox, Cardboard Box
+Mekanism:PlasticBlock:0, §8Black Plastic Block
+Mekanism:PlasticBlock:1, §cRed Plastic Block
+Mekanism:PlasticBlock:2, §2Green Plastic Block
+Mekanism:PlasticBlock:3, §6Brown Plastic Block
+Mekanism:PlasticBlock:4, §1Blue Plastic Block
+Mekanism:PlasticBlock:5, §5Purple Plastic Block
+Mekanism:PlasticBlock:6, §3Cyan Plastic Block
+Mekanism:PlasticBlock:7, §7Light Grey Plastic Block
+Mekanism:PlasticBlock:8, §8Grey Plastic Block
+Mekanism:PlasticBlock:9, §dPink Plastic Block
+Mekanism:PlasticBlock:10, §aLime Plastic Block
+Mekanism:PlasticBlock:11, §eYellow Plastic Block
+Mekanism:PlasticBlock:12, §9Light Blue Plastic Block
+Mekanism:PlasticBlock:13, §dMagenta Plastic Block
+Mekanism:PlasticBlock:14, §6Orange Plastic Block
+Mekanism:PlasticBlock:15, §fWhite Plastic Block
+Mekanism:SlickPlasticBlock:0, §8Black Slick Plastic Block
+Mekanism:SlickPlasticBlock:1, §cRed Slick Plastic Block
+Mekanism:SlickPlasticBlock:2, §2Green Slick Plastic Block
+Mekanism:SlickPlasticBlock:3, §6Brown Slick Plastic Block
+Mekanism:SlickPlasticBlock:4, §1Blue Slick Plastic Block
+Mekanism:SlickPlasticBlock:5, §5Purple Slick Plastic Block
+Mekanism:SlickPlasticBlock:6, §3Cyan Slick Plastic Block
+Mekanism:SlickPlasticBlock:7, §7Light Grey Slick Plastic Block
+Mekanism:SlickPlasticBlock:8, §8Grey Slick Plastic Block
+Mekanism:SlickPlasticBlock:9, §dPink Slick Plastic Block
+Mekanism:SlickPlasticBlock:10, §aLime Slick Plastic Block
+Mekanism:SlickPlasticBlock:11, §eYellow Slick Plastic Block
+Mekanism:SlickPlasticBlock:12, §9Light Blue Slick Plastic Block
+Mekanism:SlickPlasticBlock:13, §dMagenta Slick Plastic Block
+Mekanism:SlickPlasticBlock:14, §6Orange Slick Plastic Block
+Mekanism:SlickPlasticBlock:15, §fWhite Slick Plastic Block
+Mekanism:GlowPlasticBlock:0, §8Black Plastic Glow Block
+Mekanism:GlowPlasticBlock:1, §cRed Plastic Glow Block
+Mekanism:GlowPlasticBlock:2, §2Green Plastic Glow Block
+Mekanism:GlowPlasticBlock:3, §6Brown Plastic Glow Block
+Mekanism:GlowPlasticBlock:4, §1Blue Plastic Glow Block
+Mekanism:GlowPlasticBlock:5, §5Purple Plastic Glow Block
+Mekanism:GlowPlasticBlock:6, §3Cyan Plastic Glow Block
+Mekanism:GlowPlasticBlock:7, §7Light Grey Plastic Glow Block
+Mekanism:GlowPlasticBlock:8, §8Grey Plastic Glow Block
+Mekanism:GlowPlasticBlock:9, §dPink Plastic Glow Block
+Mekanism:GlowPlasticBlock:10, §aLime Plastic Glow Block
+Mekanism:GlowPlasticBlock:11, §eYellow Plastic Glow Block
+Mekanism:GlowPlasticBlock:12, §9Light Blue Plastic Glow Block
+Mekanism:GlowPlasticBlock:13, §dMagenta Plastic Glow Block
+Mekanism:GlowPlasticBlock:14, §6Orange Plastic Glow Block
+Mekanism:GlowPlasticBlock:15, §fWhite Plastic Glow Block
+Mekanism:ReinforcedPlasticBlock:0, §8Black Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:1, §cRed Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:2, §2Green Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:3, §6Brown Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:4, §1Blue Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:5, §5Purple Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:6, §3Cyan Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:7, §7Light Grey Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:8, §8Grey Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:9, §dPink Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:10, §aLime Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:11, §eYellow Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:12, §9Light Blue Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:13, §dMagenta Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:14, §6Orange Reinforced Plastic Block
+Mekanism:ReinforcedPlasticBlock:15, §fWhite Reinforced Plastic Block
+Mekanism:RoadPlasticBlock:0, §8Black Plastic Road
+Mekanism:RoadPlasticBlock:1, §cRed Plastic Road
+Mekanism:RoadPlasticBlock:2, §2Green Plastic Road
+Mekanism:RoadPlasticBlock:3, §6Brown Plastic Road
+Mekanism:RoadPlasticBlock:4, §1Blue Plastic Road
+Mekanism:RoadPlasticBlock:5, §5Purple Plastic Road
+Mekanism:RoadPlasticBlock:6, §3Cyan Plastic Road
+Mekanism:RoadPlasticBlock:7, §7Light Grey Plastic Road
+Mekanism:RoadPlasticBlock:8, §8Grey Plastic Road
+Mekanism:RoadPlasticBlock:9, §dPink Plastic Road
+Mekanism:RoadPlasticBlock:10, §aLime Plastic Road
+Mekanism:RoadPlasticBlock:11, §eYellow Plastic Road
+Mekanism:RoadPlasticBlock:12, §9Light Blue Plastic Road
+Mekanism:RoadPlasticBlock:13, §dMagenta Plastic Road
+Mekanism:RoadPlasticBlock:14, §6Orange Plastic Road
+Mekanism:RoadPlasticBlock:15, §fWhite Plastic Road
+Mekanism:PlasticFence:0, §8Black Plastic Barrier
+Mekanism:PlasticFence:1, §cRed Plastic Barrier
+Mekanism:PlasticFence:2, §2Green Plastic Barrier
+Mekanism:PlasticFence:3, §6Brown Plastic Barrier
+Mekanism:PlasticFence:4, §1Blue Plastic Barrier
+Mekanism:PlasticFence:5, §5Purple Plastic Barrier
+Mekanism:PlasticFence:6, §3Cyan Plastic Barrier
+Mekanism:PlasticFence:7, §7Light Grey Plastic Barrier
+Mekanism:PlasticFence:8, §8Grey Plastic Barrier
+Mekanism:PlasticFence:9, §dPink Plastic Barrier
+Mekanism:PlasticFence:10, §aLime Plastic Barrier
+Mekanism:PlasticFence:11, §eYellow Plastic Barrier
+Mekanism:PlasticFence:12, §9Light Blue Plastic Barrier
+Mekanism:PlasticFence:13, §dMagenta Plastic Barrier
+Mekanism:PlasticFence:14, §6Orange Plastic Barrier
+Mekanism:PlasticFence:15, §fWhite Plastic Barrier
+Mekanism:SaltBlock, Salt Block
+MekanismGenerators:Generator:0, Heat Generator
+MekanismGenerators:Generator:1, Solar Generator
+MekanismGenerators:Generator:3, Gas-Burning Generator
+MekanismGenerators:Generator:4, Bio-Generator
+MekanismGenerators:Generator:5, Advanced Solar Generator
+MekanismGenerators:Generator:6, Wind Generator
+MekanismGenerators:Generator:7, Turbine Rotor
+MekanismGenerators:Generator:8, Rotational Complex
+MekanismGenerators:Generator:9, Electromagnetic Coil
+MekanismGenerators:Generator:10, Turbine Casing
+MekanismGenerators:Generator:11, Turbine Valve
+MekanismGenerators:Generator:12, Turbine Vent
+MekanismGenerators:Generator:13, Saturating Condenser
+MekanismGenerators:Reactor:0, Reactor Controller
+MekanismGenerators:Reactor:1, Reactor Frame
+MekanismGenerators:Reactor:3, Reactor Port
+MekanismGenerators:Reactor:4, Reactor Logic Adapter
+MekanismGenerators:ReactorGlass:0, Reactor Glass
+MekanismGenerators:ReactorGlass:1, Laser Focus Matrix
 neenergistics:tile.pattern_interface, Pattern Interface
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
@@ -940,6 +1348,28 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluix Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Certus Quartz Slabs
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Certus Quartz Pillar Slabs
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blood Rune
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Augmented Capacity
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Dislocation
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of the Orb
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Superior Capacity
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Acceleration
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Speed Rune
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Efficiency Rune
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Sacrifice
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rune of Self-Sacrifice
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Ritual Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Imperfect Ritual Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Soul Armour Forge
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bloodstone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Large Bloodstone Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Cluster
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Cluster Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyph of the Adept Enchanter
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyph of Arcane Potential
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyph of Rigid Stability
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Greatwood Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Silverwood Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
@@ -953,6 +1383,90 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Energy Pylon
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Awakened Draconium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Infused Obsidian
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Admin Dislocator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Osmium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Black Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §cRed Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §2Green Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Brown Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §1Blue Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §5Purple Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §3Cyan Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §7Light Grey Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Grey Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dPink Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §aLime Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §eYellow Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §9Light Blue Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Black Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §cRed Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §2Green Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Brown Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §1Blue Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §5Purple Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §3Cyan Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §7Light Grey Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Grey Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dPink Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §aLime Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §eYellow Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §9Light Blue Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Slick Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Black Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §cRed Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §2Green Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Brown Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §1Blue Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §5Purple Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §3Cyan Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §7Light Grey Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Grey Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dPink Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §aLime Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §eYellow Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §9Light Blue Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Plastic Glow Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Black Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §cRed Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §2Green Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Brown Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §1Blue Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §5Purple Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §3Cyan Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §7Light Grey Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Grey Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dPink Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §aLime Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §eYellow Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §9Light Blue Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Reinforced Plastic Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Black Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §cRed Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §2Green Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Brown Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §1Blue Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §5Purple Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §3Cyan Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §7Light Grey Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §8Grey Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dPink Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §aLime Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §eYellow Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §9Light Blue Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §dMagenta Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Plastic Road
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Salt Block
 appliedenergistics2:item.ItemCrystalSeed:0, Certus Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:600, Nether Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:1200, Fluix Seed
@@ -1041,7 +1555,6 @@ appliedenergistics2:item.ItemMultiMaterial:9, Fluix Pearl
 appliedenergistics2:item.ItemMultiMaterial:43, Formation Core
 appliedenergistics2:item.ItemMultiMaterial:51, Gold Dust
 appliedenergistics2:item.ItemMultiMaterial:49, Iron Dust
-appliedenergistics2:item.ItemMultiMaterial:50, Iron Nugget
 appliedenergistics2:item.ItemMultiMaterial:22, Logic Processor
 appliedenergistics2:item.ItemMultiMaterial:15, Inscriber Logic Press
 appliedenergistics2:item.ItemMultiMaterial:18, Printed Logic Circuit
@@ -1232,6 +1745,478 @@ AgriCraft:handRake:0, Wooden Hand Rake
 AgriCraft:handRake:1, Iron Hand Rake
 AgriCraft:clipper, Clipper
 AgriCraft:clipping, Clipping
+AWWayofTime:weakBloodOrb, Weak Blood Orb
+AWWayofTime:apprenticeBloodOrb, Apprentice Blood Orb
+AWWayofTime:magicianBloodOrb, Magician's Blood Orb
+AWWayofTime:energyBlaster, Energy Blaster
+AWWayofTime:energySword, Bound Blade
+AWWayofTime:lavaCrystal, Lava Crystal
+AWWayofTime:waterSigil, Water Sigil
+AWWayofTime:lavaSigil, Lava Sigil
+AWWayofTime:voidSigil, Void Sigil
+AWWayofTime:blankSlate, Blank Slate
+AWWayofTime:reinforcedSlate, Reinforced Slate
+AWWayofTime:sacrificialKnife, Sacrificial Knife
+AWWayofTime:daggerOfSacrifice, Dagger of Sacrifice
+AWWayofTime:airSigil, Air Sigil
+AWWayofTime:sigilOfTheFastMiner, Sigil of the Fast Miner
+AWWayofTime:sigilOfElementalAffinity, Sigil of Elemental Affinity
+AWWayofTime:sigilOfHaste, Sigil of Haste
+AWWayofTime:sigilOfHolding, Sigil of Holding
+AWWayofTime:divinationSigil, Divination Sigil
+AWWayofTime:waterScribeTool, Elemental Inscription Tool: Water
+AWWayofTime:fireScribeTool, Elemental Inscription Tool: Fire
+AWWayofTime:earthScribeTool, Elemental Inscription Tool: Earth
+AWWayofTime:airScribeTool, Elemental Inscription Tool: Air
+AWWayofTime:activationCrystal:0, Weak Activation Crystal
+AWWayofTime:activationCrystal:1, Awakened Activation Crystal
+AWWayofTime:activationCrystal:2, Creative Activation Crystal
+AWWayofTime:boundPickaxe, Bound Pickaxe
+AWWayofTime:boundAxe, Bound Axe
+AWWayofTime:boundShovel, Bound Shovel
+AWWayofTime:boundHelmet, Bound Helmet
+AWWayofTime:boundPlate, Bound Plate
+AWWayofTime:boundLeggings, Bound Leggings
+AWWayofTime:boundBoots, Bound Boots
+AWWayofTime:weakBloodShard, Weak Blood Shard
+AWWayofTime:growthSigil, Sigil of the Green Grove
+AWWayofTime:blankSpell, Unbound Crystal
+AWWayofTime:masterBloodOrb, Master Blood Orb
+AWWayofTime:alchemyFlask, Potion Flask
+AWWayofTime:standardBindingAgent, Standard Binding Agent
+AWWayofTime:mundanePowerCatalyst, Mundane Power Catalyst
+AWWayofTime:averagePowerCatalyst, Average Power Catalyst
+AWWayofTime:greaterPowerCatalyst, Greater Power Catalyst
+AWWayofTime:mundaneLengtheningCatalyst, Mundane Lengthening Catalyst
+AWWayofTime:averageLengtheningCatalyst, Average Lengthening Catalyst
+AWWayofTime:greaterLengtheningCatalyst, Greater Lengthening Catalyst
+AWWayofTime:incendium, Incendium
+AWWayofTime:magicales, Magicales
+AWWayofTime:sanctus, Sanctus
+AWWayofTime:aether, Aether
+AWWayofTime:simpleCatalyst, Simple Catalyst
+AWWayofTime:crepitous, Crepitous
+AWWayofTime:crystallos, Crystallos
+AWWayofTime:terrae, Terrae
+AWWayofTime:aquasalus, Aquasalus
+AWWayofTime:tennebrae, Tenebrae
+AWWayofTime:demonBloodShard, Demon Blood Shard
+AWWayofTime:archmageBloodOrb, Archmage's Blood Orb
+AWWayofTime:transcendentBloodOrb, Transcendent Blood Orb
+AWWayofTime:sigilOfWind, Sigil of the Whirlwind
+AWWayofTime:telepositionFocus, Teleposition Focus
+AWWayofTime:enhancedTelepositionFocus, Enhanced Teleposition Focus
+AWWayofTime:reinforcedTelepositionFocus, Reinforced Teleposition Focus
+AWWayofTime:demonicTelepositionFocus, Demonic Teleposition Focus
+AWWayofTime:imbuedSlate, Imbued Slate
+AWWayofTime:demonicSlate, Demonic Slate
+AWWayofTime:duskScribeTool, Elemental Inscription Tool: Dusk
+AWWayofTime:sigilOfTheBridge, Sigil of the Phantom Bridge
+AWWayofTime:armourInhibitor, Armour Inhibitor
+AWWayofTime:creativeFiller, Orb of Testing
+AWWayofTime:demonPlacer:0, Demon Crystal
+AWWayofTime:creativeDagger, Creative Sacrificial Knife
+AWWayofTime:weakFillingAgent, Weak Filling Agent
+AWWayofTime:standardFillingAgent, Standard Filling Agent
+AWWayofTime:enhancedFillingAgent, Enhanced Filling Agent
+AWWayofTime:weakBindingAgent, Weak Binding Agent
+AWWayofTime:itemRitualDiviner:0, Ritual Diviner
+AWWayofTime:itemRitualDiviner:1, Ritual Diviner
+AWWayofTime:itemRitualDiviner:2, Ritual Diviner
+AWWayofTime:sigilOfMagnetism, Sigil of Magnetism
+AWWayofTime:itemKeyOfDiablo:0, Key of Binding
+AWWayofTime:itemKeyOfDiablo:0, Key of Binding
+AWWayofTime:energyBazooka, Energy Bazooka
+AWWayofTime:itemBloodLightSigil, Sigil of the Blood Lamp
+AWWayofTime:itemComplexSpellCrystal, Complex Spell Crystal
+AWWayofTime:sigilOfSupression, Sigil of Supression
+AWWayofTime:sigilOfEnderSeverance, Sigil of Ender Severance
+AWWayofTime:fluidSigil, 
+AWWayofTime:seerSigil, Sigil of Sight
+AWWayofTime:customTool, Dynamic Mace
+AWWayofTime:bucketLife, Bucket of Life
+AWWayofTime:itemCombinationalCatalyst, Combinational Catalyst
+AWWayofTime:itemAttunedCrystal:0, Alchemic Router
+AWWayofTime:itemTankSegmenter:0, Alchemic Segmenter
+AWWayofTime:itemDestinationClearer, Alchemic Cleanser
+AWWayofTime:bloodMagicBaseItems:0, Quartz Rod
+AWWayofTime:bloodMagicBaseItems:1, Empty Core
+AWWayofTime:bloodMagicBaseItems:2, Magicales Cable
+AWWayofTime:bloodMagicBaseItems:3, Wooden Brace
+AWWayofTime:bloodMagicBaseItems:4, Stone Brace
+AWWayofTime:bloodMagicBaseItems:5, Projectile Core
+AWWayofTime:bloodMagicBaseItems:6, Self Core
+AWWayofTime:bloodMagicBaseItems:7, Melee Core
+AWWayofTime:bloodMagicBaseItems:8, Paradigm Plate
+AWWayofTime:bloodMagicBaseItems:9, Output Spell Cable
+AWWayofTime:bloodMagicBaseItems:10, Fire Core
+AWWayofTime:bloodMagicBaseItems:11, Icy Core
+AWWayofTime:bloodMagicBaseItems:12, Gusty Core
+AWWayofTime:bloodMagicBaseItems:13, Earthen Core
+AWWayofTime:bloodMagicBaseItems:14, Input Spell Cable
+AWWayofTime:bloodMagicBaseItems:15, Cracked Runic Plate
+AWWayofTime:bloodMagicBaseItems:16, Runic Plate
+AWWayofTime:bloodMagicBaseItems:17, Imbued Runic Plate
+AWWayofTime:bloodMagicBaseItems:18, Unattuned Core
+AWWayofTime:bloodMagicBaseItems:19, Offensive Core
+AWWayofTime:bloodMagicBaseItems:20, Defensive Core
+AWWayofTime:bloodMagicBaseItems:21, Environmental Core
+AWWayofTime:bloodMagicBaseItems:22, Power Core
+AWWayofTime:bloodMagicBaseItems:23, Reduction Core
+AWWayofTime:bloodMagicBaseItems:24, Potency Core
+AWWayofTime:bloodMagicBaseItems:25, Obsidian Brace
+AWWayofTime:bloodMagicBaseItems:26, Tool Core
+AWWayofTime:bloodMagicBaseItems:27, Ethereal Slate
+AWWayofTime:bloodMagicBaseItems:28, Life Shard
+AWWayofTime:bloodMagicBaseItems:29, Soul Shard
+AWWayofTime:bloodMagicBaseItems:30, Soul Runic Plate
+AWWayofTime:bloodMagicBaseItems:31, Living Brace
+AWWayofTime:bloodMagicBaseItems:32, Ender Shard
+AWWayofTime:bloodMagicBaseAlchemyItems:0, Offensa
+AWWayofTime:bloodMagicBaseAlchemyItems:1, Praesidium
+AWWayofTime:bloodMagicBaseAlchemyItems:2, Orbis Terrae
+AWWayofTime:bloodMagicBaseAlchemyItems:3, Strengthened Catalyst
+AWWayofTime:bloodMagicBaseAlchemyItems:4, Concentrated Catalyst
+AWWayofTime:bloodMagicBaseAlchemyItems:5, Fractured Bone
+AWWayofTime:bloodMagicBaseAlchemyItems:6, Virtus
+AWWayofTime:bloodMagicBaseAlchemyItems:7, Reductus
+AWWayofTime:bloodMagicBaseAlchemyItems:8, Potentia
+AWWayofTime:dawnScribeTool, Elemental Inscription Tool: Dawn
+AWWayofTime:itemBloodPack, Blood Letter's Pack
+AWWayofTime:itemHarvestSigil, Harvest Goddess Sigil
+AWWayofTime:itemCompressionSigil, Sigil of Compression
+AWWayofTime:itemAssassinSigil, Sigil of the Assassin
+AWWayofTime:boundHelmetWater, Water Omega Helmet
+AWWayofTime:boundPlateWater, Water Omega Plate
+AWWayofTime:boundLeggingsWater, Water Omega Leggings
+AWWayofTime:boundBootsWater, Water Omega Boots
+AWWayofTime:boundHelmetEarth, Earth Omega Helmet
+AWWayofTime:boundPlateEarth, Earth Omega Plate
+AWWayofTime:boundLeggingsEarth, Earth Omega Leggings
+AWWayofTime:boundBootsEarth, Earth Omega Boots
+AWWayofTime:boundHelmetWind, Wind Omega Helmet
+AWWayofTime:boundPlateWind, Wind Omega Plate
+AWWayofTime:boundLeggingsWind, Wind Omega Leggings
+AWWayofTime:boundBootsWind, Wind Omega Boots
+AWWayofTime:boundHelmetFire, Fire Omega Helmet
+AWWayofTime:boundPlateFire, Fire Omega Plate
+AWWayofTime:boundLeggingsFire, Fire Omega Leggings
+AWWayofTime:boundBootsFire, Fire Omega Boots
+AWWayofTime:inputRoutingFocus, Input Routing Focus
+AWWayofTime:outputRoutingFocus, item.outputRoutingFocus.name
+AWWayofTime:bloodMagicIncenseItem:0, Wood Ash
+AWWayofTime:bloodMagicIncenseItem:1, Byrrus
+AWWayofTime:bloodMagicIncenseItem:2, Livens
+AWWayofTime:bloodMagicIncenseItem:3, Viridis
+AWWayofTime:bloodMagicIncenseItem:4, Purpura
+AWWayofTime:ritualDismantler, Ritual Dismantler
+Baubles:Ring:0, Miner's Ring
+Thaumcraft:WandCasting:0, Iron Capped Wooden Wand
+Thaumcraft:WandCasting:9, Gold Banded Greatwood Wand
+Thaumcraft:WandCasting:54, Thaumium Bossed Silverwood Wand
+Thaumcraft:WandCasting:128, Thaumium Bossed Silverwood Scepter
+Thaumcraft:WandCap:0, Iron Cap
+Thaumcraft:WandCap:1, Gold Cap
+Thaumcraft:WandCap:2, Charged Thaumium Cap
+Thaumcraft:WandCap:6, Inert Thaumium Cap
+Thaumcraft:WandCap:7, Charged Void metal Cap
+Thaumcraft:WandCap:8, Inert Void metal Cap
+Thaumcraft:WandRod:0, Greatwood Rod
+Thaumcraft:WandRod:1, Obsidian Rod
+Thaumcraft:WandRod:2, Silverwood Rod
+Thaumcraft:WandRod:3, Icy Rod
+Thaumcraft:WandRod:4, Quartz Rod
+Thaumcraft:WandRod:5, Reed Rod
+Thaumcraft:WandRod:6, Blazing Rod
+Thaumcraft:WandRod:7, Bone Rod
+Thaumcraft:WandRod:50, Greatwood Staff Core
+Thaumcraft:WandRod:51, Obsidian Staff Core
+Thaumcraft:WandRod:52, Silverwood Staff Core
+Thaumcraft:WandRod:53, Icy Staff Core
+Thaumcraft:WandRod:54, Quartz Staff Core
+Thaumcraft:WandRod:55, Reed Staff Core
+Thaumcraft:WandRod:56, Blazing Staff Core
+Thaumcraft:WandRod:57, Bone Staff Core
+Thaumcraft:WandRod:100, Staff Core of the Primal
+Thaumcraft:FocusPouch, Focus Pouch
+Thaumcraft:FocusFire, Wand Focus: Fire
+Thaumcraft:FocusShock, Wand Focus: Shock
+Thaumcraft:FocusHellbat, Wand Focus: Nine Hells
+Thaumcraft:FocusFrost, Wand Focus: Frost
+Thaumcraft:FocusTrade, Wand Focus: Equal Trade 
+Thaumcraft:FocusExcavation, Wand Focus: Excavation
+Thaumcraft:FocusPortableHole, Wand Focus: Portable Hole
+Thaumcraft:FocusPech, Wand Focus: Pech's Curse
+Thaumcraft:FocusWarding, Wand Focus: Warding
+Thaumcraft:FocusPrimal, Wand Focus: Primal
+Thaumcraft:ItemEssence:0, Glass Phial
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemEssence:1, Phial of Essentia
+Thaumcraft:ItemManaBean:0, Mana Bean
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemWispEssence:0, Ethereal Essence
+Thaumcraft:ItemResource:0, Alumentum
+Thaumcraft:ItemResource:1, Nitor
+Thaumcraft:ItemResource:2, Thaumium Ingot
+Thaumcraft:ItemResource:3, Quicksilver
+Thaumcraft:ItemResource:4, Magic Tallow
+Thaumcraft:ItemResource:6, Amber
+Thaumcraft:ItemResource:7, Enchanted Fabric
+Thaumcraft:ItemResource:8, Vis Filter
+Thaumcraft:ItemResource:9, Knowledge Fragment
+Thaumcraft:ItemResource:10, Mirrored Glass
+Thaumcraft:ItemResource:11, Tainted Goo
+Thaumcraft:ItemResource:12, Taint Tendril
+Thaumcraft:ItemResource:13, Jar Label
+Thaumcraft:ItemResource:14, Salis Mundus
+Thaumcraft:ItemResource:15, Primal Charm
+Thaumcraft:ItemResource:16, Void metal Ingot
+Thaumcraft:ItemResource:17, Void Seed
+Thaumcraft:ItemResource:18, Gold Coin
+Thaumcraft:ItemShard:0, Air Shard
+Thaumcraft:ItemShard:1, Fire Shard
+Thaumcraft:ItemShard:2, Water Shard
+Thaumcraft:ItemShard:3, Earth Shard
+Thaumcraft:ItemShard:4, Order Shard
+Thaumcraft:ItemShard:5, Entropy Shard
+Thaumcraft:ItemShard:6, Balanced Shard
+Thaumcraft:ItemResearchNotes:0, Research Notes
+Thaumcraft:ItemInkwell, Scribing Tools
+Thaumcraft:ItemThaumonomicon:0, Thaumonomicon
+Thaumcraft:ItemThaumometer, Thaumometer
+Thaumcraft:ItemGoggles, Goggles of Revealing
+Thaumcraft:ItemHelmetThaumium, Thaumium Helm
+Thaumcraft:ItemChestplateThaumium, Thaumium Chestplate
+Thaumcraft:ItemLeggingsThaumium, Thaumium Leggings
+Thaumcraft:ItemBootsThaumium, Thaumium Boots
+Thaumcraft:ItemShovelThaumium, Thaumium Shovel
+Thaumcraft:ItemPickThaumium, Thaumium Pickaxe
+Thaumcraft:ItemAxeThaumium, Thaumium Axe
+Thaumcraft:ItemSwordThaumium, Thaumium Sword
+Thaumcraft:ItemHoeThaumium, Thaumium Hoe
+Thaumcraft:ItemArcaneDoor, Arcane Door
+Thaumcraft:ItemNugget:0, Iron Nugget
+Thaumcraft:ItemNugget:5, Quicksilver Drop
+Thaumcraft:ItemNugget:21, Native Cinnabar Cluster
+Thaumcraft:ItemNugget:6, Thaumium Nugget
+Thaumcraft:ItemNugget:7, Void metal Nugget
+Thaumcraft:ItemNugget:16, Native Iron Cluster
+Thaumcraft:ItemNugget:31, Native Gold Cluster
+Thaumcraft:BootsTraveller, Boots of the Traveler
+Thaumcraft:ItemNuggetChicken, Chicken Nugget
+Thaumcraft:ItemNuggetBeef, Beef Nugget
+Thaumcraft:ItemNuggetPork, Pork Nugget
+Thaumcraft:ItemNuggetFish, Fish Nugget
+Thaumcraft:TripleMeatTreat, Triple Meat Treat
+Thaumcraft:ItemSwordElemental, Sword of the Zephyr
+Thaumcraft:ItemShovelElemental, Shovel of the Earthmover
+Thaumcraft:ItemPickaxeElemental, Pickaxe of the Core
+Thaumcraft:ItemAxeElemental, Axe of the Stream
+Thaumcraft:ItemHoeElemental, Hoe of Growth
+Thaumcraft:ItemChestplateRobe, Thaumaturge's Robe
+Thaumcraft:ItemLeggingsRobe, Thaumaturge's Leggings
+Thaumcraft:ItemBootsRobe, Thaumaturge's Boots
+Thaumcraft:ArcaneDoorKey:0, Iron Arcane Key
+Thaumcraft:ArcaneDoorKey:1, Gold Arcane Key
+Thaumcraft:HandMirror, Magic Hand Mirror
+Thaumcraft:HoverHarness, Thaumostatic Harness
+Thaumcraft:BlockJarFilledItem, Jar of Essentia
+Thaumcraft:BlockJarNodeItem, Node in a Jar
+Thaumcraft:TrunkSpawner:0, Traveling Trunk
+Thaumcraft:ItemGolemPlacer:0, Straw Golem
+Thaumcraft:ItemGolemPlacer:1, Wood Golem
+Thaumcraft:ItemGolemPlacer:2, Tallow Golem
+Thaumcraft:ItemGolemPlacer:3, Clay Golem
+Thaumcraft:ItemGolemPlacer:4, Flesh Golem
+Thaumcraft:ItemGolemPlacer:5, Stone Golem
+Thaumcraft:ItemGolemPlacer:6, Iron Golem
+Thaumcraft:ItemGolemPlacer:7, Thaumium Golem
+Thaumcraft:ItemGolemCore:100, Golem Animation Core
+Thaumcraft:ItemGolemCore:0, Golem Animation Core
+Thaumcraft:ItemGolemCore:1, Golem Animation Core
+Thaumcraft:ItemGolemCore:2, Golem Animation Core
+Thaumcraft:ItemGolemCore:3, Golem Animation Core
+Thaumcraft:ItemGolemCore:4, Golem Animation Core
+Thaumcraft:ItemGolemCore:5, Golem Animation Core
+Thaumcraft:ItemGolemCore:6, Golem Animation Core
+Thaumcraft:ItemGolemCore:7, Golem Animation Core
+Thaumcraft:ItemGolemCore:8, Golem Animation Core
+Thaumcraft:ItemGolemCore:9, Golem Animation Core
+Thaumcraft:ItemGolemCore:10, Golem Animation Core
+Thaumcraft:ItemGolemCore:11, Golem Animation Core
+Thaumcraft:ItemGolemUpgrade:0, Golem Upgrade: Air
+Thaumcraft:ItemGolemUpgrade:1, Golem Upgrade: Earth
+Thaumcraft:ItemGolemUpgrade:2, Golem Upgrade: Fire
+Thaumcraft:ItemGolemUpgrade:3, Golem Upgrade: Water
+Thaumcraft:ItemGolemUpgrade:4, Golem Upgrade: Order
+Thaumcraft:ItemGolemUpgrade:5, Golem Upgrade: Entropy
+Thaumcraft:GolemBell, Golemancer's Bell
+Thaumcraft:ItemGolemDecoration:0, Accessory: Top Hat
+Thaumcraft:ItemGolemDecoration:1, Accessory: Spectacles
+Thaumcraft:ItemGolemDecoration:2, Accessory: Bowtie
+Thaumcraft:ItemGolemDecoration:3, Accessory: Fez
+Thaumcraft:ItemGolemDecoration:4, Accessory: Dart Launcher
+Thaumcraft:ItemGolemDecoration:5, Accessory: Visor
+Thaumcraft:ItemGolemDecoration:6, Accessory: Iron Plating
+Thaumcraft:ItemGolemDecoration:7, Accessory: Mace Arm
+Thaumcraft:ItemBowBone, Bow of Bone
+Thaumcraft:PrimalArrow:0, Air Arrow
+Thaumcraft:PrimalArrow:1, Fire Arrow
+Thaumcraft:PrimalArrow:2, Water Arrow
+Thaumcraft:PrimalArrow:3, Earth Arrow
+Thaumcraft:PrimalArrow:4, Order Arrow
+Thaumcraft:PrimalArrow:5, Entropy Arrow
+Thaumcraft:ItemResonator, Essentia Resonator
+Thaumcraft:ItemBaubleBlanks:0, Mundane Amulet
+Thaumcraft:ItemBaubleBlanks:1, Mundane Ring
+Thaumcraft:ItemBaubleBlanks:2, Mundane Belt
+Thaumcraft:ItemAmuletRunic:0, Amulet of Runic Shielding
+Thaumcraft:ItemAmuletRunic:1, Amulet of Emergency Shielding
+Thaumcraft:ItemRingRunic:0, Ring of Protection
+Thaumcraft:ItemRingRunic:1, Ring of Runic Shielding
+Thaumcraft:ItemRingRunic:2, Charged Ring of Shielding
+Thaumcraft:ItemRingRunic:3, Revitalizing Ring of Shielding
+Thaumcraft:ItemGirdleRunic:0, Girdle of Runic Shielding
+Thaumcraft:ItemGirdleRunic:1, Kinetic Girdle of Shielding
+Thaumcraft:ItemAmuletVis:0, Vis Stone
+Thaumcraft:ItemAmuletVis:1, Amulet of Vis Storage
+Thaumcraft:ItemGirdleHover:0, Thaumostatic Girdle
+Thaumcraft:ItemZombieBrain, Zombie Brain
+Thaumcraft:ItemBathSalts, Purifying Bath Salts
+Thaumcraft:ItemCrystalEssence:0, Crystallized Essence
+Thaumcraft:ItemBucketDeath, Bucket of Liquid Death
+Thaumcraft:ItemBucketPure, Bucket of Purifying Fluid
+Thaumcraft:ItemHelmetFortress, Thaumium Fortress Helm
+Thaumcraft:ItemChestplateFortress, Thaumium Fortress Cuirass
+Thaumcraft:ItemLeggingsFortress, Thaumium Fortress Thigh Guards
+Thaumcraft:ItemEldritchObject:0, Eldritch Eye
+Thaumcraft:ItemEldritchObject:1, Crimson Rites
+Thaumcraft:ItemEldritchObject:2, Runed Tablet
+Thaumcraft:ItemEldritchObject:3, Primordial Pearl
+Thaumcraft:ItemEldritchObject:4, Eldritch Obelisk Placer
+Thaumcraft:ItemHelmetVoid, Void Helm
+Thaumcraft:ItemChestplateVoid, Void Chestplate
+Thaumcraft:ItemLeggingsVoid, Void Leggings
+Thaumcraft:ItemBootsVoid, Void Boots
+Thaumcraft:ItemShovelVoid, Void Shovel
+Thaumcraft:ItemPickVoid, Void Pickaxe
+Thaumcraft:ItemAxeVoid, Void Axe
+Thaumcraft:ItemSwordVoid, Void Sword
+Thaumcraft:ItemHoeVoid, Void Hoe
+Thaumcraft:ItemHelmetVoidFortress, Void Thaumaturge Hood
+Thaumcraft:ItemChestplateVoidFortress, Void Thaumaturge Robe
+Thaumcraft:ItemLeggingsVoidFortress, Void Thaumaturge Leggings
+Thaumcraft:ItemSanitySoap, Sanitizing Soap
+Thaumcraft:ItemSanityChecker, Sanity Checker
+Thaumcraft:ItemBottleTaint, Bottled Taint
+Thaumcraft:ItemHelmetCultistRobe, Crimson Cult Hood
+Thaumcraft:ItemChestplateCultistRobe, Crimson Cult Robe
+Thaumcraft:ItemLeggingsCultistRobe, Crimson Cult Leggings
+Thaumcraft:ItemBootsCultist, Crimson Cult Boots
+Thaumcraft:ItemHelmetCultistPlate, Crimson Cult Helm
+Thaumcraft:ItemChestplateCultistPlate, Crimson Cult Chestplate
+Thaumcraft:ItemLeggingsCultistPlate, Crimson Cult Greaves
+Thaumcraft:ItemHelmetCultistLeaderPlate, Crimson Praetor Helm
+Thaumcraft:ItemChestplateCultistLeaderPlate, Crimson Praetor Chestplate
+Thaumcraft:ItemLeggingsCultistLeaderPlate, Crimson Praetor Greaves
+Thaumcraft:ItemSwordCrimson, Crimson Blade
+Thaumcraft:ItemLootBag:0, Common Treasure
+Thaumcraft:ItemLootBag:1, Uncommon Treasure
+Thaumcraft:ItemLootBag:2, Rare Treasure
+Thaumcraft:ItemCompassStone:0, Sinister Lodestone
+Thaumcraft:ItemPrimalCrusher, Primal Crusher
 Avaritia:Resource:0, Diamond Lattice
 Avaritia:Resource:1, Crystal Matrix Ingot
 Avaritia:Resource:2, Pile of Cosmic Neutrons
@@ -1268,7 +2253,6 @@ Avaritia:Matter_Cluster, Matter Cluster
 Avaritia:Infinity_Bow, Longbow of the Heavens
 Avaritia:Infinity_Shovel, Planet Eater
 Avaritia:Infinity_Axe, Nature's Ruin
-Baubles:Ring:0, Miner's Ring
 DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
 DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
 DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
@@ -1337,8 +2321,239 @@ DraconicEvolution:chaosFragment:2, Large Chaos Fragment
 DraconicEvolution:magnet:0, Item Dislocator
 DraconicEvolution:magnet:1, Awakened Item Dislocator
 DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
+Mekanism:PartTransmitter:0, Basic Universal Cable
+Mekanism:PartTransmitter:1, Advanced Universal Cable
+Mekanism:PartTransmitter:2, Elite Universal Cable
+Mekanism:PartTransmitter:3, Ultimate Universal Cable
+Mekanism:PartTransmitter:4, Basic Mechanical Pipe
+Mekanism:PartTransmitter:5, Advanced Mechanical Pipe
+Mekanism:PartTransmitter:6, Elite Mechanical Pipe
+Mekanism:PartTransmitter:7, Ultimate Mechanical Pipe
+Mekanism:PartTransmitter:8, Basic Pressurized Tube
+Mekanism:PartTransmitter:9, Advanced Pressurized Tube
+Mekanism:PartTransmitter:10, Elite Pressurized Tube
+Mekanism:PartTransmitter:11, Ultimate Pressurized Tube
+Mekanism:PartTransmitter:12, Basic Logistical Transporter
+Mekanism:PartTransmitter:13, Advanced Logistical Transporter
+Mekanism:PartTransmitter:14, Elite Logistical Transporter
+Mekanism:PartTransmitter:15, Ultimate Logistical Transporter
+Mekanism:PartTransmitter:16, Restrictive Transporter
+Mekanism:PartTransmitter:17, Diversion Transporter
+Mekanism:PartTransmitter:18, Basic Thermodynamic Conductor
+Mekanism:PartTransmitter:19, Advanced Thermodynamic Conductor
+Mekanism:PartTransmitter:20, Elite Thermodynamic Conductor
+Mekanism:PartTransmitter:21, Ultimate Thermodynamic Conductor
+Mekanism:ElectricBow, Electric Bow
+Mekanism:Dust:0, Iron Dust
+Mekanism:Dust:1, Gold Dust
+Mekanism:Dust:2, Osmium Dust
+Mekanism:Dust:3, Copper Dust
+Mekanism:Dust:4, Tin Dust
+Mekanism:Dust:5, Silver Dust
+Mekanism:Dust:6, Lead Dust
+Mekanism:Ingot:0, Refined Obsidian Ingot
+Mekanism:Ingot:1, Osmium Ingot
+Mekanism:Ingot:2, Bronze Ingot
+Mekanism:Ingot:3, Glowstone Ingot
+Mekanism:Ingot:4, Steel Ingot
+Mekanism:Ingot:5, Copper Ingot
+Mekanism:Ingot:6, Tin Ingot
+Mekanism:Ingot:7, Lazuli Ingot
+Mekanism:EnergyTablet, Energy Tablet
+Mekanism:SpeedUpgrade, Speed Upgrade
+Mekanism:EnergyUpgrade, Energy Upgrade
+Mekanism:FilterUpgrade, Filter Upgrade
+Mekanism:MufflingUpgrade, Muffling Upgrade
+Mekanism:GasUpgrade, Gas Upgrade
+Mekanism:Robit, Robit
+Mekanism:AtomicDisassembler, Atomic Disassembler
+Mekanism:EnrichedAlloy, Enriched Alloy
+Mekanism:ReinforcedAlloy, Reinforced Alloy
+Mekanism:AtomicAlloy, Atomic Alloy
+Mekanism:ItemProxy, item.ItemProxy.name
+Mekanism:ControlCircuit:0, Basic Control Circuit
+Mekanism:ControlCircuit:1, Advanced Control Circuit
+Mekanism:ControlCircuit:2, Elite Control Circuit
+Mekanism:ControlCircuit:3, Ultimate Control Circuit
+Mekanism:EnrichedIron, Enriched Iron
+Mekanism:CompressedCarbon, Compressed Carbon
+Mekanism:CompressedRedstone, Compressed Redstone
+Mekanism:CompressedDiamond, Compressed Diamond
+Mekanism:CompressedObsidian, Compressed Obsidian
+Mekanism:CompressedEnder, Compressed Ender Amethyst
+Mekanism:PortableTeleporter, Portable Teleporter
+Mekanism:TeleportationCore, Teleportation Core
+Mekanism:Clump:0, Iron Clump
+Mekanism:Clump:1, Gold Clump
+Mekanism:Clump:2, Osmium Clump
+Mekanism:Clump:3, Copper Clump
+Mekanism:Clump:4, Tin Clump
+Mekanism:Clump:5, Silver Clump
+Mekanism:Clump:6, Lead Clump
+Mekanism:DirtyDust:0, Dirty Iron Dust
+Mekanism:DirtyDust:1, Dirty Gold Dust
+Mekanism:DirtyDust:2, Dirty Osmium Dust
+Mekanism:DirtyDust:3, Dirty Copper Dust
+Mekanism:DirtyDust:4, Dirty Tin Dust
+Mekanism:DirtyDust:5, Dirty Silver Dust
+Mekanism:DirtyDust:6, Dirty Lead Dust
+Mekanism:Configurator, Configurator
+Mekanism:NetworkReader, Network Reader
+Mekanism:WalkieTalkie, Walkie-Talkie
+Mekanism:Jetpack, Jetpack
+Mekanism:Dictionary, Dictionary
+Mekanism:GasMask, Gas Mask
+Mekanism:ScubaTank, Scuba Tank
+Mekanism:Balloon:0, §8Black Balloon
+Mekanism:Balloon:1, §cRed Balloon
+Mekanism:Balloon:2, §2Green Balloon
+Mekanism:Balloon:3, §6Brown Balloon
+Mekanism:Balloon:4, §1Blue Balloon
+Mekanism:Balloon:5, §5Purple Balloon
+Mekanism:Balloon:6, §3Cyan Balloon
+Mekanism:Balloon:7, §7Light Grey Balloon
+Mekanism:Balloon:8, §8Grey Balloon
+Mekanism:Balloon:9, §dPink Balloon
+Mekanism:Balloon:10, §aLime Balloon
+Mekanism:Balloon:11, §eYellow Balloon
+Mekanism:Balloon:12, §9Light Blue Balloon
+Mekanism:Balloon:13, §dMagenta Balloon
+Mekanism:Balloon:14, §6Orange Balloon
+Mekanism:Balloon:15, §fWhite Balloon
+Mekanism:Shard:0, Iron Shard
+Mekanism:Shard:1, Gold Shard
+Mekanism:Shard:2, Osmium Shard
+Mekanism:Shard:3, Copper Shard
+Mekanism:Shard:4, Tin Shard
+Mekanism:Shard:5, Silver Shard
+Mekanism:Shard:6, Lead Shard
+Mekanism:ElectrolyticCore, Electrolytic Core
+Mekanism:Sawdust, Sawdust
+Mekanism:Salt, Salt
+Mekanism:Yeast, Yeast
+Mekanism:BrineBucket, Brine Bucket
+Mekanism:LithiumBucket, Lithium Bucket
+Mekanism:HeavyWaterBucket, Heavy Water Bucket
+Mekanism:Crystal:0, Iron Crystal
+Mekanism:Crystal:1, Gold Crystal
+Mekanism:Crystal:2, Osmium Crystal
+Mekanism:Crystal:3, Copper Crystal
+Mekanism:Crystal:4, Tin Crystal
+Mekanism:Crystal:5, Silver Crystal
+Mekanism:Crystal:6, Lead Crystal
+Mekanism:FreeRunners, Free Runners
+Mekanism:ArmoredJetpack, Armored Jetpack
+Mekanism:ConfigurationCard, Configuration Card
+Mekanism:CraftingFormula, Crafting Formula
+Mekanism:SeismicReader, Seismic Reader
+Mekanism:Substrate, Substrate
+Mekanism:Polyethene:0, HDPE Pellet
+Mekanism:Polyethene:1, HDPE Rod
+Mekanism:Polyethene:2, HDPE Sheet
+Mekanism:Polyethene:3, PlaStick
+Mekanism:BioFuel, Biomass
+Mekanism:GlowPanel:0, §8Black Glow Panel
+Mekanism:GlowPanel:1, §cRed Glow Panel
+Mekanism:GlowPanel:2, §2Green Glow Panel
+Mekanism:GlowPanel:3, §6Brown Glow Panel
+Mekanism:GlowPanel:4, §1Blue Glow Panel
+Mekanism:GlowPanel:5, §5Purple Glow Panel
+Mekanism:GlowPanel:6, §3Cyan Glow Panel
+Mekanism:GlowPanel:7, §7Light Grey Glow Panel
+Mekanism:GlowPanel:8, §8Grey Glow Panel
+Mekanism:GlowPanel:9, §dPink Glow Panel
+Mekanism:GlowPanel:10, §aLime Glow Panel
+Mekanism:GlowPanel:11, §eYellow Glow Panel
+Mekanism:GlowPanel:12, §9Light Blue Glow Panel
+Mekanism:GlowPanel:13, §dMagenta Glow Panel
+Mekanism:GlowPanel:14, §6Orange Glow Panel
+Mekanism:GlowPanel:15, §fWhite Glow Panel
+Mekanism:Flamethrower, Flamethrower
+Mekanism:GaugeDropper, Gauge Dropper
+Mekanism:FactoryInstaller:0, Basic Tier Installer
+Mekanism:FactoryInstaller:1, Advanced Tier Installer
+Mekanism:FactoryInstaller:2, Elite Tier Installer
+Mekanism:FactoryInstaller:3, Ultimate Tier Installer
+Mekanism:OtherDust:0, Diamond Dust
+Mekanism:OtherDust:1, Steel Dust
+Mekanism:OtherDust:3, Sulfur Dust
+Mekanism:OtherDust:4, Lithium Dust
+Mekanism:OtherDust:5, Refined Obsidian Dust
+Mekanism:OtherDust:6, Obsidian Dust
+MekanismGenerators:SolarPanel, Solar Panel
+MekanismGenerators:Hohlraum, Hohlraum
+MekanismGenerators:TurbineBlade, Turbine Blade
+MekanismTools:WoodPaxel, Wood Paxel
+MekanismTools:StonePaxel, Stone Paxel
+MekanismTools:IronPaxel, Iron Paxel
+MekanismTools:DiamondPaxel, Diamond Paxel
+MekanismTools:GoldPaxel, Gold Paxel
+MekanismTools:ObsidianHelmet, Obsidian Helmet
+MekanismTools:ObsidianChestplate, Obsidian Chestplate
+MekanismTools:ObsidianLeggings, Obsidian Leggings
+MekanismTools:ObsidianBoots, Obsidian Boots
+MekanismTools:ObsidianPaxel, Obsidian Paxel
+MekanismTools:ObsidianPickaxe, Obsidian Pickaxe
+MekanismTools:ObsidianAxe, Obsidian Axe
+MekanismTools:ObsidianShovel, Obsidian Shovel
+MekanismTools:ObsidianHoe, Obsidian Hoe
+MekanismTools:ObsidianSword, Obsidian Sword
+MekanismTools:LapisLazuliHelmet, Lapis Lazuli Helmet
+MekanismTools:LapisLazuliChestplate, Lapis Lazuli Chestplate
+MekanismTools:LapisLazuliLeggings, Lapis Lazuli Leggings
+MekanismTools:LapisLazuliBoots, Lapis Lazuli Boots
+MekanismTools:LapisLazuliPaxel, Lapis Lazuli Paxel
+MekanismTools:LapisLazuliPickaxe, Lapis Lazuli Pickaxe
+MekanismTools:LapisLazuliAxe, Lapis Lazuli Axe
+MekanismTools:LapisLazuliShovel, Lapis Lazuli Shovel
+MekanismTools:LapisLazuliHoe, Lapis Lazuli Hoe
+MekanismTools:LapisLazuliSword, Lapis Lazuli Sword
+MekanismTools:OsmiumHelmet, Osmium Helmet
+MekanismTools:OsmiumChestplate, Osmium Chestplate
+MekanismTools:OsmiumLeggings, Osmium Leggings
+MekanismTools:OsmiumBoots, Osmium Boots
+MekanismTools:OsmiumPaxel, Osmium Paxel
+MekanismTools:OsmiumPickaxe, Osmium Pickaxe
+MekanismTools:OsmiumAxe, Osmium Axe
+MekanismTools:OsmiumShovel, Osmium Shovel
+MekanismTools:OsmiumHoe, Osmium Hoe
+MekanismTools:OsmiumSword, Osmium Sword
+MekanismTools:BronzeHelmet, Bronze Helmet
+MekanismTools:BronzeChestplate, Bronze Chestplate
+MekanismTools:BronzeLeggings, Bronze Leggings
+MekanismTools:BronzeBoots, Bronze Boots
+MekanismTools:BronzePaxel, Bronze Paxel
+MekanismTools:BronzePickaxe, Bronze Pickaxe
+MekanismTools:BronzeAxe, Bronze Axe
+MekanismTools:BronzeShovel, Bronze Shovel
+MekanismTools:BronzeHoe, Bronze Hoe
+MekanismTools:BronzeSword, Bronze Sword
+MekanismTools:GlowstonePaxel, Glowstone Paxel
+MekanismTools:GlowstonePickaxe, Glowstone Pickaxe
+MekanismTools:GlowstoneAxe, Glowstone Axe
+MekanismTools:GlowstoneShovel, Glowstone Shovel
+MekanismTools:GlowstoneHoe, Glowstone Hoe
+MekanismTools:GlowstoneSword, Glowstone Sword
+MekanismTools:GlowstoneHelmet, Glowstone Helmet
+MekanismTools:GlowstoneChestplate, Glowstone Chestplate
+MekanismTools:GlowstoneLeggings, Glowstone Leggings
+MekanismTools:GlowstoneBoots, Glowstone Boots
+MekanismTools:SteelPaxel, Steel Paxel
+MekanismTools:SteelPickaxe, Steel Pickaxe
+MekanismTools:SteelAxe, Steel Axe
+MekanismTools:SteelShovel, Steel Shovel
+MekanismTools:SteelHoe, Steel Hoe
+MekanismTools:SteelSword, Steel Sword
+MekanismTools:SteelHelmet, Steel Helmet
+MekanismTools:SteelChestplate, Steel Chestplate
+MekanismTools:SteelLeggings, Steel Leggings
+MekanismTools:SteelBoots, Steel Boots
 ae2wct:infinityBoosterCard, Infinity Booster Card
 ae2wct:infinityBoosterIcon, item.null.name
 ae2wct:wirelessCraftingTerminal, Wireless Crafting Terminal
 ae2wct:magnetCard, Magnet Card
 ae2wct:boosterBG, item.boosterBG.name
+ForgeMicroblock:sawStone, Stone Saw
+ForgeMicroblock:sawIron, Iron Saw
+ForgeMicroblock:sawDiamond, Diamond Saw
+ForgeMicroblock:stoneRod, Stone Rod
