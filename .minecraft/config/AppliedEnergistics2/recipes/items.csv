@@ -362,18 +362,61 @@ appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock:0, Certus Quartz Pillar Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Certus Quartz Pillar Slabs
-Avaritia:Double_Craft, Compressed Crafting Table
-Avaritia:Triple_Craft, Double Compressed Crafting Table
-Avaritia:Dire_Crafting, Dire Crafting Table
-Avaritia:Crystal_Matrix, Crystal Matrix
-Avaritia:Resource_Block:0, Cosmic Neutronium Block
-Avaritia:Resource_Block:1, Infinity Block
-Avaritia:Neutron_Collector, Neutron Collector
-Avaritia:Neutronium_Compressor, Neutronium Compressor
-avaritiaddons:CompressedChest, Compressed Chest
-avaritiaddons:InfinityChest, Infinity Chest
-avaritiaddons:ExtremeAutoCrafter, Dire Autocrafting Table
-neenergistics:tile.pattern_interface, Pattern Interface
+AgriCraft:crops, Crop Sticks
+AgriCraft:seedAnalyzer, Seed Analyzer
+AgriCraft:waterPad, Water Pad
+AgriCraft:waterPadFull, Water Pad
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:sprinkler, Sprinkler
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:cropPotato, Potato
+AgriCraft:cropCarrot, Carrot
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -631,12 +674,85 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, Minecart with TNT
 minecraft:hopper_minecart, Minecart with Hopper
+AgriCraft:cropSugarcane, Sugarcane
+AgriCraft:cropDandelion, Dandelion
+AgriCraft:cropPoppy, Poppy
+AgriCraft:cropOrchid, Orchid
+AgriCraft:cropAllium, Allium
+AgriCraft:cropTulipRed, Red Tulip
+AgriCraft:cropTulipOrange, Orange Tulip
+AgriCraft:cropTulipWhite, White Tulip
 minecraft:iron_horse_armor, Iron Horse Armor
 minecraft:golden_horse_armor, Gold Horse Armor
 minecraft:diamond_horse_armor, Diamond Horse Armor
 minecraft:lead, Lead
 minecraft:name_tag, Name Tag
 minecraft:command_block_minecart, Minecart with Command Block
+AgriCraft:cropTulipPink, Pink Tulip
+AgriCraft:cropDaisy, Daisy
+AgriCraft:cropCactus, Cactus
+AgriCraft:cropShroomRed, Red Mushroom
+AgriCraft:cropShroomBrown, Brown Mushroom
+Avaritia:Double_Craft, Compressed Crafting Table
+Avaritia:Triple_Craft, Double Compressed Crafting Table
+Avaritia:Dire_Crafting, Dire Crafting Table
+Avaritia:Crystal_Matrix, Crystal Matrix
+Avaritia:Resource_Block:0, Cosmic Neutronium Block
+Avaritia:Resource_Block:1, Infinity Block
+Avaritia:Neutron_Collector, Neutron Collector
+Avaritia:Neutronium_Compressor, Neutronium Compressor
+avaritiaddons:CompressedChest, Compressed Chest
+avaritiaddons:InfinityChest, Infinity Chest
+avaritiaddons:ExtremeAutoCrafter, Dire Autocrafting Table
+DraconicEvolution:xRayBlock, Distortion Flame
+DraconicEvolution:weatherController, Weather Controller
+DraconicEvolution:sunDial, Sun Dial
+DraconicEvolution:draconiumOre, Draconium Ore
+DraconicEvolution:grinder, Mob Grinder
+DraconicEvolution:potentiometer, Potentiometer
+DraconicEvolution:rainSensor, Rain Sensor
+DraconicEvolution:particleGenerator, Particle Generator
+DraconicEvolution:playerDetector, Player Detector
+DraconicEvolution:playerDetectorAdvanced, Advanced Player Detector
+DraconicEvolution:energyInfuser, Energy Infuser
+DraconicEvolution:customSpawner, Stabilized Mob Spawner
+DraconicEvolution:generator, Generator
+DraconicEvolution:energyStorageCore, Energy Core
+DraconicEvolution:earth, Earth
+DraconicEvolution:draconium:0, Draconium Block
+DraconicEvolution:draconium:1, Resurrection Stone
+DraconicEvolution:draconium:2, Charged Draconium Block
+DraconicEvolution:invisibleMultiblock, Energy Core
+DraconicEvolution:energyPylon, Energy Pylon
+DraconicEvolution:placedItem, tile.draconicevolution:placedItem.name
+DraconicEvolution:safetyFlame, tile.draconicevolution:safetyFlame.name
+DraconicEvolution:cKeyStone:0, Creative Key Stone
+DraconicEvolution:cKeyStone:1, Creative Key Stone
+DraconicEvolution:cKeyStone:2, Creative Key Stone
+DraconicEvolution:cKeyStone:3, Creative Key Stone
+DraconicEvolution:dissEnchanter, Disenchanter
+DraconicEvolution:teleporterStand, Dislocator Pedestal
+DraconicEvolution:draconiumChest, Draconic Chest
+DraconicEvolution:draconicBlock, Awakened Draconium Block
+DraconicEvolution:energyCrystal:0, Energy Relay
+DraconicEvolution:energyCrystal:1, Advanced Energy Relay
+DraconicEvolution:energyCrystal:2, Energy Transceiver
+DraconicEvolution:energyCrystal:3, Advanced Energy Transceiver
+DraconicEvolution:energyCrystal:4, Wireless Energy Transceiver
+DraconicEvolution:energyCrystal:5, Advanced Wireless Transceiver
+DraconicEvolution:infusedObsidian, Draconium Infused Obsidian
+DraconicEvolution:dislocatorReceptacle, Dislocator Receptacle
+DraconicEvolution:portal, Portal
+DraconicEvolution:reactorCore, Draconic Reactor Core
+DraconicEvolution:flowGate:0, Flux Gate
+DraconicEvolution:flowGate:6, Fluid Gate
+DraconicEvolution:reactorStabilizer, Reactor Stabilizer
+DraconicEvolution:reactorEnergyInjector, Reactor Energy Injector
+DraconicEvolution:chaosCrystal, Chaos Crystal
+DraconicEvolution:upgradeModifier, Upgrade Modifier
+DraconicEvolution:longRangeDislocator:1, Admin Dislocator
+DraconicEvolution:chaosShardAtmos, tile.draconicevolution:chaosShardAtmos.name
+neenergistics:tile.pattern_interface, Pattern Interface
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -829,6 +945,14 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Cosmic Neutronium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Infinity Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Distortion Flame
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Charged Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Energy Pylon
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Awakened Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Infused Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Admin Dislocator
 appliedenergistics2:item.ItemCrystalSeed:0, Certus Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:600, Nether Quartz Seed
 appliedenergistics2:item.ItemCrystalSeed:1200, Fluix Seed
@@ -1084,6 +1208,30 @@ appliedenergistics2:item.ItemMultiPart:220, ME Storage Bus
 appliedenergistics2:item.ItemMultiPart:400, ME Storage Monitor
 appliedenergistics2:item.ItemMultiPart:380, ME Terminal
 appliedenergistics2:item.ItemMultiPart:80, ME Toggle Bus
+AgriCraft:seedPotato, Potato Seeds
+AgriCraft:seedCarrot, Carrot Seeds
+AgriCraft:seedSugarcane, Sugarcane Seeds
+AgriCraft:seedDandelion, Dandelion Seeds
+AgriCraft:seedPoppy, Poppy Seeds
+AgriCraft:seedOrchid, Blue Orchid Seeds
+AgriCraft:seedAllium, Allium Seeds
+AgriCraft:seedTulipRed, Red Tulip Seeds
+AgriCraft:seedTulipOrange, Orange Tulip Seeds
+AgriCraft:seedTulipWhite, White Tulip Seeds
+AgriCraft:seedTulipPink, Pink Tulip Seeds
+AgriCraft:seedDaisy, Daisy Seeds
+AgriCraft:seedCactus, Cactus Seeds
+AgriCraft:seedShroomRed, Red Mushroom Spores
+AgriCraft:seedShroomBrown, Brown Mushroom Spores
+AgriCraft:cropsItem, Crop Sticks
+AgriCraft:journal, Agricultural Journal
+AgriCraft:magnifyingGlass, Magnifying Glass
+AgriCraft:debugger, Debugger
+AgriCraft:trowel, Gardening Trowel
+AgriCraft:handRake:0, Wooden Hand Rake
+AgriCraft:handRake:1, Iron Hand Rake
+AgriCraft:clipper, Clipper
+AgriCraft:clipping, Clipping
 Avaritia:Resource:0, Diamond Lattice
 Avaritia:Resource:1, Crystal Matrix Ingot
 Avaritia:Resource:2, Pile of Cosmic Neutrons
@@ -1121,6 +1269,74 @@ Avaritia:Infinity_Bow, Longbow of the Heavens
 Avaritia:Infinity_Shovel, Planet Eater
 Avaritia:Infinity_Axe, Nature's Ruin
 Baubles:Ring:0, Miner's Ring
+DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
+DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
+DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
+DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
+DraconicEvolution:draconicAxe:0, Draconic Axe
+DraconicEvolution:draconicAxe:0, Draconic Axe
+DraconicEvolution:draconicShovel:0, Draconic Shovel
+DraconicEvolution:draconicShovel:0, Draconic Shovel
+DraconicEvolution:draconicHoe, Draconic Hoe
+DraconicEvolution:draconicSword, Draconic Sword
+DraconicEvolution:draconicBow:0, Draconic Bow
+DraconicEvolution:draconicBow:0, Draconic Bow
+DraconicEvolution:draconicHelm, Draconic Helm
+DraconicEvolution:draconicChest, Draconic Chestplate
+DraconicEvolution:draconicLeggs, Draconic Leggings
+DraconicEvolution:draconicBoots, Draconic Boots
+DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
+DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
+DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
+DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
+DraconicEvolution:wyvernSword, Sword of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
+DraconicEvolution:wyvernHelm, Wyvern Helm
+DraconicEvolution:wyvernChest, Wyvern Chestplate
+DraconicEvolution:wyvernLeggs, Wyvern Leggings
+DraconicEvolution:wyvernBoots, Wyvern Boots
+DraconicEvolution:draconicCore, Draconic Core
+DraconicEvolution:wyvernCore, Wyvern Core
+DraconicEvolution:awakenedCore, Awakened Core
+DraconicEvolution:chaoticCore, Chaotic Core
+DraconicEvolution:draconiumDust, Draconium Dust
+DraconicEvolution:draconiumIngot, Draconium Ingot
+DraconicEvolution:draconiumBlend, Draconium Blend (Depreciated)
+DraconicEvolution:dragonHeart, Dragon Heart
+DraconicEvolution:teleporterMKI, Charm of Dislocation
+DraconicEvolution:teleporterMKII, Enhanced Charm of Dislocation
+DraconicEvolution:tclogo, TCLogo
+DraconicEvolution:sunFocus, Solar Focus
+DraconicEvolution:mobSoul, Mob Soul
+DraconicEvolution:enderArrow, Ender Arrow
+DraconicEvolution:safetyMatch:0, Box of Safety Matches
+DraconicEvolution:safetyMatch:1000, Safety Match
+DraconicEvolution:key:0, Key
+DraconicEvolution:key:1, Key
+DraconicEvolution:creativeStructureSpawner:0, Spawn Comet
+DraconicEvolution:creativeStructureSpawner:1, Spawn Ender Island
+DraconicEvolution:adminSpawnEgg, item.draconicevolution:adminSpawnEgg.name
+DraconicEvolution:infoTablet, Draconic Evolution Information Tablet
+DraconicEvolution:draconicIngot, Awakened Draconium Ingot
+DraconicEvolution:draconiumEnergyCore:0, Wyvern Energy Core
+DraconicEvolution:draconiumEnergyCore:1, Draconic Energy Core
+DraconicEvolution:draconiumFluxCapacitor, item.draconicevolution:draconiumFluxCapacitor.name
+DraconicEvolution:wrench, Crystal Binder
+DraconicEvolution:chaosShard, Chaos Shard
+DraconicEvolution:reactorCraftingPart:0, Reactor Stabilizer Frame
+DraconicEvolution:reactorCraftingPart:1, Reactor Stabilizer Inner Rotor
+DraconicEvolution:reactorCraftingPart:2, Reactor Stabilizer Outer Rotor
+DraconicEvolution:reactorCraftingPart:3, Reactor Stabilizer Rotor Assembly
+DraconicEvolution:reactorCraftingPart:4, Reactor Stabilizer Focus Ring
+DraconicEvolution:nugget:0, Draconium Nugget
+DraconicEvolution:nugget:1, Awakened Draconium Nugget
+DraconicEvolution:chaosFragment:0, Tiny Chaos Fragment
+DraconicEvolution:chaosFragment:1, Small Chaos Fragment
+DraconicEvolution:chaosFragment:2, Large Chaos Fragment
+DraconicEvolution:magnet:0, Item Dislocator
+DraconicEvolution:magnet:1, Awakened Item Dislocator
+DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
 ae2wct:infinityBoosterCard, Infinity Booster Card
 ae2wct:infinityBoosterIcon, item.null.name
 ae2wct:wirelessCraftingTerminal, Wireless Crafting Terminal

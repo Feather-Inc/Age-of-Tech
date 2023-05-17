@@ -6,6 +6,12 @@ classDiagram
     authors: 
   }
 
+  class `AgriCraft`["AgriCraft"] {
+    id: AgriCraft
+    version: 1.5.0
+    authors: InfinityRaider
+  }
+
   class `Avaritia`["Avaritia"] {
     id: Avaritia
     version: 1.41
@@ -16,6 +22,12 @@ classDiagram
     id: Baubles
     version: 1.0.1.16
     authors: Azanor
+  }
+
+  class `BrandonsCore`["Brandon's Core"] {
+    id: BrandonsCore
+    version: 1.0.0.13-GTNH
+    authors: brandon3055
   }
 
   class `CoFHCore`["CoFH Core"] {
@@ -29,6 +41,14 @@ classDiagram
     version: 1.1.11
     authors: 
   }
+
+  class `DraconicEvolution`["Draconic Evolution"] {
+    id: DraconicEvolution
+    version: 1.1.16-GTNH
+    authors: brandon3055
+  }
+  `DraconicEvolution` <-- `NotEnoughItems`
+  `DraconicEvolution` <-- `BrandonsCore`
 
   class `NotEnoughItems`["NotEnoughItems"] {
     id: NotEnoughItems
