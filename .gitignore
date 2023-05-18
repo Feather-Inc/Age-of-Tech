@@ -11,3 +11,4 @@ natives/*
 .minecraft/*.png
 .minecraft/crash-reports/*
 *.so
+.minecraft/BotaniaVars.dat

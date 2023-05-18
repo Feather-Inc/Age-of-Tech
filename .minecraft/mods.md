@@ -12,6 +12,13 @@ classDiagram
     authors: WayofTime
   }
 
+  class `ActuallyAdditions`["Actually Additions"] {
+    id: ActuallyAdditions
+    version: 1.7.10-r21
+    authors: Ellpeck
+  }
+  `ActuallyAdditions` <-- `BuildCraft|Energy`
+
   class `AgriCraft`["AgriCraft"] {
     id: AgriCraft
     version: 1.5.0
@@ -25,12 +32,21 @@ classDiagram
   }
   `Avaritia` <-- `Thaumcraft`
   `Avaritia` <-- `AWWayofTime`
+  `Avaritia` <-- `Botania`
 
   class `Baubles`["Baubles"] {
     id: Baubles
     version: 1.0.1.16
     authors: Azanor
   }
+
+  class `Botania`["Botania"] {
+    id: Botania
+    version: 1.9.23-GTNH
+    authors: Vazkii
+  }
+  `Botania` <-- `Baubles`
+  `Botania` <-- `Thaumcraft`
 
   class `BrandonsCore`["Brandon's Core"] {
     id: BrandonsCore
@@ -124,6 +140,14 @@ classDiagram
   `EnderIO` <-- `MineFactoryReloaded`
   `EnderIO` <-- `Thaumcraft`
   `EnderIO` <-- `appliedenergistics2`
+  `EnderIO` <-- `chisel`
+
+  class `EnderStorage`["EnderStorage"] {
+    id: EnderStorage
+    version: 1.4.12
+    authors: ChickenBones
+  }
+  `EnderStorage` <-- `CodeChickenCore`
 
   class `ExtraUtilities`["Extra Utilities"] {
     id: ExtraUtilities
@@ -146,6 +170,12 @@ classDiagram
     authors: 
   }
 
+  class `IC2`["IndustrialCraft 2"] {
+    id: IC2
+    version: 2.2.827-experimental
+    authors: Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997
+  }
+
   class `LogisticsPipes`["Logistics Pipes"] {
     id: LogisticsPipes
     version: 1.0.1-GTNH
@@ -154,7 +184,14 @@ classDiagram
   `LogisticsPipes` <-- `BuildCraft|Core`
   `LogisticsPipes` <-- `BuildCraft|Transport`
   `LogisticsPipes` <-- `BuildCraft|Silicon`
+  `LogisticsPipes` <-- `IC2`
   `LogisticsPipes` <-- `Thaumcraft`
+
+  class `Mantle`["Mantle"] {
+    id: Mantle
+    version: 0.3.6
+    authors: 
+  }
 
   class `McMultipart`["Minecraft Multipart Plugin"] {
     id: McMultipart
@@ -168,6 +205,7 @@ classDiagram
     authors: 
   }
   `Mekanism` <-- `ForgeMultipart`
+  `Mekanism` <-- `IC2`
   `Mekanism` <-- `CoFHCore`
 
   class `MekanismGenerators`["MekanismGenerators Community Edition"] {
@@ -255,6 +293,7 @@ classDiagram
     authors: PowerCrystals
   }
   `MineFactoryReloaded|CompatIC2` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatIC2` <-- `IC2`
 
   class `MineFactoryReloaded|CompatProjRed`["MFR Compat ProjectRed"] {
     id: MineFactoryReloaded|CompatProjRed
@@ -283,6 +322,7 @@ classDiagram
     authors: PowerCrystals
   }
   `MineFactoryReloaded|CompatTConstruct` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatTConstruct` <-- `TConstruct`
 
   class `MineFactoryReloaded|CompatThaumcraft`["MFR Compat: Thaumcraft"] {
     id: MineFactoryReloaded|CompatThaumcraft
@@ -334,7 +374,9 @@ classDiagram
     authors: Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
   }
   `OpenComputers` <-- `BuildCraft|Core`
+  `OpenComputers` <-- `EnderStorage`
   `OpenComputers` <-- `ForgeMultipart`
+  `OpenComputers` <-- `IC2`
   `OpenComputers` <-- `MineFactoryReloaded`
   `OpenComputers` <-- `Thaumcraft`
 
@@ -357,6 +399,16 @@ classDiagram
     authors: Mikee, NeverCast, boq
   }
 
+  class `TConstruct`["Tinkers' Construct"] {
+    id: TConstruct
+    version: 1.9.32-GTNH
+    authors: mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
+  }
+  `TConstruct` <-- `Mantle`
+  `TConstruct` <-- `MineFactoryReloaded`
+  `TConstruct` <-- `CoFHCore`
+  `TConstruct` <-- `NotEnoughItems`
+
   class `ThE-core`["Thaumic Energistics Core"] {
     id: ThE-core
     version: 1.0.0.1
@@ -376,12 +428,30 @@ classDiagram
     authors: 
   }
 
+  class `advgenerators`["Advanced Generators"] {
+    id: advgenerators
+    version: 0.9.20.123
+    authors: bdew
+  }
+  `advgenerators` <-- `BuildCraft|Silicon`
+  `advgenerators` <-- `IC2`
+  `advgenerators` <-- `CoFHCore`
+  `advgenerators` <-- `bdlib`
+
   class `ae2fc`["AE2 Fluid Crafting"] {
     id: ae2fc
     version: 1.1.20-gtnh
     authors: GlodBlock
   }
   `ae2fc` <-- `appliedenergistics2`
+
+  class `ae2stuff`["AE2 Stuff"] {
+    id: ae2stuff
+    version: 0.5.1.16-GTNH
+    authors: bdew
+  }
+  `ae2stuff` <-- `appliedenergistics2`
+  `ae2stuff` <-- `bdlib`
 
   class `ae2wct`["AE2 Wireless Crafting Terminal"] {
     id: ae2wct
@@ -411,6 +481,23 @@ classDiagram
   }
   `avaritiaddons` <-- `Avaritia`
   `avaritiaddons` <-- `wanionlib`
+
+  class `bdlib`["BD lib"] {
+    id: bdlib
+    version: 1.9.8-GTNH
+    authors: bdew
+  }
+
+  class `chisel`["Chisel"] {
+    id: chisel
+    version: 2.11.0-GTNH
+    authors: tterrag, Drullkus, minecreatr
+  }
+  `chisel` <-- `ForgeMultipart`
+  `chisel` <-- `Thaumcraft`
+  `chisel` <-- `appliedenergistics2`
+  `chisel` <-- `AWWayofTime`
+  `chisel` <-- `TwilightForest`
 
   class `endercore`["EnderCore"] {
     id: endercore
