@@ -951,6 +951,45 @@ Avaritia:Neutronium_Compressor, Neutronium Compressor
 avaritiaddons:CompressedChest, Compressed Chest
 avaritiaddons:InfinityChest, Infinity Chest
 avaritiaddons:ExtremeAutoCrafter, Dire Autocrafting Table
+BuildCraft|Core:eternalSpring:0, Water Spring
+BuildCraft|Core:eternalSpring:1, Oil Spring
+BuildCraft|Core:buildToolBlock, tile.buildToolBlock.name
+BuildCraft|Core:engineBlock:0, Redstone Engine
+BuildCraft|Core:engineBlock:1, Stirling Engine
+BuildCraft|Core:engineBlock:2, Combustion Engine
+BuildCraft|Core:engineBlock:3, Creative Engine
+BuildCraft|Core:markerBlock, Land Mark
+BuildCraft|Core:pathMarkerBlock, Path Mark
+BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
+BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
+BuildCraft|Robotics:zonePlan, Zone Planner
+BuildCraft|Robotics:requester, Requester
+BuildCraft|Silicon:laserBlock, Laser
+BuildCraft|Silicon:laserTableBlock:0, Assembly Table
+BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
+BuildCraft|Silicon:laserTableBlock:2, Integration Table
+BuildCraft|Silicon:laserTableBlock:3, Charging Table
+BuildCraft|Silicon:laserTableBlock:4, Programming Table
+BuildCraft|Silicon:laserTableBlock:5, Stamping Table
+BuildCraft|Silicon:packagerBlock, Recipe Packager
+BuildCraft|Energy:blockOil, Oil
+BuildCraft|Energy:blockFuel, Fuel
+BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
+BuildCraft|Factory:miningWellBlock, Mining Well
+BuildCraft|Factory:plainPipeBlock, Mining Pipe
+BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
+BuildCraft|Factory:tankBlock, Tank
+BuildCraft|Factory:pumpBlock, Pump
+BuildCraft|Factory:floodGateBlock, Flood Gate
+BuildCraft|Factory:refineryBlock, Refinery
+BuildCraft|Factory:blockHopper, Chute
+BuildCraft|Builders:machineBlock, Quarry
+BuildCraft|Builders:fillerBlock, Filler
+BuildCraft|Builders:frameBlock, Frame
+BuildCraft|Builders:builderBlock, Builder
+BuildCraft|Builders:architectBlock, Architect Table
+BuildCraft|Builders:libraryBlock, Electronic Library
+BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 DraconicEvolution:xRayBlock, Distortion Flame
 DraconicEvolution:weatherController, Weather Controller
 DraconicEvolution:sunDial, Sun Dial
@@ -1271,7 +1310,7 @@ EnderIO:blockEndSteelBars, End Steel Bars
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Enrichment Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Diviner)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -1640,6 +1679,14 @@ ExtraUtilities:etherealglass:2, Dark Ethereal Glass
 ExtraUtilities:etherealglass:3, Ethereal Glass (Inverted)
 ExtraUtilities:etherealglass:4, Ineffable Glass (Inverted)
 ExtraUtilities:etherealglass:5, Dark Ethereal Glass (Inverted)
+LogisticsPipes:logisticsSolidBlock:0, Soldering Station
+LogisticsPipes:logisticsSolidBlock:1, Logistics Power Junction
+LogisticsPipes:logisticsSolidBlock:2, Logistics Security Station
+LogisticsPipes:logisticsSolidBlock:3, Logistics Crafting Table
+LogisticsPipes:logisticsSolidBlock:4, Logistics Fuzzy Crafting Table
+LogisticsPipes:logisticsSolidBlock:5, Logistics Statistics Table
+LogisticsPipes:logisticsSolidBlock:11, Logistics RF Power Provider
+LogisticsPipes:logisticsPipeBlock, LogisticsPipes Pipe Block.name
 Mekanism:BasicBlock:0, Osmium Block
 Mekanism:BasicBlock:1, Bronze Block
 Mekanism:BasicBlock:2, Refined Obsidian
@@ -2321,6 +2368,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Cosmic Neutronium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Infinity Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.buildToolBlock.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Distortion Flame
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Block
@@ -2865,7 +2913,6 @@ appliedenergistics2:item.ItemMultiMaterial:47, Singularity
 appliedenergistics2:item.ItemMultiMaterial:45, Sky Stone Dust
 appliedenergistics2:item.ItemMultiMaterial:41, Wireless Receiver
 appliedenergistics2:item.ItemMultiMaterial:42, Wireless Booster
-appliedenergistics2:item.ItemMultiMaterial:40, Wooden Gear
 appliedenergistics2:item.ItemMultiPart:300, ME Annihilation Plane
 appliedenergistics2:item.ItemMultiPart:120, Cable Anchor
 appliedenergistics2:item.ItemMultiPart:20, ME Covered Cable - White
@@ -3547,6 +3594,114 @@ Avaritia:Matter_Cluster, Matter Cluster
 Avaritia:Infinity_Bow, Longbow of the Heavens
 Avaritia:Infinity_Shovel, Planet Eater
 Avaritia:Infinity_Axe, Nature's Ruin
+BuildCraft|Core:wrenchItem, Wrench
+BuildCraft|Core:mapLocation, Map Location
+BuildCraft|Core:list:0, List
+BuildCraft|Core:list:1, List
+BuildCraft|Core:debugger, Debugger
+BuildCraft|Core:woodenGearItem, Wood Gear
+BuildCraft|Core:stoneGearItem, Stone Gear
+BuildCraft|Core:ironGearItem, Iron Gear
+BuildCraft|Core:goldGearItem, Gold Gear
+BuildCraft|Core:diamondGearItem, Diamond Gear
+BuildCraft|Core:paintbrush, Paintbrush
+BuildCraft|Transport:pipeWaterproof, Pipe Sealant
+BuildCraft|Transport:item.buildcraftPipe.pipeitemswood:0, Wooden Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald:0, Emerald Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone:0, Cobblestone Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsstone:0, Stone Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsquartz:0, Quartz Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsiron:0, Iron Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold:0, Golden Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond:0, Diamond Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsobsidian:0, Obsidian Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemslapis:0, Lazuli Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsdaizuli:0, Daizuli Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemssandstone:0, Sandstone Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid:0, Void Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsemzuli:0, Emzuli Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes:0, Stripes Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay:0, Clay Transport Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidswood:0, Wooden Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone:0, Cobblestone Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone:0, Stone Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsquartz:0, Quartz Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsiron:0, Iron Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsgold:0, Golden Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald:0, Emerald Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsdiamond:0, Diamond Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidssandstone:0, Sandstone Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid:0, Void Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipefluidsclay:0, Clay Fluid Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowerwood:0, Wooden Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone:0, Cobblestone Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowerstone:0, Stone Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz:0, Quartz Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepoweriron:0, Iron Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowergold:0, Golden Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond:0, Diamond Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald:0, Emerald Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone:0, Sandstone Kinesis Pipe
+BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone:0, Cobblestone Structure Pipe
+BuildCraft|Transport:pipeWire:0, Red Pipe Wire
+BuildCraft|Transport:pipeWire:1, Blue Pipe Wire
+BuildCraft|Transport:pipeWire:2, Green Pipe Wire
+BuildCraft|Transport:pipeWire:3, Yellow Pipe Wire
+BuildCraft|Transport:pipeGate, item.pipeGate.name
+BuildCraft|Transport:pipePlug, item.pipePlug.name
+BuildCraft|Transport:pipeLens:0, Lens (Black)
+BuildCraft|Transport:pipeLens:1, Lens (Red)
+BuildCraft|Transport:pipeLens:2, Lens (Green)
+BuildCraft|Transport:pipeLens:3, Lens (Brown)
+BuildCraft|Transport:pipeLens:4, Lens (Blue)
+BuildCraft|Transport:pipeLens:5, Lens (Purple)
+BuildCraft|Transport:pipeLens:6, Lens (Cyan)
+BuildCraft|Transport:pipeLens:7, Lens (Light Gray)
+BuildCraft|Transport:pipeLens:8, Lens (Gray)
+BuildCraft|Transport:pipeLens:9, Lens (Pink)
+BuildCraft|Transport:pipeLens:10, Lens (Lime)
+BuildCraft|Transport:pipeLens:11, Lens (Yellow)
+BuildCraft|Transport:pipeLens:12, Lens (Light Blue)
+BuildCraft|Transport:pipeLens:13, Lens (Magenta)
+BuildCraft|Transport:pipeLens:14, Lens (Orange)
+BuildCraft|Transport:pipeLens:15, Lens (White)
+BuildCraft|Transport:pipeLens:16, Filter (Black)
+BuildCraft|Transport:pipeLens:17, Filter (Red)
+BuildCraft|Transport:pipeLens:18, Filter (Green)
+BuildCraft|Transport:pipeLens:19, Filter (Brown)
+BuildCraft|Transport:pipeLens:20, Filter (Blue)
+BuildCraft|Transport:pipeLens:21, Filter (Purple)
+BuildCraft|Transport:pipeLens:22, Filter (Cyan)
+BuildCraft|Transport:pipeLens:23, Filter (Light Gray)
+BuildCraft|Transport:pipeLens:24, Filter (Gray)
+BuildCraft|Transport:pipeLens:25, Filter (Pink)
+BuildCraft|Transport:pipeLens:26, Filter (Lime)
+BuildCraft|Transport:pipeLens:27, Filter (Yellow)
+BuildCraft|Transport:pipeLens:28, Filter (Light Blue)
+BuildCraft|Transport:pipeLens:29, Filter (Magenta)
+BuildCraft|Transport:pipeLens:30, Filter (Orange)
+BuildCraft|Transport:pipeLens:31, Filter (White)
+BuildCraft|Transport:pipeLens:32, Lens (Clear)
+BuildCraft|Transport:pipeLens:33, Filter (Clear)
+BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
+BuildCraft|Transport:gateCopier, Gate Copier
+BuildCraft|Robotics:robot, Robot
+BuildCraft|Robotics:robotStation, item.robotStation.name
+BuildCraft|Robotics:redstone_board, Redstone Board
+BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
+BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
+BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
+BuildCraft|Silicon:redstoneChipset:3, Diamond Chipset
+BuildCraft|Silicon:redstoneChipset:4, Pulsating Chipset
+BuildCraft|Silicon:redstoneChipset:5, Quartz Chipset
+BuildCraft|Silicon:redstoneChipset:6, Redstone Comp Chipset
+BuildCraft|Silicon:redstoneChipset:7, Emerald Chipset
+BuildCraft|Silicon:package, Package
+BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
+BuildCraft|Energy:bucketOil, Oil Bucket
+BuildCraft|Energy:bucketFuel, Fuel Bucket
+BuildCraft|Builders:templateItem, Template
+BuildCraft|Builders:blueprintItem, Blueprint
 DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
 DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
 DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
@@ -3939,6 +4094,118 @@ ExtraUtilities:watering_can, Watering Can
 ExtraUtilities:scanner, Portable Scanner
 ExtraUtilities:golden_bag, Golden Bag of Holding
 ExtraUtilities:bedrockiumIngot, Bedrockium Ingot
+LogisticsPipes:item.logisticsItemCard:0, Logistics Item Card
+LogisticsPipes:item.remoteOrdererItem, item.remoteOrdererItem.name
+LogisticsPipes:item.ItemPipeSignCreator, item.ItemPipeSignCreator.name
+LogisticsPipes:item.logisticsHUDGlasses, item.logisticsHUDGlasses.name
+LogisticsPipes:item.logisticsParts:0, Logistics HUD Bow
+LogisticsPipes:item.logisticsParts:1, Logistics HUD Glass
+LogisticsPipes:item.logisticsParts:2, Logistics HUD Nose Bridge
+LogisticsPipes:item.logisticsParts:3, Nano Hopper
+LogisticsPipes:item.logisticsParts:4, Blank Upgrade
+LogisticsPipes:item.logisticsParts:5, Gold Upgrade Chip
+LogisticsPipes:item.logisticsParts:6, Diamond Upgrade Chip
+LogisticsPipes:item.logisticsParts:7, Advanced Gold Crafting Chip
+LogisticsPipes:item.logisticsParts:8, Advanced Diamond Crafting Chip
+LogisticsPipes:item.pipeComponents, item.pipeComponents.name
+LogisticsPipes:item.itemModule:0, Blank Module
+LogisticsPipes:item.itemModule:1, ItemSink module
+LogisticsPipes:item.itemModule:2, Passive Supplier module
+LogisticsPipes:item.itemModule:3, Extractor module
+LogisticsPipes:item.itemModule:4, Polymorphic ItemSink module
+LogisticsPipes:item.itemModule:5, QuickSort module
+LogisticsPipes:item.itemModule:6, Terminus module
+LogisticsPipes:item.itemModule:7, Advanced Extractor module
+LogisticsPipes:item.itemModule:103, Extractor MK2 module
+LogisticsPipes:item.itemModule:107, Advanced Extractor MK2
+LogisticsPipes:item.itemModule:203, Extractor MK3 module
+LogisticsPipes:item.itemModule:207, Advanced Extractor MK3
+LogisticsPipes:item.itemModule:500, Provider module
+LogisticsPipes:item.itemModule:501, Provider module MK2
+LogisticsPipes:item.itemModule:300, Electric Manager module
+LogisticsPipes:item.itemModule:301, Electric Buffer module
+LogisticsPipes:item.itemModule:8, Bee Analyzer module
+LogisticsPipes:item.itemModule:9, BeeSink module
+LogisticsPipes:item.itemModule:10, Apiary Refiller module
+LogisticsPipes:item.itemModule:11, Drone Terminus module
+LogisticsPipes:item.itemModule:12, Mod Based ItemSink module
+LogisticsPipes:item.itemModule:13, OreDict ItemSink module
+LogisticsPipes:item.itemModule:30, Thaumic AspectSink module
+LogisticsPipes:item.itemModule:31, Enchantment Sink module
+LogisticsPipes:item.itemModule:131, Enchantment Sink module MK2
+LogisticsPipes:item.itemModule:14, CC Based QuickSort module
+LogisticsPipes:item.itemModule:15, CC Based ItemSink module
+LogisticsPipes:item.itemModule:600, Crafting module
+LogisticsPipes:item.itemModule:601, Crafting module MK2
+LogisticsPipes:item.itemModule:602, Crafting module MK3
+LogisticsPipes:item.itemModule:502, Active Supplier Module
+LogisticsPipes:item.itemModule:16, Creative Tab Based ItemSink module
+LogisticsPipes:item.itemDisk, item.itemDisk.name
+LogisticsPipes:item.itemUpgrade:0, Sneaky Upgrade (UP)
+LogisticsPipes:item.itemUpgrade:1, Sneaky Upgrade (DOWN)
+LogisticsPipes:item.itemUpgrade:2, Sneaky Upgrade (NORTH)
+LogisticsPipes:item.itemUpgrade:3, Sneaky Upgrade (SOUTH)
+LogisticsPipes:item.itemUpgrade:4, Sneaky Upgrade (EAST)
+LogisticsPipes:item.itemUpgrade:5, Sneaky Upgrade (WEST)
+LogisticsPipes:item.itemUpgrade:6, Sneaky Combination Upgrade
+LogisticsPipes:item.itemUpgrade:20, Item Speed Upgrade
+LogisticsPipes:item.itemUpgrade:10, Disconnection Upgrade (UP)
+LogisticsPipes:item.itemUpgrade:11, Disconnection Upgrade (DOWN)
+LogisticsPipes:item.itemUpgrade:12, Disconnection Upgrade (NORTH)
+LogisticsPipes:item.itemUpgrade:13, Disconnection Upgrade (SOUTH)
+LogisticsPipes:item.itemUpgrade:14, Disconnection Upgrade (EAST)
+LogisticsPipes:item.itemUpgrade:15, Disconnection Upgrade (WEST)
+LogisticsPipes:item.itemUpgrade:21, Advanced Satellite Upgrade
+LogisticsPipes:item.itemUpgrade:22, Fluid Crafting Upgrade
+LogisticsPipes:item.itemUpgrade:23, Crafting Byproduct Extraction Upgrade
+LogisticsPipes:item.itemUpgrade:24, Placement Rules Upgrade
+LogisticsPipes:item.itemUpgrade:25, Fuzzy Upgrade
+LogisticsPipes:item.itemUpgrade:30, Power Transportation Upgrade
+LogisticsPipes:item.itemUpgrade:32, TE Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:33, IC2 LV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:34, IC2 MV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:35, IC2 HV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:36, IC2 EV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:40, CC Remote Control Upgrade
+LogisticsPipes:item.itemUpgrade:41, Crafting Monitoring Upgrade
+LogisticsPipes:item.itemUpgrade:42, Opaque Upgrade
+LogisticsPipes:item.itemUpgrade:26, Crafting Cleanup Upgrade
+LogisticsPipes:item.itemUpgrade:44, Upgrade Module Upgrade
+LogisticsPipes:item.logisticsFluidContainer, item.logisticsFluidContainer.name
+LogisticsPipes:item.brokenItem, item.brokenItem.name
+LogisticsPipes:item.pipeController, item.pipeController.name
+LogisticsPipes:item.PipeItemsBasicLogistics, item.PipeItemsBasicLogistics.name
+LogisticsPipes:item.PipeItemsRequestLogistics, item.PipeItemsRequestLogistics.name
+LogisticsPipes:item.PipeItemsProviderLogistics, item.PipeItemsProviderLogistics.name
+LogisticsPipes:item.PipeItemsCraftingLogistics, item.PipeItemsCraftingLogistics.name
+LogisticsPipes:item.PipeItemsSatelliteLogistics, item.PipeItemsSatelliteLogistics.name
+LogisticsPipes:item.PipeItemsSupplierLogistics, item.PipeItemsSupplierLogistics.name
+LogisticsPipes:item.PipeLogisticsChassiMk1, item.PipeLogisticsChassiMk1.name
+LogisticsPipes:item.PipeLogisticsChassiMk2, item.PipeLogisticsChassiMk2.name
+LogisticsPipes:item.PipeLogisticsChassiMk3, item.PipeLogisticsChassiMk3.name
+LogisticsPipes:item.PipeLogisticsChassiMk4, item.PipeLogisticsChassiMk4.name
+LogisticsPipes:item.PipeLogisticsChassiMk5, item.PipeLogisticsChassiMk5.name
+LogisticsPipes:item.PipeItemsCraftingLogisticsMk2, item.PipeItemsCraftingLogisticsMk2.name
+LogisticsPipes:item.PipeItemsRequestLogisticsMk2, item.PipeItemsRequestLogisticsMk2.name
+LogisticsPipes:item.PipeItemsRemoteOrdererLogistics, item.PipeItemsRemoteOrdererLogistics.name
+LogisticsPipes:item.PipeItemsProviderLogisticsMk2, item.PipeItemsProviderLogisticsMk2.name
+LogisticsPipes:item.PipeItemsApiaristAnalyser, item.PipeItemsApiaristAnalyser.name
+LogisticsPipes:item.PipeItemsApiaristSink, item.PipeItemsApiaristSink.name
+LogisticsPipes:item.PipeItemsInvSysConnector, item.PipeItemsInvSysConnector.name
+LogisticsPipes:item.PipeItemsSystemEntranceLogistics, item.PipeItemsSystemEntranceLogistics.name
+LogisticsPipes:item.PipeItemsSystemDestinationLogistics, item.PipeItemsSystemDestinationLogistics.name
+LogisticsPipes:item.PipeItemsCraftingLogisticsMk3, item.PipeItemsCraftingLogisticsMk3.name
+LogisticsPipes:item.PipeItemsFirewall, item.PipeItemsFirewall.name
+LogisticsPipes:item.PipeItemsFluidSupplier, item.PipeItemsFluidSupplier.name
+LogisticsPipes:item.PipeFluidBasic, item.PipeFluidBasic.name
+LogisticsPipes:item.PipeFluidInsertion, item.PipeFluidInsertion.name
+LogisticsPipes:item.PipeFluidProvider, item.PipeFluidProvider.name
+LogisticsPipes:item.PipeFluidRequestLogistics, item.PipeFluidRequestLogistics.name
+LogisticsPipes:item.PipeFluidExtractor, item.PipeFluidExtractor.name
+LogisticsPipes:item.PipeFluidSatellite, item.PipeFluidSatellite.name
+LogisticsPipes:item.PipeFluidSupplierMk2, item.PipeFluidSupplierMk2.name
+LogisticsPipes:item.PipeBlockRequestTable, item.PipeBlockRequestTable.name
+LogisticsPipes:item.PipeItemsBasicTransport, item.PipeItemsBasicTransport.name
 Mekanism:PartTransmitter:0, Basic Universal Cable
 Mekanism:PartTransmitter:1, Advanced Universal Cable
 Mekanism:PartTransmitter:2, Elite Universal Cable

@@ -38,6 +38,63 @@ classDiagram
     authors: brandon3055
   }
 
+  class `BuildCraft|Builders`["BC Builders"] {
+    id: BuildCraft|Builders
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Builders` <-- `BuildCraft|Core`
+
+  class `BuildCraft|Compat`["BuildCraft Compat"] {
+    id: BuildCraft|Compat
+    version: 7.1.14
+    authors: asie, BuildCraft Team
+  }
+  `BuildCraft|Compat` <-- `BuildCraft|Core`
+  `BuildCraft|Compat` <-- `BuildCraft|Transport`
+  `BuildCraft|Compat` <-- `BuildCraft|Builders`
+
+  class `BuildCraft|Core`["BuildCraft"] {
+    id: BuildCraft|Core
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+
+  class `BuildCraft|Energy`["BC Energy"] {
+    id: BuildCraft|Energy
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Energy` <-- `BuildCraft|Core`
+
+  class `BuildCraft|Factory`["BC Factory"] {
+    id: BuildCraft|Factory
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Factory` <-- `BuildCraft|Core`
+
+  class `BuildCraft|Robotics`["BC Robotics"] {
+    id: BuildCraft|Robotics
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Robotics` <-- `BuildCraft|Core`
+
+  class `BuildCraft|Silicon`["BC Silicon"] {
+    id: BuildCraft|Silicon
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Silicon` <-- `BuildCraft|Core`
+
+  class `BuildCraft|Transport`["BC Transport"] {
+    id: BuildCraft|Transport
+    version: 7.1.33
+    authors: SpaceToad, BuildCraft Team
+  }
+  `BuildCraft|Transport` <-- `BuildCraft|Core`
+
   class `CoFHCore`["CoFH Core"] {
     id: CoFHCore
     version: 3.1.4
@@ -88,6 +145,16 @@ classDiagram
     version: 1.2.0.345
     authors: 
   }
+
+  class `LogisticsPipes`["Logistics Pipes"] {
+    id: LogisticsPipes
+    version: 1.0.1-GTNH
+    authors: RS485, LP Team
+  }
+  `LogisticsPipes` <-- `BuildCraft|Core`
+  `LogisticsPipes` <-- `BuildCraft|Transport`
+  `LogisticsPipes` <-- `BuildCraft|Silicon`
+  `LogisticsPipes` <-- `Thaumcraft`
 
   class `McMultipart`["Minecraft Multipart Plugin"] {
     id: McMultipart
@@ -152,6 +219,7 @@ classDiagram
     authors: PowerCrystals
   }
   `MineFactoryReloaded|CompatBuildCraft` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatBuildCraft` <-- `BuildCraft|Core`
 
   class `MineFactoryReloaded|CompatChococraft`["MFR Compat: Chococraft"] {
     id: MineFactoryReloaded|CompatChococraft
@@ -265,6 +333,7 @@ classDiagram
     version: 1.9.5-GTNH
     authors: Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
   }
+  `OpenComputers` <-- `BuildCraft|Core`
   `OpenComputers` <-- `ForgeMultipart`
   `OpenComputers` <-- `MineFactoryReloaded`
   `OpenComputers` <-- `Thaumcraft`
