@@ -580,7 +580,7 @@ classDiagram
 
   class `mod-diagram`["Mod Diagram"] {
     id: mod-diagram
-    version: v1.0
+    version: v2.0
     authors: juanmuscaria
   }
 
