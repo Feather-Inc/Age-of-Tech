@@ -12,3 +12,6 @@ natives/*
 .minecraft/crash-reports/*
 *.so
 .minecraft/BotaniaVars.dat
+.minecraft/journeymap/*
+.minecraft/resourcepacks/*
+.minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
