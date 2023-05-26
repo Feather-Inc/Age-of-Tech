@@ -15,3 +15,4 @@ natives/*
 .minecraft/journeymap/*
 .minecraft/resourcepacks/*
 .minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
+.minecraft/minetweaker.log
