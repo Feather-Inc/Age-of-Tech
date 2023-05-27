@@ -1,4 +1,4 @@
-# Mods (181)
+# Mods (203)
 * CoFH ASM-\[\<CoFH ASM>]-000
 * Blood Magic: Alchemical Wizardry-\[AWWayofTime]-v1.3.3
 * Actually Additions-\[ActuallyAdditions]-1.7.10-r21
@@ -9,6 +9,7 @@
 * Backpack Editted for ModdedNetwork-\[Backpack]-2.2.11-GTNH
 * Baubles-\[Baubles]-1.0.1.16
 * Binnie Core-\[BinnieCore]-2.1.1
+* Biomes O' Plenty-\[BiomesOPlenty]-2.1.0
 * Blood Arsenal-\[BloodArsenal]-1.2.10
 * Botania-\[Botania]-1.9.23-GTNH
 * Botany-\[Botany]-2.1.1
@@ -69,6 +70,7 @@
 * MFR Compat: Thermal Expansion-\[MineFactoryReloaded|CompatThermalExpansion]-1.7.10R2.8.1
 * MFR Compat: TwilightForest-\[MineFactoryReloaded|CompatTwilightForest]-1.7.10R2.8.1
 * MFR Compat: Vanilla-\[MineFactoryReloaded|CompatVanilla]-1.7.10R2.8.1
+* MineMenu-\[MineMenu]-1.2.0
 * MineTweaker 3-\[MineTweaker3]-3.2.12
 * MobiusCore-\[MobiusCore]-1.3.8-mapless
 * Mouse Tweaks-\[MouseTweaks]-2.4.8-GTNH
@@ -80,7 +82,9 @@
 * NEI Addons: Developer Tools-\[NEIAddons|Developer]-1.12.22
 * NEI Addons: Ex Nihilo-\[NEIAddons|ExNihilo]-1.12.22
 * NEI Addons: Forestry-\[NEIAddons|Forestry]-1.12.22
+* Nether Ores-\[NetherOres]-1.7.10R2.3.1
 * NotEnoughItems-\[NotEnoughItems]-2.3.53-GTNH
+* NuclearCraft-\[NuclearCraft]-1.9g
 * OpenBlocks-\[OpenBlocks]-1.7.0-GTNH
 * OpenComputers-\[OpenComputers]-1.9.5-GTNH
 * OpenComputers (Core)-\[OpenComputers|Core]-@VERSION@
@@ -111,9 +115,12 @@
 * ThaumicHorizons-\[ThaumicHorizons]-1.2.1.12
 * Thaumic Tinkerer-\[ThaumicTinkerer]-2.7.0
 * Thaumic Tinkerer Core-\[ThaumicTinkerer-preloader]-0.1
+* Thermal Expansion-\[ThermalExpansion]-1.7.10R4.1.5
+* Thermal Foundation-\[ThermalFoundation]-1.7.10R1.2.6
 * TiC Tooltips-\[TiCTooltips]-1.2.10
 * Translocator-\[Translocator]-1.1.2.21
 * The Twilight Forest-\[TwilightForest]-2.4.3
+* UniDict-\[UniDict]-1.7.10-2.9.2
 * Waila-\[Waila]-1.6.0
 * Waila Harvestability-\[WailaHarvestability]-1.1.10-GTNH
 * WarpTheory-\[WarpTheory]-1.2.16-GTNH
@@ -124,10 +131,12 @@
 * The Aether-\[aether_legacy]-1.1.2.2
 * Applied Energistics 2-\[appliedenergistics2]-rv3-beta-212-GTNH-1-ga99d8df.dirty
 * Applied Energistics 2 Core-\[appliedenergistics2-core]-rv3-beta-212-GTNH-1-ga99d8df.dirty
+* Atum-\[atum]-0.6
 * Avaritiaddons-\[avaritiaddons]-1.5.5-GTNH
 * BD lib-\[bdlib]-1.9.8-GTNH
 * BetterCrashes-\[bettercrashes]-1.2.0-GTNH
 * Better Loading Screen GTNH-\[betterloadingscreen]-1.4.1-GTNH
+* Bigger Packets, please !-\[biggerpacketsplz]-1.2
 * Chisel-\[chisel]-2.11.0-GTNH
 * Controlling-\[controlling]-1.0.0.5
 * Cooking For Blockheads-\[cookingforblockheads]-1.2.14-GTNH
@@ -135,8 +144,12 @@
 * CraftPresence-\[craftpresence]-v1.8.10
 * CreativeCore-\[creativecore]-1.3.27-GTNH
 * Custom Main Menu-\[custommainmenu]-1.9.4
+* debug-\[debug]-1.0
 * DefaultServerList-\[defaultserverlist]-1.4.0
+* Dense Ores-\[denseores]-1.0
+* Dynamic Surroundings-\[dsurround]-1.0.6.4
 * EnderCore-\[endercore]-0.2.13
+* Enchanting Plus-\[eplus]-3.0.2-d
 * Gadomancy-\[gadomancy]-1.1.0
 * UniMixins: GasStation-\[gasstation]-0.5.1
 * Gendustry-\[gendustry]-1.6.5.5-GTNH
@@ -147,8 +160,12 @@
 * Inventory Tweaks-\[inventorytweaks]-1.5.16
 * Iron Furnaces-\[ironfurnaces]-1.2.4
 * Iron Tanks-\[irontank]-1.2.6
+* IvToolkit-\[ivtoolkit]-1.2.1
+* Just Enough Calculation-\[jecalculation]-3.8.5
 * JourneyMap-\[journeymap]-5.1.4p6
+* Let's Encrypt Craft-\[letsencryptcraft]-@VERSION@
 * LittleTiles-\[littletiles]-1.2.7-GTNH
+* Login Shield-\[login_shield]-1.7.10-2-gf6e21a7
 * Magical Crops: Core-\[magicalcrops]-4.0.0_PUBLIC_BETA_4b
 * Magical Crops: Armoury-\[magicalcropsarmour]-4.0.0_PUBLIC_BETA_4
 * Magical Crops: Decorative-\[magicalcropsdeco]-4.0.0_PUBLIC_BETA_4a
@@ -161,8 +178,13 @@
 * NotEnoughEnergistics-\[neenergistics]-1.4.0
 * NEIIntegration-\[neiintegration]-1.3.1
 * Nether Portal Fix-\[netherportalfix]-1.1.2
+* Ore Tweaker-\[oretweaker]-1.0.2
 * Overloaded Armor Bar-\[overloadedarmorbar]-1.0.1
+* Recurrent Complex-\[reccomplex]-0.9.7.1.1
 * RFDrills-\[rfdrills]-1.7.3
+* Smooth Font-\[smoothfont]-1.7.10-1.15.3
+* Smooth Font Core-\[smoothfontcore]-1.7.10-1.15.1
+* Sound Filters-\[soundfilters]-0.8_for_1.7.X
 * UniMixins: SpongeMixins-\[spongemixins]-2.0.1
 * TC4 Tweak-\[tc4tweak]-1.5.7
 * TC Inventory Scanning-\[tcinventoryscan]-1.0.12-GTNH

@@ -66,6 +66,12 @@ classDiagram
   `BinnieCore` <-- `Forestry`
   `BinnieCore` <-- `gtnhlib`
 
+  class `BiomesOPlenty`["Biomes O' Plenty"] {
+    id: BiomesOPlenty
+    version: 2.1.0
+    authors: Adubbz, Amnet, Forstride, ted80
+  }
+
   class `BloodArsenal`["Blood Arsenal"] {
     id: BloodArsenal
     version: 1.2.10
@@ -115,6 +121,7 @@ classDiagram
   `BuildCraft|Compat` <-- `Forestry`
   `BuildCraft|Compat` <-- `BuildCraft|Transport`
   `BuildCraft|Compat` <-- `BuildCraft|Builders`
+  `BuildCraft|Compat` <-- `ThermalExpansion`
 
   class `BuildCraft|Core`["BuildCraft"] {
     id: BuildCraft|Core
@@ -181,6 +188,8 @@ classDiagram
     authors: brandon3055
   }
   `DraconicEvolution` <-- `NotEnoughItems`
+  `DraconicEvolution` <-- `ThermalExpansion`
+  `DraconicEvolution` <-- `ThermalFoundation`
   `DraconicEvolution` <-- `BrandonsCore`
 
   class `EnderIO`["Ender IO"] {
@@ -224,6 +233,7 @@ classDiagram
   }
   `ExtraUtilities` <-- `ForgeMultipart`
   `ExtraUtilities` <-- `Baubles`
+  `ExtraUtilities` <-- `ThermalFoundation`
 
   class `ExtrabiomesXL`["ExtrabiomesXL"] {
     id: ExtrabiomesXL
@@ -247,6 +257,7 @@ classDiagram
     authors: SirSengir
   }
   `Forestry` <-- `ExtrabiomesXL`
+  `Forestry` <-- `BiomesOPlenty`
   `Forestry` <-- `IC2`
 
   class `ForgeMicroblock`["Forge Microblocks"] {
@@ -319,6 +330,7 @@ classDiagram
   `LogisticsPipes` <-- `IC2`
   `LogisticsPipes` <-- `Forestry`
   `LogisticsPipes` <-- `Thaumcraft`
+  `LogisticsPipes` <-- `ThermalExpansion`
 
   class `LunatriusCore`["LunatriusCore"] {
     id: LunatriusCore
@@ -342,6 +354,8 @@ classDiagram
   `MagicBees` <-- `Thaumcraft`
   `MagicBees` <-- `ExtraBees`
   `MagicBees` <-- `TConstruct`
+  `MagicBees` <-- `ThermalFoundation`
+  `MagicBees` <-- `ThermalExpansion`
   `MagicBees` <-- `AWWayofTime`
   `MagicBees` <-- `Botania`
   `MagicBees` <-- `appliedenergistics2`
@@ -502,6 +516,7 @@ classDiagram
     authors: PowerCrystals
   }
   `MineFactoryReloaded|CompatThermalExpansion` <-- `MineFactoryReloaded`
+  `MineFactoryReloaded|CompatThermalExpansion` <-- `ThermalExpansion`
 
   class `MineFactoryReloaded|CompatTwilightForest`["MFR Compat: TwilightForest"] {
     id: MineFactoryReloaded|CompatTwilightForest
@@ -517,6 +532,12 @@ classDiagram
     authors: PowerCrystals
   }
   `MineFactoryReloaded|CompatVanilla` <-- `MineFactoryReloaded`
+
+  class `MineMenu`["MineMenu"] {
+    id: MineMenu
+    version: 1.7.10-1.2.0.B44
+    authors: 
+  }
 
   class `MineTweaker3`["MineTweaker 3"] {
     id: MineTweaker3
@@ -593,12 +614,25 @@ classDiagram
   `NEIAddons|Forestry` <-- `NEIAddons`
   `NEIAddons|Forestry` <-- `Forestry`
 
+  class `NetherOres`["Nether Ores"] {
+    id: NetherOres
+    version: 2.3.1
+    authors: PowerCrystals, TehKrush, AtomicStryker, skyboy026
+  }
+  `NetherOres` <-- `CoFHCore`
+
   class `NotEnoughItems`["NotEnoughItems"] {
     id: NotEnoughItems
     version: 2.3.53-GTNH
     authors: ChickenBones, mitchej123
   }
   `NotEnoughItems` <-- `CodeChickenCore`
+
+  class `NuclearCraft`["NuclearCraft"] {
+    id: NuclearCraft
+    version: 1.9g
+    authors: turbodiesel4598
+  }
 
   class `OpenBlocks`["OpenBlocks"] {
     id: OpenBlocks
@@ -619,6 +653,7 @@ classDiagram
   `OpenComputers` <-- `MineFactoryReloaded`
   `OpenComputers` <-- `ProjRed|Transmission`
   `OpenComputers` <-- `Thaumcraft`
+  `OpenComputers` <-- `ThermalExpansion`
 
   class `OpenComputers|Core`["OpenComputers (Core)"] {
     id: OpenComputers|Core
@@ -763,6 +798,8 @@ classDiagram
   }
   `TConstruct` <-- `Mantle`
   `TConstruct` <-- `MineFactoryReloaded`
+  `TConstruct` <-- `ThermalExpansion`
+  `TConstruct` <-- `ThermalFoundation`
   `TConstruct` <-- `CoFHCore`
   `TConstruct` <-- `NotEnoughItems`
   `TConstruct` <-- `Waila`
@@ -826,6 +863,21 @@ classDiagram
     authors: nekosune, Pixlepix, Vazkii
   }
 
+  class `ThermalExpansion`["Thermal Expansion"] {
+    id: ThermalExpansion
+    version: 4.1.5
+    authors: Team CoFH
+  }
+  `ThermalExpansion` <-- `CoFHCore`
+  `ThermalExpansion` <-- `ThermalFoundation`
+
+  class `ThermalFoundation`["Thermal Foundation"] {
+    id: ThermalFoundation
+    version: 1.2.6
+    authors: Team CoFH
+  }
+  `ThermalFoundation` <-- `CoFHCore`
+
   class `TiCTooltips`["TiC Tooltips"] {
     id: TiCTooltips
     version: 1.2.10
@@ -845,6 +897,12 @@ classDiagram
     id: TwilightForest
     version: 2.4.3
     authors: 
+  }
+
+  class `UniDict`["UniDict"] {
+    id: UniDict
+    version: 2.9.2
+    authors: WanionCane
   }
 
   class `Waila`["Waila"] {
@@ -877,6 +935,7 @@ classDiagram
   `advgenerators` <-- `BuildCraft|Silicon`
   `advgenerators` <-- `IC2`
   `advgenerators` <-- `CoFHCore`
+  `advgenerators` <-- `ThermalExpansion`
   `advgenerators` <-- `bdlib`
 
   class `ae2fc`["AE2 Fluid Crafting"] {
@@ -921,6 +980,12 @@ classDiagram
     authors: AlgorithmX2
   }
 
+  class `atum`["Atum"] {
+    id: atum
+    version: 0.6.77
+    authors: Shadowclaimer, lclc98, RebelKeithy
+  }
+
   class `avaritiaddons`["Avaritiaddons"] {
     id: avaritiaddons
     version: 1.5.5-GTNH
@@ -945,6 +1010,12 @@ classDiagram
     id: betterloadingscreen
     version: 1.4.1-GTNH
     authors: AlexIIL, jackowski626
+  }
+
+  class `biggerpacketsplz`["Bigger Packets, please !"] {
+    id: biggerpacketsplz
+    version: 1.2
+    authors: ElNounch
   }
 
   class `chisel`["Chisel"] {
@@ -994,6 +1065,12 @@ classDiagram
     authors: 
   }
 
+  class `debug`["debug"] {
+    id: debug
+    version: 1.0
+    authors: 
+  }
+
   class `defaultserverlist`["DefaultServerList"] {
     id: defaultserverlist
     version: 1.4.0
@@ -1001,12 +1078,30 @@ classDiagram
   }
   `defaultserverlist` <-- `spongemixins`
 
+  class `denseores`["Dense Ores"] {
+    id: denseores
+    version: 1.6.2
+    authors: 
+  }
+
+  class `dsurround`["Dynamic Surroundings"] {
+    id: dsurround
+    version: 1.0.6.4
+    authors: OreCruncher
+  }
+
   class `endercore`["EnderCore"] {
     id: endercore
     version: 0.2.13
     authors: tterrag, CrazyPants
   }
   `endercore` <-- `gtnhlib`
+
+  class `eplus`["Enchanting Plus"] {
+    id: eplus
+    version: 1.7.10-3.0.1
+    authors: 
+  }
 
   class `gadomancy`["Gadomancy"] {
     id: gadomancy
@@ -1082,16 +1177,41 @@ classDiagram
   }
   `irontank` <-- `BuildCraft|Factory`
 
+  class `ivtoolkit`["IvToolkit"] {
+    id: ivtoolkit
+    version: 1.2.1
+    authors: Ivorius
+  }
+
+  class `jecalculation`["Just Enough Calculation"] {
+    id: jecalculation
+    version: 3.8.5
+    authors: Towdium, Discreater
+  }
+  `jecalculation` <-- `NotEnoughItems`
+
   class `journeymap`["JourneyMap"] {
     id: journeymap
     version: 1.7.10-5.1.4p6
     authors: techbrew, mysticdrew
   }
 
+  class `letsencryptcraft`["Let's Encrypt Craft"] {
+    id: letsencryptcraft
+    version: @VERSION@
+    authors: 
+  }
+
   class `littletiles`["LittleTiles"] {
     id: littletiles
     version: 1.2.7-GTNH
     authors: 
+  }
+
+  class `login_shield`["Login Shield"] {
+    id: login_shield
+    version: 1.7.10-2-gf6e21a7
+    authors: Glasspelican
   }
 
   class `magicalcrops`["Magical Crops: Core"] {
@@ -1178,11 +1298,24 @@ classDiagram
     authors: BlayTheNinth
   }
 
+  class `oretweaker`["Ore Tweaker"] {
+    id: oretweaker
+    version: 1.0.2-1.7.10
+    authors: EwyBoy
+  }
+
   class `overloadedarmorbar`["Overloaded Armor Bar"] {
     id: overloadedarmorbar
     version: 1.0.1
     authors: Tfarcenim
   }
+
+  class `reccomplex`["Recurrent Complex"] {
+    id: reccomplex
+    version: 0.9.7.1.1
+    authors: Ivorius
+  }
+  `reccomplex` <-- `ivtoolkit`
 
   class `rfdrills`["RFDrills"] {
     id: rfdrills
@@ -1190,7 +1323,26 @@ classDiagram
     authors: goldenapple
   }
   `rfdrills` <-- `CoFHCore`
+  `rfdrills` <-- `ThermalExpansion`
   `rfdrills` <-- `EnderIO`
+
+  class `smoothfont`["Smooth Font"] {
+    id: smoothfont
+    version: 1.7.10-1.15.3
+    authors: bre2el
+  }
+
+  class `smoothfontcore`["Smooth Font Core"] {
+    id: smoothfontcore
+    version: 1.7.10-1.15.1
+    authors: bre2el
+  }
+
+  class `soundfilters`["Sound Filters"] {
+    id: soundfilters
+    version: 0.7_for_1.7.X
+    authors: Tmtravlr
+  }
 
   class `spongemixins`["UniMixins: SpongeMixins"] {
     id: spongemixins
