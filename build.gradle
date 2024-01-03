@@ -1,0 +1,47 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+plugins {
+    id 'base'
+}
+
+group = 'com.juanmuscaria'
+version = '8.0.0'
+
+tasks.register('packMinecraft', Zip) {
+    group('packing')
+    inputs.property('version', project.version)
+    inputs.property('name', project.name)
+    archiveClassifier = 'manual'
+
+    from("${projectDir}/minecraft")  //{
+//        filter(ReplaceTokens, tokens: [VERSION: project.version,
+//                                       NAME: project.name])
+//    }
+}
+
+tasks.register('packMultiMC', Zip) {
+    group('packing')
+    inputs.property('version', project.version)
+    inputs.property('name', project.name)
+    archiveClassifier = 'multimc'
+
+    from("${projectDir}/minecraft") {
+        into('/.minecraft')
+    }
+    from("${projectDir}/multimc")
+}
+
+tasks.register('packTechnic', Zip) {
+    group('packing')
+    inputs.property('version', project.version)
+    inputs.property('name', project.name)
+    archiveClassifier = 'technic'
+
+    from("${projectDir}/minecraft")
+
+    from("${projectDir}/technic")
+}
+
+tasks.register('packAll') {
+    group('packing')
+    dependsOn('packMinecraft', 'packMultiMC',  'packTechnic')
+}

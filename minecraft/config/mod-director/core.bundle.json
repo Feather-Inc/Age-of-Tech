@@ -1,0 +1,51 @@
+{
+  "curse":
+  [
+    {
+      "fileName": "CoFHCore.jar",
+      "addonId": 69162,
+      "fileId": 2388750
+    }
+  ],
+  "url":
+  [
+    {
+      "fileName": "CodeChickenCore.jar",
+      "url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.2.0/CodeChickenCore-1.2.0.jar"
+    },
+    {
+      "fileName": "ForgeMultipart.jar",
+      "url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.4.4/ForgeMultipart-1.4.4.jar",
+      "folder": "mods/1.7.10"
+    },
+    {
+      "fileName": "Baubles.jar",
+      "url": "https://github.com/GTNewHorizons/Baubles/releases/download/1.0.3/Baubles-1.0.3.jar",
+      "folder": "mods/1.7.10"
+    },
+    {
+      "fileName": "BrandonsCore.jar",
+      "url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.0.0.13-GTNH/BrandonsCore-1.7.10-1.0.0.13-GTNH.jar"
+    },
+    {
+      "fileName": "AppleCore.jar",
+      "url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.2.12/AppleCore-3.2.12.jar"
+    },
+    {
+      "fileName": "Mantle.jar",
+      "url": "https://github.com/GTNewHorizons/Mantle/releases/download/0.3.7/Mantle-0.3.7.jar"
+    },
+    {
+      "fileName": "+unimixins.jar",
+      "url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.15/+unimixins-all-1.7.10-0.1.15.jar"
+    },
+    {
+      "fileName": "Hodgepodge.jar",
+      "url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.4.6/hodgepodge-2.4.6.jar"
+    },
+    {
+      "fileName": "gtnhlib.jar",
+      "url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.13/gtnhlib-0.0.13.jar"
+    }
+  ]
+}

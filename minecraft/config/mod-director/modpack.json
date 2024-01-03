@@ -1,0 +1,9 @@
+{
+  "packName": "Age of Tech",
+  "icon": {
+    "path": "icon.png",
+    "width": 64,
+    "height": 64
+  },
+  "requiresRestart": true
+}
