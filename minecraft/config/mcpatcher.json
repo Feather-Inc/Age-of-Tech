@@ -1,0 +1,24 @@
+{
+  "logging": {
+    "Tilesheet": "INFO",
+    "Texture Pack": "INFO",
+    "Custom Colors": "INFO"
+  },
+  "profile": {
+    "Custom Colors": {
+      "enabled": "true",
+      "water": "true",
+      "tree": "true",
+      "redstone": "true",
+      "stem": "true",
+      "otherBlocks": "true",
+      "smoothBiomes": "true",
+      "testColorSmoothing": "false",
+      "blockBlendRadius2": "4"
+    },
+    "Connected Textures": {
+      "debugTextures": "false",
+      "grass": "false"
+    }
+  }
+}
