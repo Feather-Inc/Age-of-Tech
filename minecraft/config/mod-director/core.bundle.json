@@ -5,6 +5,16 @@
       "fileName": "CoFHCore.jar",
       "addonId": 69162,
       "fileId": 2388750
+    },
+    {
+      "fileName": "IvToolkit.jar",
+      "addonId": 224535,
+      "fileId": 2294442
+    },
+    {
+      "fileName": "LetsEncryptCraft.jar",
+      "addonId": 297057,
+      "fileId": 2668703
     }
   ],
   "url":
@@ -14,13 +24,23 @@
       "url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.2.0/CodeChickenCore-1.2.0.jar"
     },
     {
-      "fileName": "ForgeMultipart.jar",
+      "fileName": "CodeChickenLib-1.2.0.jar",
+      "url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.2.0/CodeChickenLib-1.2.0.jar",
+      "folder": "mods/1.7.10"
+    },
+    {
+      "fileName": "ForgeMultipart-1.4.4.jar",
       "url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.4.4/ForgeMultipart-1.4.4.jar",
       "folder": "mods/1.7.10"
     },
     {
-      "fileName": "Baubles.jar",
+      "fileName": "Baubles-1.7.10-1.0.1.10.jar",
       "url": "https://github.com/GTNewHorizons/Baubles/releases/download/1.0.3/Baubles-1.0.3.jar",
+      "folder": "mods/1.7.10"
+    },
+    {
+      "fileName": "MrTJPCore-1.1.5.jar",
+      "url": "https://github.com/GTNewHorizons/MrTJPCore/releases/download/1.1.5/MrTJPCore-1.1.5.jar",
       "folder": "mods/1.7.10"
     },
     {
@@ -46,6 +66,50 @@
     {
       "fileName": "gtnhlib.jar",
       "url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.13/gtnhlib-0.0.13.jar"
+    },
+    {
+      "fileName": "bdlib.jar",
+      "url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.8-GTNH/bdlib-1.7.10-1.9.8-GTNH.jar"
+    },
+    {
+      "fileName": "Opis.jar",
+      "url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.1-mapless/Opis-1.4.1-mapless.jar"
+    },
+    {
+      "fileName": "WanionLib.jar",
+      "url": "https://github.com/GTNewHorizons/WanionLib/releases/download/1.8.4/WanionLib-1.8.4.jar"
+    },
+    {
+      "fileName": "CTMLib.jar",
+      "url": "https://github.com/GTNewHorizons/CTMLib/releases/download/1.4.4/CTMLib-1.7.10-1.4.4.jar"
+    },
+    {
+      "fileName": "creativecore.jar",
+      "url": "https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.31-GTNH/creativecore-1.3.31-GTNH.jar"
+    },
+    {
+      "fileName": "endercore.jar",
+      "url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.19/endercore-0.2.19.jar"
+    },
+    {
+      "fileName": "LunatriusCore.jar",
+      "url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.7-GTNH/LunatriusCore-1.7.10-1.1.7-GTNH.jar"
+    },
+    {
+      "fileName": "OpenModsLibs.jar",
+      "url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar"
+    },
+    {
+      "fileName": "ForgeRelocation.jar",
+      "url": "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.0.3/ForgeRelocation-1.7.10-0.0.3.jar"
+    },
+    {
+      "fileName": "ForgeRelocationFMP.jar",
+      "url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.0.4/ForgeRelocationFMP-1.7.10-0.0.4.jar"
+    },
+    {
+      "fileName": "ForgeRelocationFMP.jar",
+      "url": "https://github.com/GTNewHorizons/Forgelin/releases/download/1.9.7-GTNH/forgelin-1.9.7-GTNH.jar"
     }
   ]
 }

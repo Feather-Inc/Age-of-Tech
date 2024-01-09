@@ -1,0 +1,45 @@
+{
+  "curse":
+  [
+    {
+      "fileName": "DynamicSurroundings.jar",
+      "addonId": 238891,
+      "fileId": 2642381,
+      "metadata": {
+        "side": "CLIENT"
+      }
+    },
+    {
+      "fileName": "SoundFilters.jar",
+      "addonId": 222789,
+      "fileId": 2224003,
+      "metadata": {
+        "side": "CLIENT"
+      }
+    }
+  ],
+  "url":
+  [
+    {
+      "fileName": "bettercrashes.jar",
+      "url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.3.5-GTNH/bettercrashes-1.3.5-GTNH.jar",
+      "metadata": {
+        "side": "CLIENT"
+      }
+    },
+    {
+      "fileName": "tcnodetracker.jar",
+      "url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.7/tcnodetracker-1.7.10-1.1.7.jar",
+      "metadata": {
+        "side": "CLIENT"
+      }
+    },
+    {
+      "fileName": "TiCTooltips.jar",
+      "url": "https://github.com/GTNewHorizons/TiC-Tooltips/releases/download/1.3.0/TiCTooltips-1.3.0.jar",
+      "metadata": {
+        "side": "CLIENT"
+      }
+    }
+  ]
+}

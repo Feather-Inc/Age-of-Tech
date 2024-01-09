@@ -1,8 +1,357 @@
 {
   "curse":
   [
+    {
+      "fileName": "ActuallyAdditions.jar",
+      "addonId": 228404,
+      "fileId": 2274681
+    },
+    {
+      "fileName": "AdvancedGenerators.jar",
+      "addonId": 223622,
+      "fileId": 2298965
+    },
+    {
+      "fileName": "AgriCraft.jar",
+      "addonId": 225635,
+      "fileId": 2284130
+    },
+    {
+      "fileName": "BiomesOPlenty.jar",
+      "addonId": 220318,
+      "fileId": 2499612
+    },
+    {
+      "fileName": "CosmeticArmorReworked.jar",
+      "addonId": 237307,
+      "fileId": 3763564
+    },
+    {
+      "fileName": "DefaultServerList.jar",
+      "addonId": 577749,
+      "fileId": 4026995
+    },
+    {
+      "fileName": "ExtraUtilities.jar",
+      "addonId": 225561,
+      "fileId": 2264383
+    },
+    {
+      "fileName": "ExtrabiomesXL.jar",
+      "addonId": 60041,
+      "fileId": 2273301
+    },
+    {
+      "fileName": "IndustrialCraft.jar",
+      "addonId": 242638,
+      "fileId": 2353971
+    },
+    {
+      "fileName": "JourneyMap.jar",
+      "addonId": 32274,
+      "fileId": 4500658
+    },
+    {
+      "fileName": "LoginShield.jar",
+      "addonId": 233255,
+      "fileId": 2580290
+    },
+    {
+      "fileName": "MagicalCrops.jar",
+      "addonId": 232150,
+      "fileId": 2245371
+    },
+    {
+      "fileName": "MineMenu.jar",
+      "addonId": 222378,
+      "fileId": 2214959
+    },
+    {
+      "fileName": "OreTweaker.jar",
+      "addonId": 242436,
+      "fileId": 2315075
+    },
+    {
+      "fileName": "RecurrentComplex.jar",
+      "addonId": 223150,
+      "fileId": 2339621
+    },
+    {
+      "fileName": "Thaumcraft4Tweaks.jar",
+      "addonId": 431297,
+      "fileId": 4874965
+    },
+    {
+      "fileName": "Thaumcraft.jar",
+      "addonId": 223628,
+      "fileId": 2227552
+    },
+    {
+      "fileName": "ThaumcraftNEIPlugin.jar",
+      "addonId": 225095,
+      "fileId": 2241913
+    },
+    {
+      "fileName": "ThermalExpansion.jar",
+      "addonId": 69163,
+      "fileId": 2388758
+    },
+    {
+      "fileName": "ThermalExpansion.jar",
+      "addonId": 222880,
+      "fileId": 2388752
+    },
+    {
+      "fileName": "UniDict.jar",
+      "addonId": 244258,
+      "fileId": 2329986
+    }
   ],
   "url":
   [
+    {
+      "fileName": "AE2FluidCraft.jar",
+      "url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.2.10-gtnh-pre/ae2fc-1.2.10-gtnh-pre.jar"
+    },
+    {
+      "fileName": "AppliedEnergistics2.jar",
+      "url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-307-GTNH/appliedenergistics2-rv3-beta-307-GTNH.jar"
+    },
+    {
+      "fileName": "ArchitectureCraft.jar",
+      "url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.8.6/ArchitectureCraft-1.8.6.jar"
+    },
+    {
+      "fileName": "Avaritia.jar",
+      "url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.48/Avaritia-1.48.jar"
+    },
+    {
+      "fileName": "Avaritiaddons.jar",
+      "url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.6.0-GTNH/Avaritiaddons-1.6.0-GTNH.jar"
+    },
+    {
+      "fileName": "backpack.jar",
+      "url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.12-GTNH/backpack-2.2.12-GTNH.jar"
+    },
+    {
+      "fileName": "betterp2p.jar",
+      "url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.20/betterp2p-1.1.20.jar"
+    },
+    {
+      "fileName": "binnie.jar",
+      "url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.2.4/binnie-mods-2.2.4.jar"
+    },
+    {
+      "fileName": "BloodArsenal.jar",
+      "url": "https://github.com/GTNewHorizons/BloodArsenal/releases/download/1.3.0/BloodArsenal-1.3.0.jar"
+    },
+    {
+      "fileName": "BloodMagic.jar",
+      "url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.4.4-pre/BloodMagic-1.4.4-pre.jar"
+    },
+    {
+      "fileName": "Botania.jar",
+      "url": "https://github.com/GTNewHorizons/Botania/releases/download/1.10.3-GTNH/Botania-1.10.3-GTNH.jar"
+    },
+    {
+      "fileName": "buildcraft.jar",
+      "url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.38/buildcraft-7.1.38.jar"
+    },
+    {
+      "fileName": "buildcraft-compat.jar",
+      "url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.16/buildcraft-compat-7.1.16.jar"
+    },
+    {
+      "fileName": "CarpentersBlocks.jar",
+      "url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.4.1-GTNH/CarpentersBlocks-3.4.1-GTNH.jar"
+    },
+    {
+      "fileName": "chisel.jar",
+      "url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.13.3-GTNH-pre/chisel-2.13.3-GTNH-pre.jar"
+    },
+    {
+      "fileName": "CookingForBlockheads.jar",
+      "url": "https://github.com/GTNewHorizons/CookingForBlockheads/releases/download/1.3.0-GTNH/CookingForBlockheads-1.3.0-GTNH.jar"
+    },
+    {
+      "fileName": "controlling.jar",
+      "url": "https://github.com/GTNewHorizons/Controlling/releases/download/2.0.1/controlling-2.0.1.jar"
+    },
+    {
+      "fileName": "CraftTweaker.jar",
+      "url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.13/CraftTweaker-3.2.13.jar"
+    },
+    {
+      "fileName": "DraconicEvolution.jar",
+      "url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.2.2-GTNH/Draconic-Evolution-1.2.2-GTNH.jar"
+    },
+    {
+      "fileName": "EnderIO.jar",
+      "url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.6.2/EnderIO-2.6.2.jar"
+    },
+    {
+      "fileName": "EnderStorage.jar",
+      "url": "https://github.com/GTNewHorizons/EnderStorage/releases/download/1.4.13-pre/EnderStorage-1.4.13-pre.jar"
+    },
+    {
+      "fileName": "ForbiddenMagic.jar",
+      "url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.7-GTNH/Forbidden.Magic-0.6.7-GTNH.jar"
+    },
+    {
+      "fileName": "ForestryMC.jar",
+      "url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.8.1/Forestry-4.8.1.jar"
+    },
+    {
+      "fileName": "gadomancy.jar",
+      "url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.3.1/gadomancy-1.3.1.jar"
+    },
+    {
+      "fileName": "gendustry.jar",
+      "url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.6.5.5-GTNH/gendustry-1.7.10-1.6.5.5-GTNH.jar"
+    },
+    {
+      "fileName": "IguanaTweaksTConstruct.jar",
+      "url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.3.0/IguanaTweaksTConstruct-2.3.0.jar"
+    },
+    {
+      "fileName": "PamsHarvestCraft.jar",
+      "url": "https://mediafilez.forgecdn.net/files/2270/206/Pam%27s+HarvestCraft+1.7.10Lb.jar"
+    },
+    {
+      "fileName": "InfernalMobs.jar",
+      "url": "https://github.com/GTNewHorizons/Infernal-Mobs/releases/download/1.7.9-GTNH/InfernalMobs-1.7.9-GTNH.jar"
+    },
+    {
+      "fileName": "inventorytweaks.jar",
+      "url": "https://github.com/GTNewHorizons/inventory-tweaks/releases/download/1.6.1/inventorytweaks-1.6.1.jar"
+    },
+    {
+      "fileName": "IronChest.jar",
+      "url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.0.74/IronChest-6.0.74.jar"
+    },
+    {
+      "fileName": "Irontanks.jar",
+      "url": "https://github.com/GTNewHorizons/Irontanks/releases/download/1.2.6/irontanks-1.7.10-1.2.6.jar"
+    },
+    {
+      "fileName": "littletiles.jar",
+      "url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.9-GTNH/littletiles-1.2.9-GTNH.jar"
+    },
+    {
+      "fileName": "logisticspipes.jar",
+      "url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/1.0.9-GTNH-pre/logisticspipes-1.0.9-GTNH-pre.jar"
+    },
+    {
+      "fileName": "magicbees.jar",
+      "url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.7.3-GTNH-pre/magicbees-2.7.3-GTNH-pre.jar"
+    },
+    {
+      "fileName": "ModTweaker2.jar",
+      "url": "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.9.10/ModTweaker2-0.9.10.jar"
+    },
+    {
+      "fileName": "NEIAddons.jar",
+      "url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.14.0/NEIAddons-1.14.0.jar"
+    },
+    {
+      "fileName": "NEIIntegration.jar",
+      "url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.3.3/NEIIntegration-1.3.3.jar"
+    },
+    {
+      "fileName": "NEIIntegration.jar",
+      "url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.3.3/NEIIntegration-1.3.3.jar"
+    },
+    {
+      "fileName": "NotEnoughEnergistics.jar",
+      "url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.4.6/NotEnoughEnergistics-1.4.6.jar"
+    },
+    {
+      "fileName": "NotEnoughItems.jar",
+      "url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.5.3-GTNH/NotEnoughItems-2.5.3-GTNH.jar"
+    },
+    {
+      "fileName": "OpenBlocks.jar",
+      "url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.8.3-GTNH/OpenBlocks-1.8.3-GTNH.jar"
+    },
+    {
+      "fileName": "OpenComputers.jar",
+      "url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.10.3-GTNH/OpenComputers-1.10.3-GTNH.jar"
+    },
+    {
+      "fileName": "overloadedarmorbar.jar",
+      "url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.0.3/overloadedarmorbar-1.0.3.jar"
+    },
+    {
+      "fileName": "ProjectRed.jar",
+      "url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.9.1-GTNH/ProjRed-4.9.1-GTNH.jar"
+    },
+    {
+      "fileName": "ProjectBlue.jar",
+      "url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.1.12-GTNH/ProjectBlue-1.1.12-GTNH.jar"
+    },
+    {
+      "fileName": "Schematica.jar",
+      "url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.9.4-GTNH/Schematica-1.9.4-GTNH.jar"
+    },
+    {
+      "fileName": "SpiceOfLife.jar",
+      "url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.1.1-carrot/SpiceOfLife-2.1.1-carrot.jar"
+    },
+    {
+      "fileName": "TaintedMagic.jar",
+      "url": "https://github.com/GTNewHorizons/Tainted-Magic/releases/download/7.6.3-GTNH/Tainted-Magic-7.6.3-GTNH.jar"
+    },
+    {
+      "fileName": "tcinventoryscan.jar",
+      "url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning/releases/download/1.0.12-GTNH/tcinventoryscan-1.7.10-1.0.12-GTNH.jar"
+    },
+    {
+      "fileName": "ThaumcraftMobAspects.jar",
+      "url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects/releases/download/1.0.0-GTNH/ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar"
+    },
+    {
+      "fileName": "tcneiadditions.jar",
+      "url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.3.0/tcneiadditions-1.3.0.jar"
+    },
+    {
+      "fileName": "thaumicenergistics.jar",
+      "url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.6.1-GTNH/thaumicenergistics-1.6.1-GTNH.jar"
+    },
+    {
+      "fileName": "ThaumicTinkerer.jar",
+      "url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.9.0/ThaumicTinkerer-2.9.0.jar"
+    },
+    {
+      "fileName": "ThaumicHorizons.jar",
+      "url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.4.2/ThaumicHorizons-1.4.2.jar"
+    },
+    {
+      "fileName": "TwilightForest.jar",
+      "url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.5.2-pre/TwilightForest-2.5.2-pre.jar"
+    },
+    {
+      "fileName": "TConstruct.jar",
+      "url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.11.4-GTNH-pre/TConstruct-1.11.4-GTNH-pre.jar"
+    },
+    {
+      "fileName": "TMechworks.jar",
+      "url": "https://github.com/GTNewHorizons/TinkersMechworks/releases/download/0.3.0/TMechworks-0.3.0.jar"
+    },
+    {
+      "fileName": "Waila.jar",
+      "url": "https://github.com/GTNewHorizons/waila/releases/download/1.6.5/Waila-1.6.5.jar"
+    },
+    {
+      "fileName": "WailaHarvestability.jar",
+      "url": "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.10-GTNH/WailaHarvestability-1.7.10-1.1.10-GTNH.jar"
+    },
+    {
+      "fileName": "WAILAPlugins.jar",
+      "url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.3.0/WAILAPlugins-0.3.0.jar"
+    },
+    {
+      "fileName": "Wawla.jar",
+      "url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.1.3-GTNH/Wawla-1.7.10-1.1.3-GTNH.jar"
+    }
   ]
 }
