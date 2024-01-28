@@ -20,15 +20,6 @@
   "url":
   [
     {
-      "fileName": "CodeChickenCore.jar",
-      "url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.2.0/CodeChickenCore-1.2.0.jar"
-    },
-    {
-      "fileName": "CodeChickenLib-1.2.0.jar",
-      "url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.2.0/CodeChickenLib-1.2.0.jar",
-      "folder": "mods/1.7.10"
-    },
-    {
       "fileName": "ForgeMultipart-1.4.4.jar",
       "url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.4.4/ForgeMultipart-1.4.4.jar",
       "folder": "mods/1.7.10"
