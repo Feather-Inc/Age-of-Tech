@@ -29,20 +29,6 @@
       "metadata": {
         "side": "CLIENT"
       }
-    },
-    {
-      "url": "https://github.com/GTNewHorizons/Angelica/releases/download/1.0.0-alpha11/angelica-1.0.0-alpha11.jar",
-      "fileName": "angelica.jar",
-      "installationPolicy": {
-        "continueOnFailedDownload": false,
-        "optionalKey": "Performance",
-        "selectedByDefault": false,
-        "name": "Angelica",
-        "description": "Backport do Sodium, mais performance que o OptFine e tem suporte a shaders, faz melhor uso de hardware moderno. Extremamente novo e instável."
-      },
-      "metadata": {
-        "side": "CLIENT"
-      }
     }
   ]
 }
